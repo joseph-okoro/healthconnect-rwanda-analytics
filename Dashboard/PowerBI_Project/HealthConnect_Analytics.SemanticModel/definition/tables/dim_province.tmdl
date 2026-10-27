@@ -1,0 +1,24 @@
+table dim_province
+
+	column province_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: province_id
+
+	column province_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: province_name
+		dataCategory: StateOrProvince
+
+	partition dim_province = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_province.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"province_id", type text}, {"province_name", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

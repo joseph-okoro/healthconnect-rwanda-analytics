@@ -1,0 +1,2001 @@
+bed_id,room_id,bed_status,facility_id,department_name
+BED00001,RM0001,Available,HF001,Emergency
+BED00002,RM0001,Available,HF001,Emergency
+BED00003,RM0001,Available,HF001,Emergency
+BED00004,RM0001,Available,HF001,Emergency
+BED00005,RM0001,Available,HF001,Emergency
+BED00006,RM0002,Available,HF001,Emergency
+BED00007,RM0002,Available,HF001,Emergency
+BED00008,RM0002,Available,HF001,Emergency
+BED00009,RM0002,Available,HF001,Emergency
+BED00010,RM0002,Available,HF001,Emergency
+BED00011,RM0003,Available,HF001,Internal Medicine
+BED00012,RM0003,Available,HF001,Internal Medicine
+BED00013,RM0003,Available,HF001,Internal Medicine
+BED00014,RM0003,Available,HF001,Internal Medicine
+BED00015,RM0003,Available,HF001,Internal Medicine
+BED00016,RM0004,Available,HF001,Internal Medicine
+BED00017,RM0004,Available,HF001,Internal Medicine
+BED00018,RM0004,Available,HF001,Internal Medicine
+BED00019,RM0004,Available,HF001,Internal Medicine
+BED00020,RM0004,Available,HF001,Internal Medicine
+BED00021,RM0005,Available,HF001,Surgery
+BED00022,RM0005,Available,HF001,Surgery
+BED00023,RM0005,Available,HF001,Surgery
+BED00024,RM0005,Available,HF001,Surgery
+BED00025,RM0005,Available,HF001,Surgery
+BED00026,RM0006,Available,HF001,Surgery
+BED00027,RM0006,Available,HF001,Surgery
+BED00028,RM0006,Available,HF001,Surgery
+BED00029,RM0006,Available,HF001,Surgery
+BED00030,RM0006,Available,HF001,Surgery
+BED00031,RM0007,Available,HF001,Pediatrics
+BED00032,RM0007,Available,HF001,Pediatrics
+BED00033,RM0007,Available,HF001,Pediatrics
+BED00034,RM0007,Available,HF001,Pediatrics
+BED00035,RM0007,Available,HF001,Pediatrics
+BED00036,RM0008,Available,HF001,Pediatrics
+BED00037,RM0008,Available,HF001,Pediatrics
+BED00038,RM0008,Available,HF001,Pediatrics
+BED00039,RM0008,Available,HF001,Pediatrics
+BED00040,RM0008,Available,HF001,Pediatrics
+BED00041,RM0009,Available,HF001,Obstetrics & Gynecology
+BED00042,RM0009,Available,HF001,Obstetrics & Gynecology
+BED00043,RM0009,Available,HF001,Obstetrics & Gynecology
+BED00044,RM0009,Available,HF001,Obstetrics & Gynecology
+BED00045,RM0009,Available,HF001,Obstetrics & Gynecology
+BED00046,RM0010,Available,HF001,Obstetrics & Gynecology
+BED00047,RM0010,Available,HF001,Obstetrics & Gynecology
+BED00048,RM0010,Available,HF001,Obstetrics & Gynecology
+BED00049,RM0010,Available,HF001,Obstetrics & Gynecology
+BED00050,RM0010,Available,HF001,Obstetrics & Gynecology
+BED00051,RM0011,Available,HF001,Radiology
+BED00052,RM0011,Available,HF001,Radiology
+BED00053,RM0011,Available,HF001,Radiology
+BED00054,RM0011,Available,HF001,Radiology
+BED00055,RM0011,Available,HF001,Radiology
+BED00056,RM0012,Available,HF001,Radiology
+BED00057,RM0012,Available,HF001,Radiology
+BED00058,RM0012,Available,HF001,Radiology
+BED00059,RM0012,Available,HF001,Radiology
+BED00060,RM0012,Available,HF001,Radiology
+BED00061,RM0013,Available,HF001,Laboratory
+BED00062,RM0013,Available,HF001,Laboratory
+BED00063,RM0013,Available,HF001,Laboratory
+BED00064,RM0013,Available,HF001,Laboratory
+BED00065,RM0013,Available,HF001,Laboratory
+BED00066,RM0014,Available,HF001,Laboratory
+BED00067,RM0014,Available,HF001,Laboratory
+BED00068,RM0014,Available,HF001,Laboratory
+BED00069,RM0014,Available,HF001,Laboratory
+BED00070,RM0014,Available,HF001,Laboratory
+BED00071,RM0015,Available,HF001,Pharmacy
+BED00072,RM0015,Available,HF001,Pharmacy
+BED00073,RM0015,Available,HF001,Pharmacy
+BED00074,RM0015,Available,HF001,Pharmacy
+BED00075,RM0015,Available,HF001,Pharmacy
+BED00076,RM0016,Available,HF001,Pharmacy
+BED00077,RM0016,Available,HF001,Pharmacy
+BED00078,RM0016,Available,HF001,Pharmacy
+BED00079,RM0016,Available,HF001,Pharmacy
+BED00080,RM0016,Available,HF001,Pharmacy
+BED00081,RM0017,Available,HF001,ICU
+BED00082,RM0017,Available,HF001,ICU
+BED00083,RM0017,Available,HF001,ICU
+BED00084,RM0017,Available,HF001,ICU
+BED00085,RM0017,Available,HF001,ICU
+BED00086,RM0018,Available,HF001,ICU
+BED00087,RM0018,Available,HF001,ICU
+BED00088,RM0018,Available,HF001,ICU
+BED00089,RM0018,Available,HF001,ICU
+BED00090,RM0018,Available,HF001,ICU
+BED00091,RM0019,Available,HF001,Cardiology
+BED00092,RM0019,Available,HF001,Cardiology
+BED00093,RM0019,Available,HF001,Cardiology
+BED00094,RM0019,Available,HF001,Cardiology
+BED00095,RM0019,Available,HF001,Cardiology
+BED00096,RM0020,Available,HF001,Cardiology
+BED00097,RM0020,Available,HF001,Cardiology
+BED00098,RM0020,Available,HF001,Cardiology
+BED00099,RM0020,Available,HF001,Cardiology
+BED00100,RM0020,Available,HF001,Cardiology
+BED00101,RM0021,Available,HF002,Emergency
+BED00102,RM0021,Available,HF002,Emergency
+BED00103,RM0021,Available,HF002,Emergency
+BED00104,RM0021,Available,HF002,Emergency
+BED00105,RM0021,Available,HF002,Emergency
+BED00106,RM0022,Available,HF002,Emergency
+BED00107,RM0022,Available,HF002,Emergency
+BED00108,RM0022,Available,HF002,Emergency
+BED00109,RM0022,Available,HF002,Emergency
+BED00110,RM0022,Available,HF002,Emergency
+BED00111,RM0023,Available,HF002,Internal Medicine
+BED00112,RM0023,Available,HF002,Internal Medicine
+BED00113,RM0023,Available,HF002,Internal Medicine
+BED00114,RM0023,Available,HF002,Internal Medicine
+BED00115,RM0023,Available,HF002,Internal Medicine
+BED00116,RM0024,Available,HF002,Internal Medicine
+BED00117,RM0024,Available,HF002,Internal Medicine
+BED00118,RM0024,Available,HF002,Internal Medicine
+BED00119,RM0024,Available,HF002,Internal Medicine
+BED00120,RM0024,Available,HF002,Internal Medicine
+BED00121,RM0025,Available,HF002,Surgery
+BED00122,RM0025,Available,HF002,Surgery
+BED00123,RM0025,Available,HF002,Surgery
+BED00124,RM0025,Available,HF002,Surgery
+BED00125,RM0025,Available,HF002,Surgery
+BED00126,RM0026,Available,HF002,Surgery
+BED00127,RM0026,Available,HF002,Surgery
+BED00128,RM0026,Available,HF002,Surgery
+BED00129,RM0026,Available,HF002,Surgery
+BED00130,RM0026,Available,HF002,Surgery
+BED00131,RM0027,Available,HF002,Pediatrics
+BED00132,RM0027,Available,HF002,Pediatrics
+BED00133,RM0027,Available,HF002,Pediatrics
+BED00134,RM0027,Available,HF002,Pediatrics
+BED00135,RM0027,Available,HF002,Pediatrics
+BED00136,RM0028,Available,HF002,Pediatrics
+BED00137,RM0028,Available,HF002,Pediatrics
+BED00138,RM0028,Available,HF002,Pediatrics
+BED00139,RM0028,Available,HF002,Pediatrics
+BED00140,RM0028,Available,HF002,Pediatrics
+BED00141,RM0029,Available,HF002,Obstetrics & Gynecology
+BED00142,RM0029,Available,HF002,Obstetrics & Gynecology
+BED00143,RM0029,Available,HF002,Obstetrics & Gynecology
+BED00144,RM0029,Available,HF002,Obstetrics & Gynecology
+BED00145,RM0029,Available,HF002,Obstetrics & Gynecology
+BED00146,RM0030,Available,HF002,Obstetrics & Gynecology
+BED00147,RM0030,Available,HF002,Obstetrics & Gynecology
+BED00148,RM0030,Available,HF002,Obstetrics & Gynecology
+BED00149,RM0030,Available,HF002,Obstetrics & Gynecology
+BED00150,RM0030,Available,HF002,Obstetrics & Gynecology
+BED00151,RM0031,Available,HF002,Radiology
+BED00152,RM0031,Available,HF002,Radiology
+BED00153,RM0031,Available,HF002,Radiology
+BED00154,RM0031,Available,HF002,Radiology
+BED00155,RM0031,Available,HF002,Radiology
+BED00156,RM0032,Available,HF002,Radiology
+BED00157,RM0032,Available,HF002,Radiology
+BED00158,RM0032,Available,HF002,Radiology
+BED00159,RM0032,Available,HF002,Radiology
+BED00160,RM0032,Available,HF002,Radiology
+BED00161,RM0033,Available,HF002,Laboratory
+BED00162,RM0033,Available,HF002,Laboratory
+BED00163,RM0033,Available,HF002,Laboratory
+BED00164,RM0033,Available,HF002,Laboratory
+BED00165,RM0033,Available,HF002,Laboratory
+BED00166,RM0034,Available,HF002,Laboratory
+BED00167,RM0034,Available,HF002,Laboratory
+BED00168,RM0034,Available,HF002,Laboratory
+BED00169,RM0034,Available,HF002,Laboratory
+BED00170,RM0034,Available,HF002,Laboratory
+BED00171,RM0035,Available,HF002,Pharmacy
+BED00172,RM0035,Available,HF002,Pharmacy
+BED00173,RM0035,Available,HF002,Pharmacy
+BED00174,RM0035,Available,HF002,Pharmacy
+BED00175,RM0035,Available,HF002,Pharmacy
+BED00176,RM0036,Available,HF002,Pharmacy
+BED00177,RM0036,Available,HF002,Pharmacy
+BED00178,RM0036,Available,HF002,Pharmacy
+BED00179,RM0036,Available,HF002,Pharmacy
+BED00180,RM0036,Available,HF002,Pharmacy
+BED00181,RM0037,Available,HF002,ICU
+BED00182,RM0037,Available,HF002,ICU
+BED00183,RM0037,Available,HF002,ICU
+BED00184,RM0037,Available,HF002,ICU
+BED00185,RM0037,Available,HF002,ICU
+BED00186,RM0038,Available,HF002,ICU
+BED00187,RM0038,Available,HF002,ICU
+BED00188,RM0038,Available,HF002,ICU
+BED00189,RM0038,Available,HF002,ICU
+BED00190,RM0038,Available,HF002,ICU
+BED00191,RM0039,Available,HF002,Cardiology
+BED00192,RM0039,Available,HF002,Cardiology
+BED00193,RM0039,Available,HF002,Cardiology
+BED00194,RM0039,Available,HF002,Cardiology
+BED00195,RM0039,Available,HF002,Cardiology
+BED00196,RM0040,Available,HF002,Cardiology
+BED00197,RM0040,Available,HF002,Cardiology
+BED00198,RM0040,Available,HF002,Cardiology
+BED00199,RM0040,Available,HF002,Cardiology
+BED00200,RM0040,Available,HF002,Cardiology
+BED00201,RM0041,Available,HF003,Emergency
+BED00202,RM0041,Available,HF003,Emergency
+BED00203,RM0041,Available,HF003,Emergency
+BED00204,RM0041,Available,HF003,Emergency
+BED00205,RM0041,Available,HF003,Emergency
+BED00206,RM0042,Available,HF003,Emergency
+BED00207,RM0042,Available,HF003,Emergency
+BED00208,RM0042,Available,HF003,Emergency
+BED00209,RM0042,Available,HF003,Emergency
+BED00210,RM0042,Available,HF003,Emergency
+BED00211,RM0043,Available,HF003,Internal Medicine
+BED00212,RM0043,Available,HF003,Internal Medicine
+BED00213,RM0043,Available,HF003,Internal Medicine
+BED00214,RM0043,Available,HF003,Internal Medicine
+BED00215,RM0043,Available,HF003,Internal Medicine
+BED00216,RM0044,Available,HF003,Internal Medicine
+BED00217,RM0044,Available,HF003,Internal Medicine
+BED00218,RM0044,Available,HF003,Internal Medicine
+BED00219,RM0044,Available,HF003,Internal Medicine
+BED00220,RM0044,Available,HF003,Internal Medicine
+BED00221,RM0045,Available,HF003,Surgery
+BED00222,RM0045,Available,HF003,Surgery
+BED00223,RM0045,Available,HF003,Surgery
+BED00224,RM0045,Available,HF003,Surgery
+BED00225,RM0045,Available,HF003,Surgery
+BED00226,RM0046,Available,HF003,Surgery
+BED00227,RM0046,Available,HF003,Surgery
+BED00228,RM0046,Available,HF003,Surgery
+BED00229,RM0046,Available,HF003,Surgery
+BED00230,RM0046,Available,HF003,Surgery
+BED00231,RM0047,Available,HF003,Pediatrics
+BED00232,RM0047,Available,HF003,Pediatrics
+BED00233,RM0047,Available,HF003,Pediatrics
+BED00234,RM0047,Available,HF003,Pediatrics
+BED00235,RM0047,Available,HF003,Pediatrics
+BED00236,RM0048,Available,HF003,Pediatrics
+BED00237,RM0048,Available,HF003,Pediatrics
+BED00238,RM0048,Available,HF003,Pediatrics
+BED00239,RM0048,Available,HF003,Pediatrics
+BED00240,RM0048,Available,HF003,Pediatrics
+BED00241,RM0049,Available,HF003,Obstetrics & Gynecology
+BED00242,RM0049,Available,HF003,Obstetrics & Gynecology
+BED00243,RM0049,Available,HF003,Obstetrics & Gynecology
+BED00244,RM0049,Available,HF003,Obstetrics & Gynecology
+BED00245,RM0049,Available,HF003,Obstetrics & Gynecology
+BED00246,RM0050,Available,HF003,Obstetrics & Gynecology
+BED00247,RM0050,Available,HF003,Obstetrics & Gynecology
+BED00248,RM0050,Available,HF003,Obstetrics & Gynecology
+BED00249,RM0050,Available,HF003,Obstetrics & Gynecology
+BED00250,RM0050,Available,HF003,Obstetrics & Gynecology
+BED00251,RM0051,Available,HF003,Radiology
+BED00252,RM0051,Available,HF003,Radiology
+BED00253,RM0051,Available,HF003,Radiology
+BED00254,RM0051,Available,HF003,Radiology
+BED00255,RM0051,Available,HF003,Radiology
+BED00256,RM0052,Available,HF003,Radiology
+BED00257,RM0052,Available,HF003,Radiology
+BED00258,RM0052,Available,HF003,Radiology
+BED00259,RM0052,Available,HF003,Radiology
+BED00260,RM0052,Available,HF003,Radiology
+BED00261,RM0053,Available,HF003,Laboratory
+BED00262,RM0053,Available,HF003,Laboratory
+BED00263,RM0053,Available,HF003,Laboratory
+BED00264,RM0053,Available,HF003,Laboratory
+BED00265,RM0053,Available,HF003,Laboratory
+BED00266,RM0054,Available,HF003,Laboratory
+BED00267,RM0054,Available,HF003,Laboratory
+BED00268,RM0054,Available,HF003,Laboratory
+BED00269,RM0054,Available,HF003,Laboratory
+BED00270,RM0054,Available,HF003,Laboratory
+BED00271,RM0055,Available,HF003,Pharmacy
+BED00272,RM0055,Available,HF003,Pharmacy
+BED00273,RM0055,Available,HF003,Pharmacy
+BED00274,RM0055,Available,HF003,Pharmacy
+BED00275,RM0055,Available,HF003,Pharmacy
+BED00276,RM0056,Available,HF003,Pharmacy
+BED00277,RM0056,Available,HF003,Pharmacy
+BED00278,RM0056,Available,HF003,Pharmacy
+BED00279,RM0056,Available,HF003,Pharmacy
+BED00280,RM0056,Available,HF003,Pharmacy
+BED00281,RM0057,Available,HF003,ICU
+BED00282,RM0057,Available,HF003,ICU
+BED00283,RM0057,Available,HF003,ICU
+BED00284,RM0057,Available,HF003,ICU
+BED00285,RM0057,Available,HF003,ICU
+BED00286,RM0058,Available,HF003,ICU
+BED00287,RM0058,Available,HF003,ICU
+BED00288,RM0058,Available,HF003,ICU
+BED00289,RM0058,Available,HF003,ICU
+BED00290,RM0058,Available,HF003,ICU
+BED00291,RM0059,Available,HF003,Cardiology
+BED00292,RM0059,Available,HF003,Cardiology
+BED00293,RM0059,Available,HF003,Cardiology
+BED00294,RM0059,Available,HF003,Cardiology
+BED00295,RM0059,Available,HF003,Cardiology
+BED00296,RM0060,Available,HF003,Cardiology
+BED00297,RM0060,Available,HF003,Cardiology
+BED00298,RM0060,Available,HF003,Cardiology
+BED00299,RM0060,Available,HF003,Cardiology
+BED00300,RM0060,Available,HF003,Cardiology
+BED00301,RM0061,Available,HF004,Emergency
+BED00302,RM0061,Available,HF004,Emergency
+BED00303,RM0061,Available,HF004,Emergency
+BED00304,RM0061,Available,HF004,Emergency
+BED00305,RM0061,Available,HF004,Emergency
+BED00306,RM0062,Available,HF004,Emergency
+BED00307,RM0062,Available,HF004,Emergency
+BED00308,RM0062,Available,HF004,Emergency
+BED00309,RM0062,Available,HF004,Emergency
+BED00310,RM0062,Available,HF004,Emergency
+BED00311,RM0063,Available,HF004,Internal Medicine
+BED00312,RM0063,Available,HF004,Internal Medicine
+BED00313,RM0063,Available,HF004,Internal Medicine
+BED00314,RM0063,Available,HF004,Internal Medicine
+BED00315,RM0063,Available,HF004,Internal Medicine
+BED00316,RM0064,Available,HF004,Internal Medicine
+BED00317,RM0064,Available,HF004,Internal Medicine
+BED00318,RM0064,Available,HF004,Internal Medicine
+BED00319,RM0064,Available,HF004,Internal Medicine
+BED00320,RM0064,Available,HF004,Internal Medicine
+BED00321,RM0065,Available,HF004,Surgery
+BED00322,RM0065,Available,HF004,Surgery
+BED00323,RM0065,Available,HF004,Surgery
+BED00324,RM0065,Available,HF004,Surgery
+BED00325,RM0065,Available,HF004,Surgery
+BED00326,RM0066,Available,HF004,Surgery
+BED00327,RM0066,Available,HF004,Surgery
+BED00328,RM0066,Available,HF004,Surgery
+BED00329,RM0066,Available,HF004,Surgery
+BED00330,RM0066,Available,HF004,Surgery
+BED00331,RM0067,Available,HF004,Pediatrics
+BED00332,RM0067,Available,HF004,Pediatrics
+BED00333,RM0067,Available,HF004,Pediatrics
+BED00334,RM0067,Available,HF004,Pediatrics
+BED00335,RM0067,Available,HF004,Pediatrics
+BED00336,RM0068,Available,HF004,Pediatrics
+BED00337,RM0068,Available,HF004,Pediatrics
+BED00338,RM0068,Available,HF004,Pediatrics
+BED00339,RM0068,Available,HF004,Pediatrics
+BED00340,RM0068,Available,HF004,Pediatrics
+BED00341,RM0069,Available,HF004,Obstetrics & Gynecology
+BED00342,RM0069,Available,HF004,Obstetrics & Gynecology
+BED00343,RM0069,Available,HF004,Obstetrics & Gynecology
+BED00344,RM0069,Available,HF004,Obstetrics & Gynecology
+BED00345,RM0069,Available,HF004,Obstetrics & Gynecology
+BED00346,RM0070,Available,HF004,Obstetrics & Gynecology
+BED00347,RM0070,Available,HF004,Obstetrics & Gynecology
+BED00348,RM0070,Available,HF004,Obstetrics & Gynecology
+BED00349,RM0070,Available,HF004,Obstetrics & Gynecology
+BED00350,RM0070,Available,HF004,Obstetrics & Gynecology
+BED00351,RM0071,Available,HF004,Radiology
+BED00352,RM0071,Available,HF004,Radiology
+BED00353,RM0071,Available,HF004,Radiology
+BED00354,RM0071,Available,HF004,Radiology
+BED00355,RM0071,Available,HF004,Radiology
+BED00356,RM0072,Available,HF004,Radiology
+BED00357,RM0072,Available,HF004,Radiology
+BED00358,RM0072,Available,HF004,Radiology
+BED00359,RM0072,Available,HF004,Radiology
+BED00360,RM0072,Available,HF004,Radiology
+BED00361,RM0073,Available,HF004,Laboratory
+BED00362,RM0073,Available,HF004,Laboratory
+BED00363,RM0073,Available,HF004,Laboratory
+BED00364,RM0073,Available,HF004,Laboratory
+BED00365,RM0073,Available,HF004,Laboratory
+BED00366,RM0074,Available,HF004,Laboratory
+BED00367,RM0074,Available,HF004,Laboratory
+BED00368,RM0074,Available,HF004,Laboratory
+BED00369,RM0074,Available,HF004,Laboratory
+BED00370,RM0074,Available,HF004,Laboratory
+BED00371,RM0075,Available,HF004,Pharmacy
+BED00372,RM0075,Available,HF004,Pharmacy
+BED00373,RM0075,Available,HF004,Pharmacy
+BED00374,RM0075,Available,HF004,Pharmacy
+BED00375,RM0075,Available,HF004,Pharmacy
+BED00376,RM0076,Available,HF004,Pharmacy
+BED00377,RM0076,Available,HF004,Pharmacy
+BED00378,RM0076,Available,HF004,Pharmacy
+BED00379,RM0076,Available,HF004,Pharmacy
+BED00380,RM0076,Available,HF004,Pharmacy
+BED00381,RM0077,Available,HF004,ICU
+BED00382,RM0077,Available,HF004,ICU
+BED00383,RM0077,Available,HF004,ICU
+BED00384,RM0077,Available,HF004,ICU
+BED00385,RM0077,Available,HF004,ICU
+BED00386,RM0078,Available,HF004,ICU
+BED00387,RM0078,Available,HF004,ICU
+BED00388,RM0078,Available,HF004,ICU
+BED00389,RM0078,Available,HF004,ICU
+BED00390,RM0078,Available,HF004,ICU
+BED00391,RM0079,Available,HF004,Cardiology
+BED00392,RM0079,Available,HF004,Cardiology
+BED00393,RM0079,Available,HF004,Cardiology
+BED00394,RM0079,Available,HF004,Cardiology
+BED00395,RM0079,Available,HF004,Cardiology
+BED00396,RM0080,Available,HF004,Cardiology
+BED00397,RM0080,Available,HF004,Cardiology
+BED00398,RM0080,Available,HF004,Cardiology
+BED00399,RM0080,Available,HF004,Cardiology
+BED00400,RM0080,Available,HF004,Cardiology
+BED00401,RM0081,Available,HF005,Emergency
+BED00402,RM0081,Available,HF005,Emergency
+BED00403,RM0081,Available,HF005,Emergency
+BED00404,RM0081,Available,HF005,Emergency
+BED00405,RM0081,Available,HF005,Emergency
+BED00406,RM0082,Available,HF005,Emergency
+BED00407,RM0082,Available,HF005,Emergency
+BED00408,RM0082,Available,HF005,Emergency
+BED00409,RM0082,Available,HF005,Emergency
+BED00410,RM0082,Available,HF005,Emergency
+BED00411,RM0083,Available,HF005,Internal Medicine
+BED00412,RM0083,Available,HF005,Internal Medicine
+BED00413,RM0083,Available,HF005,Internal Medicine
+BED00414,RM0083,Available,HF005,Internal Medicine
+BED00415,RM0083,Available,HF005,Internal Medicine
+BED00416,RM0084,Available,HF005,Internal Medicine
+BED00417,RM0084,Available,HF005,Internal Medicine
+BED00418,RM0084,Available,HF005,Internal Medicine
+BED00419,RM0084,Available,HF005,Internal Medicine
+BED00420,RM0084,Available,HF005,Internal Medicine
+BED00421,RM0085,Available,HF005,Surgery
+BED00422,RM0085,Available,HF005,Surgery
+BED00423,RM0085,Available,HF005,Surgery
+BED00424,RM0085,Available,HF005,Surgery
+BED00425,RM0085,Available,HF005,Surgery
+BED00426,RM0086,Available,HF005,Surgery
+BED00427,RM0086,Available,HF005,Surgery
+BED00428,RM0086,Available,HF005,Surgery
+BED00429,RM0086,Available,HF005,Surgery
+BED00430,RM0086,Available,HF005,Surgery
+BED00431,RM0087,Available,HF005,Pediatrics
+BED00432,RM0087,Available,HF005,Pediatrics
+BED00433,RM0087,Available,HF005,Pediatrics
+BED00434,RM0087,Available,HF005,Pediatrics
+BED00435,RM0087,Available,HF005,Pediatrics
+BED00436,RM0088,Available,HF005,Pediatrics
+BED00437,RM0088,Available,HF005,Pediatrics
+BED00438,RM0088,Available,HF005,Pediatrics
+BED00439,RM0088,Available,HF005,Pediatrics
+BED00440,RM0088,Available,HF005,Pediatrics
+BED00441,RM0089,Available,HF005,Obstetrics & Gynecology
+BED00442,RM0089,Available,HF005,Obstetrics & Gynecology
+BED00443,RM0089,Available,HF005,Obstetrics & Gynecology
+BED00444,RM0089,Available,HF005,Obstetrics & Gynecology
+BED00445,RM0089,Available,HF005,Obstetrics & Gynecology
+BED00446,RM0090,Available,HF005,Obstetrics & Gynecology
+BED00447,RM0090,Available,HF005,Obstetrics & Gynecology
+BED00448,RM0090,Available,HF005,Obstetrics & Gynecology
+BED00449,RM0090,Available,HF005,Obstetrics & Gynecology
+BED00450,RM0090,Available,HF005,Obstetrics & Gynecology
+BED00451,RM0091,Available,HF005,Radiology
+BED00452,RM0091,Available,HF005,Radiology
+BED00453,RM0091,Available,HF005,Radiology
+BED00454,RM0091,Available,HF005,Radiology
+BED00455,RM0091,Available,HF005,Radiology
+BED00456,RM0092,Available,HF005,Radiology
+BED00457,RM0092,Available,HF005,Radiology
+BED00458,RM0092,Available,HF005,Radiology
+BED00459,RM0092,Available,HF005,Radiology
+BED00460,RM0092,Available,HF005,Radiology
+BED00461,RM0093,Available,HF005,Laboratory
+BED00462,RM0093,Available,HF005,Laboratory
+BED00463,RM0093,Available,HF005,Laboratory
+BED00464,RM0093,Available,HF005,Laboratory
+BED00465,RM0093,Available,HF005,Laboratory
+BED00466,RM0094,Available,HF005,Laboratory
+BED00467,RM0094,Available,HF005,Laboratory
+BED00468,RM0094,Available,HF005,Laboratory
+BED00469,RM0094,Available,HF005,Laboratory
+BED00470,RM0094,Available,HF005,Laboratory
+BED00471,RM0095,Available,HF005,Pharmacy
+BED00472,RM0095,Available,HF005,Pharmacy
+BED00473,RM0095,Available,HF005,Pharmacy
+BED00474,RM0095,Available,HF005,Pharmacy
+BED00475,RM0095,Available,HF005,Pharmacy
+BED00476,RM0096,Available,HF005,Pharmacy
+BED00477,RM0096,Available,HF005,Pharmacy
+BED00478,RM0096,Available,HF005,Pharmacy
+BED00479,RM0096,Available,HF005,Pharmacy
+BED00480,RM0096,Available,HF005,Pharmacy
+BED00481,RM0097,Available,HF005,ICU
+BED00482,RM0097,Available,HF005,ICU
+BED00483,RM0097,Available,HF005,ICU
+BED00484,RM0097,Available,HF005,ICU
+BED00485,RM0097,Available,HF005,ICU
+BED00486,RM0098,Available,HF005,ICU
+BED00487,RM0098,Available,HF005,ICU
+BED00488,RM0098,Available,HF005,ICU
+BED00489,RM0098,Available,HF005,ICU
+BED00490,RM0098,Available,HF005,ICU
+BED00491,RM0099,Available,HF005,Cardiology
+BED00492,RM0099,Available,HF005,Cardiology
+BED00493,RM0099,Available,HF005,Cardiology
+BED00494,RM0099,Available,HF005,Cardiology
+BED00495,RM0099,Available,HF005,Cardiology
+BED00496,RM0100,Available,HF005,Cardiology
+BED00497,RM0100,Available,HF005,Cardiology
+BED00498,RM0100,Available,HF005,Cardiology
+BED00499,RM0100,Available,HF005,Cardiology
+BED00500,RM0100,Available,HF005,Cardiology
+BED00501,RM0101,Available,HF006,Emergency
+BED00502,RM0101,Available,HF006,Emergency
+BED00503,RM0101,Available,HF006,Emergency
+BED00504,RM0101,Available,HF006,Emergency
+BED00505,RM0101,Available,HF006,Emergency
+BED00506,RM0102,Available,HF006,Emergency
+BED00507,RM0102,Available,HF006,Emergency
+BED00508,RM0102,Available,HF006,Emergency
+BED00509,RM0102,Available,HF006,Emergency
+BED00510,RM0102,Available,HF006,Emergency
+BED00511,RM0103,Available,HF006,Internal Medicine
+BED00512,RM0103,Available,HF006,Internal Medicine
+BED00513,RM0103,Available,HF006,Internal Medicine
+BED00514,RM0103,Available,HF006,Internal Medicine
+BED00515,RM0103,Available,HF006,Internal Medicine
+BED00516,RM0104,Available,HF006,Internal Medicine
+BED00517,RM0104,Available,HF006,Internal Medicine
+BED00518,RM0104,Available,HF006,Internal Medicine
+BED00519,RM0104,Available,HF006,Internal Medicine
+BED00520,RM0104,Available,HF006,Internal Medicine
+BED00521,RM0105,Available,HF006,Surgery
+BED00522,RM0105,Available,HF006,Surgery
+BED00523,RM0105,Available,HF006,Surgery
+BED00524,RM0105,Available,HF006,Surgery
+BED00525,RM0105,Available,HF006,Surgery
+BED00526,RM0106,Available,HF006,Surgery
+BED00527,RM0106,Available,HF006,Surgery
+BED00528,RM0106,Available,HF006,Surgery
+BED00529,RM0106,Available,HF006,Surgery
+BED00530,RM0106,Available,HF006,Surgery
+BED00531,RM0107,Available,HF006,Pediatrics
+BED00532,RM0107,Available,HF006,Pediatrics
+BED00533,RM0107,Available,HF006,Pediatrics
+BED00534,RM0107,Available,HF006,Pediatrics
+BED00535,RM0107,Available,HF006,Pediatrics
+BED00536,RM0108,Available,HF006,Pediatrics
+BED00537,RM0108,Available,HF006,Pediatrics
+BED00538,RM0108,Available,HF006,Pediatrics
+BED00539,RM0108,Available,HF006,Pediatrics
+BED00540,RM0108,Available,HF006,Pediatrics
+BED00541,RM0109,Available,HF006,Obstetrics & Gynecology
+BED00542,RM0109,Available,HF006,Obstetrics & Gynecology
+BED00543,RM0109,Available,HF006,Obstetrics & Gynecology
+BED00544,RM0109,Available,HF006,Obstetrics & Gynecology
+BED00545,RM0109,Available,HF006,Obstetrics & Gynecology
+BED00546,RM0110,Available,HF006,Obstetrics & Gynecology
+BED00547,RM0110,Available,HF006,Obstetrics & Gynecology
+BED00548,RM0110,Available,HF006,Obstetrics & Gynecology
+BED00549,RM0110,Available,HF006,Obstetrics & Gynecology
+BED00550,RM0110,Available,HF006,Obstetrics & Gynecology
+BED00551,RM0111,Available,HF006,Radiology
+BED00552,RM0111,Available,HF006,Radiology
+BED00553,RM0111,Available,HF006,Radiology
+BED00554,RM0111,Available,HF006,Radiology
+BED00555,RM0111,Available,HF006,Radiology
+BED00556,RM0112,Available,HF006,Radiology
+BED00557,RM0112,Available,HF006,Radiology
+BED00558,RM0112,Available,HF006,Radiology
+BED00559,RM0112,Available,HF006,Radiology
+BED00560,RM0112,Available,HF006,Radiology
+BED00561,RM0113,Available,HF006,Laboratory
+BED00562,RM0113,Available,HF006,Laboratory
+BED00563,RM0113,Available,HF006,Laboratory
+BED00564,RM0113,Available,HF006,Laboratory
+BED00565,RM0113,Available,HF006,Laboratory
+BED00566,RM0114,Available,HF006,Laboratory
+BED00567,RM0114,Available,HF006,Laboratory
+BED00568,RM0114,Available,HF006,Laboratory
+BED00569,RM0114,Available,HF006,Laboratory
+BED00570,RM0114,Available,HF006,Laboratory
+BED00571,RM0115,Available,HF006,Pharmacy
+BED00572,RM0115,Available,HF006,Pharmacy
+BED00573,RM0115,Available,HF006,Pharmacy
+BED00574,RM0115,Available,HF006,Pharmacy
+BED00575,RM0115,Available,HF006,Pharmacy
+BED00576,RM0116,Available,HF006,Pharmacy
+BED00577,RM0116,Available,HF006,Pharmacy
+BED00578,RM0116,Available,HF006,Pharmacy
+BED00579,RM0116,Available,HF006,Pharmacy
+BED00580,RM0116,Available,HF006,Pharmacy
+BED00581,RM0117,Available,HF006,ICU
+BED00582,RM0117,Available,HF006,ICU
+BED00583,RM0117,Available,HF006,ICU
+BED00584,RM0117,Available,HF006,ICU
+BED00585,RM0117,Available,HF006,ICU
+BED00586,RM0118,Available,HF006,ICU
+BED00587,RM0118,Available,HF006,ICU
+BED00588,RM0118,Available,HF006,ICU
+BED00589,RM0118,Available,HF006,ICU
+BED00590,RM0118,Available,HF006,ICU
+BED00591,RM0119,Available,HF006,Cardiology
+BED00592,RM0119,Available,HF006,Cardiology
+BED00593,RM0119,Available,HF006,Cardiology
+BED00594,RM0119,Available,HF006,Cardiology
+BED00595,RM0119,Available,HF006,Cardiology
+BED00596,RM0120,Available,HF006,Cardiology
+BED00597,RM0120,Available,HF006,Cardiology
+BED00598,RM0120,Available,HF006,Cardiology
+BED00599,RM0120,Available,HF006,Cardiology
+BED00600,RM0120,Available,HF006,Cardiology
+BED00601,RM0121,Available,HF007,Emergency
+BED00602,RM0121,Available,HF007,Emergency
+BED00603,RM0121,Available,HF007,Emergency
+BED00604,RM0121,Available,HF007,Emergency
+BED00605,RM0121,Available,HF007,Emergency
+BED00606,RM0122,Available,HF007,Emergency
+BED00607,RM0122,Available,HF007,Emergency
+BED00608,RM0122,Available,HF007,Emergency
+BED00609,RM0122,Available,HF007,Emergency
+BED00610,RM0122,Available,HF007,Emergency
+BED00611,RM0123,Available,HF007,Internal Medicine
+BED00612,RM0123,Available,HF007,Internal Medicine
+BED00613,RM0123,Available,HF007,Internal Medicine
+BED00614,RM0123,Available,HF007,Internal Medicine
+BED00615,RM0123,Available,HF007,Internal Medicine
+BED00616,RM0124,Available,HF007,Internal Medicine
+BED00617,RM0124,Available,HF007,Internal Medicine
+BED00618,RM0124,Available,HF007,Internal Medicine
+BED00619,RM0124,Available,HF007,Internal Medicine
+BED00620,RM0124,Available,HF007,Internal Medicine
+BED00621,RM0125,Available,HF007,Surgery
+BED00622,RM0125,Available,HF007,Surgery
+BED00623,RM0125,Available,HF007,Surgery
+BED00624,RM0125,Available,HF007,Surgery
+BED00625,RM0125,Available,HF007,Surgery
+BED00626,RM0126,Available,HF007,Surgery
+BED00627,RM0126,Available,HF007,Surgery
+BED00628,RM0126,Available,HF007,Surgery
+BED00629,RM0126,Available,HF007,Surgery
+BED00630,RM0126,Available,HF007,Surgery
+BED00631,RM0127,Available,HF007,Pediatrics
+BED00632,RM0127,Available,HF007,Pediatrics
+BED00633,RM0127,Available,HF007,Pediatrics
+BED00634,RM0127,Available,HF007,Pediatrics
+BED00635,RM0127,Available,HF007,Pediatrics
+BED00636,RM0128,Available,HF007,Pediatrics
+BED00637,RM0128,Available,HF007,Pediatrics
+BED00638,RM0128,Available,HF007,Pediatrics
+BED00639,RM0128,Available,HF007,Pediatrics
+BED00640,RM0128,Available,HF007,Pediatrics
+BED00641,RM0129,Available,HF007,Obstetrics & Gynecology
+BED00642,RM0129,Available,HF007,Obstetrics & Gynecology
+BED00643,RM0129,Available,HF007,Obstetrics & Gynecology
+BED00644,RM0129,Available,HF007,Obstetrics & Gynecology
+BED00645,RM0129,Available,HF007,Obstetrics & Gynecology
+BED00646,RM0130,Available,HF007,Obstetrics & Gynecology
+BED00647,RM0130,Available,HF007,Obstetrics & Gynecology
+BED00648,RM0130,Available,HF007,Obstetrics & Gynecology
+BED00649,RM0130,Available,HF007,Obstetrics & Gynecology
+BED00650,RM0130,Available,HF007,Obstetrics & Gynecology
+BED00651,RM0131,Available,HF007,Radiology
+BED00652,RM0131,Available,HF007,Radiology
+BED00653,RM0131,Available,HF007,Radiology
+BED00654,RM0131,Available,HF007,Radiology
+BED00655,RM0131,Available,HF007,Radiology
+BED00656,RM0132,Available,HF007,Radiology
+BED00657,RM0132,Available,HF007,Radiology
+BED00658,RM0132,Available,HF007,Radiology
+BED00659,RM0132,Available,HF007,Radiology
+BED00660,RM0132,Available,HF007,Radiology
+BED00661,RM0133,Available,HF007,Laboratory
+BED00662,RM0133,Available,HF007,Laboratory
+BED00663,RM0133,Available,HF007,Laboratory
+BED00664,RM0133,Available,HF007,Laboratory
+BED00665,RM0133,Available,HF007,Laboratory
+BED00666,RM0134,Available,HF007,Laboratory
+BED00667,RM0134,Available,HF007,Laboratory
+BED00668,RM0134,Available,HF007,Laboratory
+BED00669,RM0134,Available,HF007,Laboratory
+BED00670,RM0134,Available,HF007,Laboratory
+BED00671,RM0135,Available,HF007,Pharmacy
+BED00672,RM0135,Available,HF007,Pharmacy
+BED00673,RM0135,Available,HF007,Pharmacy
+BED00674,RM0135,Available,HF007,Pharmacy
+BED00675,RM0135,Available,HF007,Pharmacy
+BED00676,RM0136,Available,HF007,Pharmacy
+BED00677,RM0136,Available,HF007,Pharmacy
+BED00678,RM0136,Available,HF007,Pharmacy
+BED00679,RM0136,Available,HF007,Pharmacy
+BED00680,RM0136,Available,HF007,Pharmacy
+BED00681,RM0137,Available,HF007,ICU
+BED00682,RM0137,Available,HF007,ICU
+BED00683,RM0137,Available,HF007,ICU
+BED00684,RM0137,Available,HF007,ICU
+BED00685,RM0137,Available,HF007,ICU
+BED00686,RM0138,Available,HF007,ICU
+BED00687,RM0138,Available,HF007,ICU
+BED00688,RM0138,Available,HF007,ICU
+BED00689,RM0138,Available,HF007,ICU
+BED00690,RM0138,Available,HF007,ICU
+BED00691,RM0139,Available,HF007,Cardiology
+BED00692,RM0139,Available,HF007,Cardiology
+BED00693,RM0139,Available,HF007,Cardiology
+BED00694,RM0139,Available,HF007,Cardiology
+BED00695,RM0139,Available,HF007,Cardiology
+BED00696,RM0140,Available,HF007,Cardiology
+BED00697,RM0140,Available,HF007,Cardiology
+BED00698,RM0140,Available,HF007,Cardiology
+BED00699,RM0140,Available,HF007,Cardiology
+BED00700,RM0140,Available,HF007,Cardiology
+BED00701,RM0141,Available,HF008,Emergency
+BED00702,RM0141,Available,HF008,Emergency
+BED00703,RM0141,Available,HF008,Emergency
+BED00704,RM0141,Available,HF008,Emergency
+BED00705,RM0141,Available,HF008,Emergency
+BED00706,RM0142,Available,HF008,Emergency
+BED00707,RM0142,Available,HF008,Emergency
+BED00708,RM0142,Available,HF008,Emergency
+BED00709,RM0142,Available,HF008,Emergency
+BED00710,RM0142,Available,HF008,Emergency
+BED00711,RM0143,Available,HF008,Internal Medicine
+BED00712,RM0143,Available,HF008,Internal Medicine
+BED00713,RM0143,Available,HF008,Internal Medicine
+BED00714,RM0143,Available,HF008,Internal Medicine
+BED00715,RM0143,Available,HF008,Internal Medicine
+BED00716,RM0144,Available,HF008,Internal Medicine
+BED00717,RM0144,Available,HF008,Internal Medicine
+BED00718,RM0144,Available,HF008,Internal Medicine
+BED00719,RM0144,Available,HF008,Internal Medicine
+BED00720,RM0144,Available,HF008,Internal Medicine
+BED00721,RM0145,Available,HF008,Surgery
+BED00722,RM0145,Available,HF008,Surgery
+BED00723,RM0145,Available,HF008,Surgery
+BED00724,RM0145,Available,HF008,Surgery
+BED00725,RM0145,Available,HF008,Surgery
+BED00726,RM0146,Available,HF008,Surgery
+BED00727,RM0146,Available,HF008,Surgery
+BED00728,RM0146,Available,HF008,Surgery
+BED00729,RM0146,Available,HF008,Surgery
+BED00730,RM0146,Available,HF008,Surgery
+BED00731,RM0147,Available,HF008,Pediatrics
+BED00732,RM0147,Available,HF008,Pediatrics
+BED00733,RM0147,Available,HF008,Pediatrics
+BED00734,RM0147,Available,HF008,Pediatrics
+BED00735,RM0147,Available,HF008,Pediatrics
+BED00736,RM0148,Available,HF008,Pediatrics
+BED00737,RM0148,Available,HF008,Pediatrics
+BED00738,RM0148,Available,HF008,Pediatrics
+BED00739,RM0148,Available,HF008,Pediatrics
+BED00740,RM0148,Available,HF008,Pediatrics
+BED00741,RM0149,Available,HF008,Obstetrics & Gynecology
+BED00742,RM0149,Available,HF008,Obstetrics & Gynecology
+BED00743,RM0149,Available,HF008,Obstetrics & Gynecology
+BED00744,RM0149,Available,HF008,Obstetrics & Gynecology
+BED00745,RM0149,Available,HF008,Obstetrics & Gynecology
+BED00746,RM0150,Available,HF008,Obstetrics & Gynecology
+BED00747,RM0150,Available,HF008,Obstetrics & Gynecology
+BED00748,RM0150,Available,HF008,Obstetrics & Gynecology
+BED00749,RM0150,Available,HF008,Obstetrics & Gynecology
+BED00750,RM0150,Available,HF008,Obstetrics & Gynecology
+BED00751,RM0151,Available,HF008,Radiology
+BED00752,RM0151,Available,HF008,Radiology
+BED00753,RM0151,Available,HF008,Radiology
+BED00754,RM0151,Available,HF008,Radiology
+BED00755,RM0151,Available,HF008,Radiology
+BED00756,RM0152,Available,HF008,Radiology
+BED00757,RM0152,Available,HF008,Radiology
+BED00758,RM0152,Available,HF008,Radiology
+BED00759,RM0152,Available,HF008,Radiology
+BED00760,RM0152,Available,HF008,Radiology
+BED00761,RM0153,Available,HF008,Laboratory
+BED00762,RM0153,Available,HF008,Laboratory
+BED00763,RM0153,Available,HF008,Laboratory
+BED00764,RM0153,Available,HF008,Laboratory
+BED00765,RM0153,Available,HF008,Laboratory
+BED00766,RM0154,Available,HF008,Laboratory
+BED00767,RM0154,Available,HF008,Laboratory
+BED00768,RM0154,Available,HF008,Laboratory
+BED00769,RM0154,Available,HF008,Laboratory
+BED00770,RM0154,Available,HF008,Laboratory
+BED00771,RM0155,Available,HF008,Pharmacy
+BED00772,RM0155,Available,HF008,Pharmacy
+BED00773,RM0155,Available,HF008,Pharmacy
+BED00774,RM0155,Available,HF008,Pharmacy
+BED00775,RM0155,Available,HF008,Pharmacy
+BED00776,RM0156,Available,HF008,Pharmacy
+BED00777,RM0156,Available,HF008,Pharmacy
+BED00778,RM0156,Available,HF008,Pharmacy
+BED00779,RM0156,Available,HF008,Pharmacy
+BED00780,RM0156,Available,HF008,Pharmacy
+BED00781,RM0157,Available,HF008,ICU
+BED00782,RM0157,Available,HF008,ICU
+BED00783,RM0157,Available,HF008,ICU
+BED00784,RM0157,Available,HF008,ICU
+BED00785,RM0157,Available,HF008,ICU
+BED00786,RM0158,Available,HF008,ICU
+BED00787,RM0158,Available,HF008,ICU
+BED00788,RM0158,Available,HF008,ICU
+BED00789,RM0158,Available,HF008,ICU
+BED00790,RM0158,Available,HF008,ICU
+BED00791,RM0159,Available,HF008,Cardiology
+BED00792,RM0159,Available,HF008,Cardiology
+BED00793,RM0159,Available,HF008,Cardiology
+BED00794,RM0159,Available,HF008,Cardiology
+BED00795,RM0159,Available,HF008,Cardiology
+BED00796,RM0160,Available,HF008,Cardiology
+BED00797,RM0160,Available,HF008,Cardiology
+BED00798,RM0160,Available,HF008,Cardiology
+BED00799,RM0160,Available,HF008,Cardiology
+BED00800,RM0160,Available,HF008,Cardiology
+BED00801,RM0161,Available,HF009,Emergency
+BED00802,RM0161,Available,HF009,Emergency
+BED00803,RM0161,Available,HF009,Emergency
+BED00804,RM0161,Available,HF009,Emergency
+BED00805,RM0161,Available,HF009,Emergency
+BED00806,RM0162,Available,HF009,Emergency
+BED00807,RM0162,Available,HF009,Emergency
+BED00808,RM0162,Available,HF009,Emergency
+BED00809,RM0162,Available,HF009,Emergency
+BED00810,RM0162,Available,HF009,Emergency
+BED00811,RM0163,Available,HF009,Internal Medicine
+BED00812,RM0163,Available,HF009,Internal Medicine
+BED00813,RM0163,Available,HF009,Internal Medicine
+BED00814,RM0163,Available,HF009,Internal Medicine
+BED00815,RM0163,Available,HF009,Internal Medicine
+BED00816,RM0164,Available,HF009,Internal Medicine
+BED00817,RM0164,Available,HF009,Internal Medicine
+BED00818,RM0164,Available,HF009,Internal Medicine
+BED00819,RM0164,Available,HF009,Internal Medicine
+BED00820,RM0164,Available,HF009,Internal Medicine
+BED00821,RM0165,Available,HF009,Surgery
+BED00822,RM0165,Available,HF009,Surgery
+BED00823,RM0165,Available,HF009,Surgery
+BED00824,RM0165,Available,HF009,Surgery
+BED00825,RM0165,Available,HF009,Surgery
+BED00826,RM0166,Available,HF009,Surgery
+BED00827,RM0166,Available,HF009,Surgery
+BED00828,RM0166,Available,HF009,Surgery
+BED00829,RM0166,Available,HF009,Surgery
+BED00830,RM0166,Available,HF009,Surgery
+BED00831,RM0167,Available,HF009,Pediatrics
+BED00832,RM0167,Available,HF009,Pediatrics
+BED00833,RM0167,Available,HF009,Pediatrics
+BED00834,RM0167,Available,HF009,Pediatrics
+BED00835,RM0167,Available,HF009,Pediatrics
+BED00836,RM0168,Available,HF009,Pediatrics
+BED00837,RM0168,Available,HF009,Pediatrics
+BED00838,RM0168,Available,HF009,Pediatrics
+BED00839,RM0168,Available,HF009,Pediatrics
+BED00840,RM0168,Available,HF009,Pediatrics
+BED00841,RM0169,Available,HF009,Obstetrics & Gynecology
+BED00842,RM0169,Available,HF009,Obstetrics & Gynecology
+BED00843,RM0169,Available,HF009,Obstetrics & Gynecology
+BED00844,RM0169,Available,HF009,Obstetrics & Gynecology
+BED00845,RM0169,Available,HF009,Obstetrics & Gynecology
+BED00846,RM0170,Available,HF009,Obstetrics & Gynecology
+BED00847,RM0170,Available,HF009,Obstetrics & Gynecology
+BED00848,RM0170,Available,HF009,Obstetrics & Gynecology
+BED00849,RM0170,Available,HF009,Obstetrics & Gynecology
+BED00850,RM0170,Available,HF009,Obstetrics & Gynecology
+BED00851,RM0171,Available,HF009,Radiology
+BED00852,RM0171,Available,HF009,Radiology
+BED00853,RM0171,Available,HF009,Radiology
+BED00854,RM0171,Available,HF009,Radiology
+BED00855,RM0171,Available,HF009,Radiology
+BED00856,RM0172,Available,HF009,Radiology
+BED00857,RM0172,Available,HF009,Radiology
+BED00858,RM0172,Available,HF009,Radiology
+BED00859,RM0172,Available,HF009,Radiology
+BED00860,RM0172,Available,HF009,Radiology
+BED00861,RM0173,Available,HF009,Laboratory
+BED00862,RM0173,Available,HF009,Laboratory
+BED00863,RM0173,Available,HF009,Laboratory
+BED00864,RM0173,Available,HF009,Laboratory
+BED00865,RM0173,Available,HF009,Laboratory
+BED00866,RM0174,Available,HF009,Laboratory
+BED00867,RM0174,Available,HF009,Laboratory
+BED00868,RM0174,Available,HF009,Laboratory
+BED00869,RM0174,Available,HF009,Laboratory
+BED00870,RM0174,Available,HF009,Laboratory
+BED00871,RM0175,Available,HF009,Pharmacy
+BED00872,RM0175,Available,HF009,Pharmacy
+BED00873,RM0175,Available,HF009,Pharmacy
+BED00874,RM0175,Available,HF009,Pharmacy
+BED00875,RM0175,Available,HF009,Pharmacy
+BED00876,RM0176,Available,HF009,Pharmacy
+BED00877,RM0176,Available,HF009,Pharmacy
+BED00878,RM0176,Available,HF009,Pharmacy
+BED00879,RM0176,Available,HF009,Pharmacy
+BED00880,RM0176,Available,HF009,Pharmacy
+BED00881,RM0177,Available,HF009,ICU
+BED00882,RM0177,Available,HF009,ICU
+BED00883,RM0177,Available,HF009,ICU
+BED00884,RM0177,Available,HF009,ICU
+BED00885,RM0177,Available,HF009,ICU
+BED00886,RM0178,Available,HF009,ICU
+BED00887,RM0178,Available,HF009,ICU
+BED00888,RM0178,Available,HF009,ICU
+BED00889,RM0178,Available,HF009,ICU
+BED00890,RM0178,Available,HF009,ICU
+BED00891,RM0179,Available,HF009,Cardiology
+BED00892,RM0179,Available,HF009,Cardiology
+BED00893,RM0179,Available,HF009,Cardiology
+BED00894,RM0179,Available,HF009,Cardiology
+BED00895,RM0179,Available,HF009,Cardiology
+BED00896,RM0180,Available,HF009,Cardiology
+BED00897,RM0180,Available,HF009,Cardiology
+BED00898,RM0180,Available,HF009,Cardiology
+BED00899,RM0180,Available,HF009,Cardiology
+BED00900,RM0180,Available,HF009,Cardiology
+BED00901,RM0181,Available,HF010,Emergency
+BED00902,RM0181,Available,HF010,Emergency
+BED00903,RM0181,Available,HF010,Emergency
+BED00904,RM0181,Available,HF010,Emergency
+BED00905,RM0181,Available,HF010,Emergency
+BED00906,RM0182,Available,HF010,Emergency
+BED00907,RM0182,Available,HF010,Emergency
+BED00908,RM0182,Available,HF010,Emergency
+BED00909,RM0182,Available,HF010,Emergency
+BED00910,RM0182,Available,HF010,Emergency
+BED00911,RM0183,Available,HF010,Internal Medicine
+BED00912,RM0183,Available,HF010,Internal Medicine
+BED00913,RM0183,Available,HF010,Internal Medicine
+BED00914,RM0183,Available,HF010,Internal Medicine
+BED00915,RM0183,Available,HF010,Internal Medicine
+BED00916,RM0184,Available,HF010,Internal Medicine
+BED00917,RM0184,Available,HF010,Internal Medicine
+BED00918,RM0184,Available,HF010,Internal Medicine
+BED00919,RM0184,Available,HF010,Internal Medicine
+BED00920,RM0184,Available,HF010,Internal Medicine
+BED00921,RM0185,Available,HF010,Surgery
+BED00922,RM0185,Available,HF010,Surgery
+BED00923,RM0185,Available,HF010,Surgery
+BED00924,RM0185,Available,HF010,Surgery
+BED00925,RM0185,Available,HF010,Surgery
+BED00926,RM0186,Available,HF010,Surgery
+BED00927,RM0186,Available,HF010,Surgery
+BED00928,RM0186,Available,HF010,Surgery
+BED00929,RM0186,Available,HF010,Surgery
+BED00930,RM0186,Available,HF010,Surgery
+BED00931,RM0187,Available,HF010,Pediatrics
+BED00932,RM0187,Available,HF010,Pediatrics
+BED00933,RM0187,Available,HF010,Pediatrics
+BED00934,RM0187,Available,HF010,Pediatrics
+BED00935,RM0187,Available,HF010,Pediatrics
+BED00936,RM0188,Available,HF010,Pediatrics
+BED00937,RM0188,Available,HF010,Pediatrics
+BED00938,RM0188,Available,HF010,Pediatrics
+BED00939,RM0188,Available,HF010,Pediatrics
+BED00940,RM0188,Available,HF010,Pediatrics
+BED00941,RM0189,Available,HF010,Obstetrics & Gynecology
+BED00942,RM0189,Available,HF010,Obstetrics & Gynecology
+BED00943,RM0189,Available,HF010,Obstetrics & Gynecology
+BED00944,RM0189,Available,HF010,Obstetrics & Gynecology
+BED00945,RM0189,Available,HF010,Obstetrics & Gynecology
+BED00946,RM0190,Available,HF010,Obstetrics & Gynecology
+BED00947,RM0190,Available,HF010,Obstetrics & Gynecology
+BED00948,RM0190,Available,HF010,Obstetrics & Gynecology
+BED00949,RM0190,Available,HF010,Obstetrics & Gynecology
+BED00950,RM0190,Available,HF010,Obstetrics & Gynecology
+BED00951,RM0191,Available,HF010,Radiology
+BED00952,RM0191,Available,HF010,Radiology
+BED00953,RM0191,Available,HF010,Radiology
+BED00954,RM0191,Available,HF010,Radiology
+BED00955,RM0191,Available,HF010,Radiology
+BED00956,RM0192,Available,HF010,Radiology
+BED00957,RM0192,Available,HF010,Radiology
+BED00958,RM0192,Available,HF010,Radiology
+BED00959,RM0192,Available,HF010,Radiology
+BED00960,RM0192,Available,HF010,Radiology
+BED00961,RM0193,Available,HF010,Laboratory
+BED00962,RM0193,Available,HF010,Laboratory
+BED00963,RM0193,Available,HF010,Laboratory
+BED00964,RM0193,Available,HF010,Laboratory
+BED00965,RM0193,Available,HF010,Laboratory
+BED00966,RM0194,Available,HF010,Laboratory
+BED00967,RM0194,Available,HF010,Laboratory
+BED00968,RM0194,Available,HF010,Laboratory
+BED00969,RM0194,Available,HF010,Laboratory
+BED00970,RM0194,Available,HF010,Laboratory
+BED00971,RM0195,Available,HF010,Pharmacy
+BED00972,RM0195,Available,HF010,Pharmacy
+BED00973,RM0195,Available,HF010,Pharmacy
+BED00974,RM0195,Available,HF010,Pharmacy
+BED00975,RM0195,Available,HF010,Pharmacy
+BED00976,RM0196,Available,HF010,Pharmacy
+BED00977,RM0196,Available,HF010,Pharmacy
+BED00978,RM0196,Available,HF010,Pharmacy
+BED00979,RM0196,Available,HF010,Pharmacy
+BED00980,RM0196,Available,HF010,Pharmacy
+BED00981,RM0197,Available,HF010,ICU
+BED00982,RM0197,Available,HF010,ICU
+BED00983,RM0197,Available,HF010,ICU
+BED00984,RM0197,Available,HF010,ICU
+BED00985,RM0197,Available,HF010,ICU
+BED00986,RM0198,Available,HF010,ICU
+BED00987,RM0198,Available,HF010,ICU
+BED00988,RM0198,Available,HF010,ICU
+BED00989,RM0198,Available,HF010,ICU
+BED00990,RM0198,Available,HF010,ICU
+BED00991,RM0199,Available,HF010,Cardiology
+BED00992,RM0199,Available,HF010,Cardiology
+BED00993,RM0199,Available,HF010,Cardiology
+BED00994,RM0199,Available,HF010,Cardiology
+BED00995,RM0199,Available,HF010,Cardiology
+BED00996,RM0200,Available,HF010,Cardiology
+BED00997,RM0200,Available,HF010,Cardiology
+BED00998,RM0200,Available,HF010,Cardiology
+BED00999,RM0200,Available,HF010,Cardiology
+BED01000,RM0200,Available,HF010,Cardiology
+BED01001,RM0201,Available,HF011,Emergency
+BED01002,RM0201,Available,HF011,Emergency
+BED01003,RM0201,Available,HF011,Emergency
+BED01004,RM0201,Available,HF011,Emergency
+BED01005,RM0201,Available,HF011,Emergency
+BED01006,RM0202,Available,HF011,Emergency
+BED01007,RM0202,Available,HF011,Emergency
+BED01008,RM0202,Available,HF011,Emergency
+BED01009,RM0202,Available,HF011,Emergency
+BED01010,RM0202,Available,HF011,Emergency
+BED01011,RM0203,Available,HF011,Internal Medicine
+BED01012,RM0203,Available,HF011,Internal Medicine
+BED01013,RM0203,Available,HF011,Internal Medicine
+BED01014,RM0203,Available,HF011,Internal Medicine
+BED01015,RM0203,Available,HF011,Internal Medicine
+BED01016,RM0204,Available,HF011,Internal Medicine
+BED01017,RM0204,Available,HF011,Internal Medicine
+BED01018,RM0204,Available,HF011,Internal Medicine
+BED01019,RM0204,Available,HF011,Internal Medicine
+BED01020,RM0204,Available,HF011,Internal Medicine
+BED01021,RM0205,Available,HF011,Surgery
+BED01022,RM0205,Available,HF011,Surgery
+BED01023,RM0205,Available,HF011,Surgery
+BED01024,RM0205,Available,HF011,Surgery
+BED01025,RM0205,Available,HF011,Surgery
+BED01026,RM0206,Available,HF011,Surgery
+BED01027,RM0206,Available,HF011,Surgery
+BED01028,RM0206,Available,HF011,Surgery
+BED01029,RM0206,Available,HF011,Surgery
+BED01030,RM0206,Available,HF011,Surgery
+BED01031,RM0207,Available,HF011,Pediatrics
+BED01032,RM0207,Available,HF011,Pediatrics
+BED01033,RM0207,Available,HF011,Pediatrics
+BED01034,RM0207,Available,HF011,Pediatrics
+BED01035,RM0207,Available,HF011,Pediatrics
+BED01036,RM0208,Available,HF011,Pediatrics
+BED01037,RM0208,Available,HF011,Pediatrics
+BED01038,RM0208,Available,HF011,Pediatrics
+BED01039,RM0208,Available,HF011,Pediatrics
+BED01040,RM0208,Available,HF011,Pediatrics
+BED01041,RM0209,Available,HF011,Obstetrics & Gynecology
+BED01042,RM0209,Available,HF011,Obstetrics & Gynecology
+BED01043,RM0209,Available,HF011,Obstetrics & Gynecology
+BED01044,RM0209,Available,HF011,Obstetrics & Gynecology
+BED01045,RM0209,Available,HF011,Obstetrics & Gynecology
+BED01046,RM0210,Available,HF011,Obstetrics & Gynecology
+BED01047,RM0210,Available,HF011,Obstetrics & Gynecology
+BED01048,RM0210,Available,HF011,Obstetrics & Gynecology
+BED01049,RM0210,Available,HF011,Obstetrics & Gynecology
+BED01050,RM0210,Available,HF011,Obstetrics & Gynecology
+BED01051,RM0211,Available,HF011,Radiology
+BED01052,RM0211,Available,HF011,Radiology
+BED01053,RM0211,Available,HF011,Radiology
+BED01054,RM0211,Available,HF011,Radiology
+BED01055,RM0211,Available,HF011,Radiology
+BED01056,RM0212,Available,HF011,Radiology
+BED01057,RM0212,Available,HF011,Radiology
+BED01058,RM0212,Available,HF011,Radiology
+BED01059,RM0212,Available,HF011,Radiology
+BED01060,RM0212,Available,HF011,Radiology
+BED01061,RM0213,Available,HF011,Laboratory
+BED01062,RM0213,Available,HF011,Laboratory
+BED01063,RM0213,Available,HF011,Laboratory
+BED01064,RM0213,Available,HF011,Laboratory
+BED01065,RM0213,Available,HF011,Laboratory
+BED01066,RM0214,Available,HF011,Laboratory
+BED01067,RM0214,Available,HF011,Laboratory
+BED01068,RM0214,Available,HF011,Laboratory
+BED01069,RM0214,Available,HF011,Laboratory
+BED01070,RM0214,Available,HF011,Laboratory
+BED01071,RM0215,Available,HF011,Pharmacy
+BED01072,RM0215,Available,HF011,Pharmacy
+BED01073,RM0215,Available,HF011,Pharmacy
+BED01074,RM0215,Available,HF011,Pharmacy
+BED01075,RM0215,Available,HF011,Pharmacy
+BED01076,RM0216,Available,HF011,Pharmacy
+BED01077,RM0216,Available,HF011,Pharmacy
+BED01078,RM0216,Available,HF011,Pharmacy
+BED01079,RM0216,Available,HF011,Pharmacy
+BED01080,RM0216,Available,HF011,Pharmacy
+BED01081,RM0217,Available,HF011,ICU
+BED01082,RM0217,Available,HF011,ICU
+BED01083,RM0217,Available,HF011,ICU
+BED01084,RM0217,Available,HF011,ICU
+BED01085,RM0217,Available,HF011,ICU
+BED01086,RM0218,Available,HF011,ICU
+BED01087,RM0218,Available,HF011,ICU
+BED01088,RM0218,Available,HF011,ICU
+BED01089,RM0218,Available,HF011,ICU
+BED01090,RM0218,Available,HF011,ICU
+BED01091,RM0219,Available,HF011,Cardiology
+BED01092,RM0219,Available,HF011,Cardiology
+BED01093,RM0219,Available,HF011,Cardiology
+BED01094,RM0219,Available,HF011,Cardiology
+BED01095,RM0219,Available,HF011,Cardiology
+BED01096,RM0220,Available,HF011,Cardiology
+BED01097,RM0220,Available,HF011,Cardiology
+BED01098,RM0220,Available,HF011,Cardiology
+BED01099,RM0220,Available,HF011,Cardiology
+BED01100,RM0220,Available,HF011,Cardiology
+BED01101,RM0221,Available,HF012,Emergency
+BED01102,RM0221,Available,HF012,Emergency
+BED01103,RM0221,Available,HF012,Emergency
+BED01104,RM0221,Available,HF012,Emergency
+BED01105,RM0221,Available,HF012,Emergency
+BED01106,RM0222,Available,HF012,Emergency
+BED01107,RM0222,Available,HF012,Emergency
+BED01108,RM0222,Available,HF012,Emergency
+BED01109,RM0222,Available,HF012,Emergency
+BED01110,RM0222,Available,HF012,Emergency
+BED01111,RM0223,Available,HF012,Internal Medicine
+BED01112,RM0223,Available,HF012,Internal Medicine
+BED01113,RM0223,Available,HF012,Internal Medicine
+BED01114,RM0223,Available,HF012,Internal Medicine
+BED01115,RM0223,Available,HF012,Internal Medicine
+BED01116,RM0224,Available,HF012,Internal Medicine
+BED01117,RM0224,Available,HF012,Internal Medicine
+BED01118,RM0224,Available,HF012,Internal Medicine
+BED01119,RM0224,Available,HF012,Internal Medicine
+BED01120,RM0224,Available,HF012,Internal Medicine
+BED01121,RM0225,Available,HF012,Surgery
+BED01122,RM0225,Available,HF012,Surgery
+BED01123,RM0225,Available,HF012,Surgery
+BED01124,RM0225,Available,HF012,Surgery
+BED01125,RM0225,Available,HF012,Surgery
+BED01126,RM0226,Available,HF012,Surgery
+BED01127,RM0226,Available,HF012,Surgery
+BED01128,RM0226,Available,HF012,Surgery
+BED01129,RM0226,Available,HF012,Surgery
+BED01130,RM0226,Available,HF012,Surgery
+BED01131,RM0227,Available,HF012,Pediatrics
+BED01132,RM0227,Available,HF012,Pediatrics
+BED01133,RM0227,Available,HF012,Pediatrics
+BED01134,RM0227,Available,HF012,Pediatrics
+BED01135,RM0227,Available,HF012,Pediatrics
+BED01136,RM0228,Available,HF012,Pediatrics
+BED01137,RM0228,Available,HF012,Pediatrics
+BED01138,RM0228,Available,HF012,Pediatrics
+BED01139,RM0228,Available,HF012,Pediatrics
+BED01140,RM0228,Available,HF012,Pediatrics
+BED01141,RM0229,Available,HF012,Obstetrics & Gynecology
+BED01142,RM0229,Available,HF012,Obstetrics & Gynecology
+BED01143,RM0229,Available,HF012,Obstetrics & Gynecology
+BED01144,RM0229,Available,HF012,Obstetrics & Gynecology
+BED01145,RM0229,Available,HF012,Obstetrics & Gynecology
+BED01146,RM0230,Available,HF012,Obstetrics & Gynecology
+BED01147,RM0230,Available,HF012,Obstetrics & Gynecology
+BED01148,RM0230,Available,HF012,Obstetrics & Gynecology
+BED01149,RM0230,Available,HF012,Obstetrics & Gynecology
+BED01150,RM0230,Available,HF012,Obstetrics & Gynecology
+BED01151,RM0231,Available,HF012,Radiology
+BED01152,RM0231,Available,HF012,Radiology
+BED01153,RM0231,Available,HF012,Radiology
+BED01154,RM0231,Available,HF012,Radiology
+BED01155,RM0231,Available,HF012,Radiology
+BED01156,RM0232,Available,HF012,Radiology
+BED01157,RM0232,Available,HF012,Radiology
+BED01158,RM0232,Available,HF012,Radiology
+BED01159,RM0232,Available,HF012,Radiology
+BED01160,RM0232,Available,HF012,Radiology
+BED01161,RM0233,Available,HF012,Laboratory
+BED01162,RM0233,Available,HF012,Laboratory
+BED01163,RM0233,Available,HF012,Laboratory
+BED01164,RM0233,Available,HF012,Laboratory
+BED01165,RM0233,Available,HF012,Laboratory
+BED01166,RM0234,Available,HF012,Laboratory
+BED01167,RM0234,Available,HF012,Laboratory
+BED01168,RM0234,Available,HF012,Laboratory
+BED01169,RM0234,Available,HF012,Laboratory
+BED01170,RM0234,Available,HF012,Laboratory
+BED01171,RM0235,Available,HF012,Pharmacy
+BED01172,RM0235,Available,HF012,Pharmacy
+BED01173,RM0235,Available,HF012,Pharmacy
+BED01174,RM0235,Available,HF012,Pharmacy
+BED01175,RM0235,Available,HF012,Pharmacy
+BED01176,RM0236,Available,HF012,Pharmacy
+BED01177,RM0236,Available,HF012,Pharmacy
+BED01178,RM0236,Available,HF012,Pharmacy
+BED01179,RM0236,Available,HF012,Pharmacy
+BED01180,RM0236,Available,HF012,Pharmacy
+BED01181,RM0237,Available,HF012,ICU
+BED01182,RM0237,Available,HF012,ICU
+BED01183,RM0237,Available,HF012,ICU
+BED01184,RM0237,Available,HF012,ICU
+BED01185,RM0237,Available,HF012,ICU
+BED01186,RM0238,Available,HF012,ICU
+BED01187,RM0238,Available,HF012,ICU
+BED01188,RM0238,Available,HF012,ICU
+BED01189,RM0238,Available,HF012,ICU
+BED01190,RM0238,Available,HF012,ICU
+BED01191,RM0239,Available,HF012,Cardiology
+BED01192,RM0239,Available,HF012,Cardiology
+BED01193,RM0239,Available,HF012,Cardiology
+BED01194,RM0239,Available,HF012,Cardiology
+BED01195,RM0239,Available,HF012,Cardiology
+BED01196,RM0240,Available,HF012,Cardiology
+BED01197,RM0240,Available,HF012,Cardiology
+BED01198,RM0240,Available,HF012,Cardiology
+BED01199,RM0240,Available,HF012,Cardiology
+BED01200,RM0240,Available,HF012,Cardiology
+BED01201,RM0241,Available,HF013,Emergency
+BED01202,RM0241,Available,HF013,Emergency
+BED01203,RM0241,Available,HF013,Emergency
+BED01204,RM0241,Available,HF013,Emergency
+BED01205,RM0241,Available,HF013,Emergency
+BED01206,RM0242,Available,HF013,Emergency
+BED01207,RM0242,Available,HF013,Emergency
+BED01208,RM0242,Available,HF013,Emergency
+BED01209,RM0242,Available,HF013,Emergency
+BED01210,RM0242,Available,HF013,Emergency
+BED01211,RM0243,Available,HF013,Internal Medicine
+BED01212,RM0243,Available,HF013,Internal Medicine
+BED01213,RM0243,Available,HF013,Internal Medicine
+BED01214,RM0243,Available,HF013,Internal Medicine
+BED01215,RM0243,Available,HF013,Internal Medicine
+BED01216,RM0244,Available,HF013,Internal Medicine
+BED01217,RM0244,Available,HF013,Internal Medicine
+BED01218,RM0244,Available,HF013,Internal Medicine
+BED01219,RM0244,Available,HF013,Internal Medicine
+BED01220,RM0244,Available,HF013,Internal Medicine
+BED01221,RM0245,Available,HF013,Surgery
+BED01222,RM0245,Available,HF013,Surgery
+BED01223,RM0245,Available,HF013,Surgery
+BED01224,RM0245,Available,HF013,Surgery
+BED01225,RM0245,Available,HF013,Surgery
+BED01226,RM0246,Available,HF013,Surgery
+BED01227,RM0246,Available,HF013,Surgery
+BED01228,RM0246,Available,HF013,Surgery
+BED01229,RM0246,Available,HF013,Surgery
+BED01230,RM0246,Available,HF013,Surgery
+BED01231,RM0247,Available,HF013,Pediatrics
+BED01232,RM0247,Available,HF013,Pediatrics
+BED01233,RM0247,Available,HF013,Pediatrics
+BED01234,RM0247,Available,HF013,Pediatrics
+BED01235,RM0247,Available,HF013,Pediatrics
+BED01236,RM0248,Available,HF013,Pediatrics
+BED01237,RM0248,Available,HF013,Pediatrics
+BED01238,RM0248,Available,HF013,Pediatrics
+BED01239,RM0248,Available,HF013,Pediatrics
+BED01240,RM0248,Available,HF013,Pediatrics
+BED01241,RM0249,Available,HF013,Obstetrics & Gynecology
+BED01242,RM0249,Available,HF013,Obstetrics & Gynecology
+BED01243,RM0249,Available,HF013,Obstetrics & Gynecology
+BED01244,RM0249,Available,HF013,Obstetrics & Gynecology
+BED01245,RM0249,Available,HF013,Obstetrics & Gynecology
+BED01246,RM0250,Available,HF013,Obstetrics & Gynecology
+BED01247,RM0250,Available,HF013,Obstetrics & Gynecology
+BED01248,RM0250,Available,HF013,Obstetrics & Gynecology
+BED01249,RM0250,Available,HF013,Obstetrics & Gynecology
+BED01250,RM0250,Available,HF013,Obstetrics & Gynecology
+BED01251,RM0251,Available,HF013,Radiology
+BED01252,RM0251,Available,HF013,Radiology
+BED01253,RM0251,Available,HF013,Radiology
+BED01254,RM0251,Available,HF013,Radiology
+BED01255,RM0251,Available,HF013,Radiology
+BED01256,RM0252,Available,HF013,Radiology
+BED01257,RM0252,Available,HF013,Radiology
+BED01258,RM0252,Available,HF013,Radiology
+BED01259,RM0252,Available,HF013,Radiology
+BED01260,RM0252,Available,HF013,Radiology
+BED01261,RM0253,Available,HF013,Laboratory
+BED01262,RM0253,Available,HF013,Laboratory
+BED01263,RM0253,Available,HF013,Laboratory
+BED01264,RM0253,Available,HF013,Laboratory
+BED01265,RM0253,Available,HF013,Laboratory
+BED01266,RM0254,Available,HF013,Laboratory
+BED01267,RM0254,Available,HF013,Laboratory
+BED01268,RM0254,Available,HF013,Laboratory
+BED01269,RM0254,Available,HF013,Laboratory
+BED01270,RM0254,Available,HF013,Laboratory
+BED01271,RM0255,Available,HF013,Pharmacy
+BED01272,RM0255,Available,HF013,Pharmacy
+BED01273,RM0255,Available,HF013,Pharmacy
+BED01274,RM0255,Available,HF013,Pharmacy
+BED01275,RM0255,Available,HF013,Pharmacy
+BED01276,RM0256,Available,HF013,Pharmacy
+BED01277,RM0256,Available,HF013,Pharmacy
+BED01278,RM0256,Available,HF013,Pharmacy
+BED01279,RM0256,Available,HF013,Pharmacy
+BED01280,RM0256,Available,HF013,Pharmacy
+BED01281,RM0257,Available,HF013,ICU
+BED01282,RM0257,Available,HF013,ICU
+BED01283,RM0257,Available,HF013,ICU
+BED01284,RM0257,Available,HF013,ICU
+BED01285,RM0257,Available,HF013,ICU
+BED01286,RM0258,Available,HF013,ICU
+BED01287,RM0258,Available,HF013,ICU
+BED01288,RM0258,Available,HF013,ICU
+BED01289,RM0258,Available,HF013,ICU
+BED01290,RM0258,Available,HF013,ICU
+BED01291,RM0259,Available,HF013,Cardiology
+BED01292,RM0259,Available,HF013,Cardiology
+BED01293,RM0259,Available,HF013,Cardiology
+BED01294,RM0259,Available,HF013,Cardiology
+BED01295,RM0259,Available,HF013,Cardiology
+BED01296,RM0260,Available,HF013,Cardiology
+BED01297,RM0260,Available,HF013,Cardiology
+BED01298,RM0260,Available,HF013,Cardiology
+BED01299,RM0260,Available,HF013,Cardiology
+BED01300,RM0260,Available,HF013,Cardiology
+BED01301,RM0261,Available,HF014,Emergency
+BED01302,RM0261,Available,HF014,Emergency
+BED01303,RM0261,Available,HF014,Emergency
+BED01304,RM0261,Available,HF014,Emergency
+BED01305,RM0261,Available,HF014,Emergency
+BED01306,RM0262,Available,HF014,Emergency
+BED01307,RM0262,Available,HF014,Emergency
+BED01308,RM0262,Available,HF014,Emergency
+BED01309,RM0262,Available,HF014,Emergency
+BED01310,RM0262,Available,HF014,Emergency
+BED01311,RM0263,Available,HF014,Internal Medicine
+BED01312,RM0263,Available,HF014,Internal Medicine
+BED01313,RM0263,Available,HF014,Internal Medicine
+BED01314,RM0263,Available,HF014,Internal Medicine
+BED01315,RM0263,Available,HF014,Internal Medicine
+BED01316,RM0264,Available,HF014,Internal Medicine
+BED01317,RM0264,Available,HF014,Internal Medicine
+BED01318,RM0264,Available,HF014,Internal Medicine
+BED01319,RM0264,Available,HF014,Internal Medicine
+BED01320,RM0264,Available,HF014,Internal Medicine
+BED01321,RM0265,Available,HF014,Surgery
+BED01322,RM0265,Available,HF014,Surgery
+BED01323,RM0265,Available,HF014,Surgery
+BED01324,RM0265,Available,HF014,Surgery
+BED01325,RM0265,Available,HF014,Surgery
+BED01326,RM0266,Available,HF014,Surgery
+BED01327,RM0266,Available,HF014,Surgery
+BED01328,RM0266,Available,HF014,Surgery
+BED01329,RM0266,Available,HF014,Surgery
+BED01330,RM0266,Available,HF014,Surgery
+BED01331,RM0267,Available,HF014,Pediatrics
+BED01332,RM0267,Available,HF014,Pediatrics
+BED01333,RM0267,Available,HF014,Pediatrics
+BED01334,RM0267,Available,HF014,Pediatrics
+BED01335,RM0267,Available,HF014,Pediatrics
+BED01336,RM0268,Available,HF014,Pediatrics
+BED01337,RM0268,Available,HF014,Pediatrics
+BED01338,RM0268,Available,HF014,Pediatrics
+BED01339,RM0268,Available,HF014,Pediatrics
+BED01340,RM0268,Available,HF014,Pediatrics
+BED01341,RM0269,Available,HF014,Obstetrics & Gynecology
+BED01342,RM0269,Available,HF014,Obstetrics & Gynecology
+BED01343,RM0269,Available,HF014,Obstetrics & Gynecology
+BED01344,RM0269,Available,HF014,Obstetrics & Gynecology
+BED01345,RM0269,Available,HF014,Obstetrics & Gynecology
+BED01346,RM0270,Available,HF014,Obstetrics & Gynecology
+BED01347,RM0270,Available,HF014,Obstetrics & Gynecology
+BED01348,RM0270,Available,HF014,Obstetrics & Gynecology
+BED01349,RM0270,Available,HF014,Obstetrics & Gynecology
+BED01350,RM0270,Available,HF014,Obstetrics & Gynecology
+BED01351,RM0271,Available,HF014,Radiology
+BED01352,RM0271,Available,HF014,Radiology
+BED01353,RM0271,Available,HF014,Radiology
+BED01354,RM0271,Available,HF014,Radiology
+BED01355,RM0271,Available,HF014,Radiology
+BED01356,RM0272,Available,HF014,Radiology
+BED01357,RM0272,Available,HF014,Radiology
+BED01358,RM0272,Available,HF014,Radiology
+BED01359,RM0272,Available,HF014,Radiology
+BED01360,RM0272,Available,HF014,Radiology
+BED01361,RM0273,Available,HF014,Laboratory
+BED01362,RM0273,Available,HF014,Laboratory
+BED01363,RM0273,Available,HF014,Laboratory
+BED01364,RM0273,Available,HF014,Laboratory
+BED01365,RM0273,Available,HF014,Laboratory
+BED01366,RM0274,Available,HF014,Laboratory
+BED01367,RM0274,Available,HF014,Laboratory
+BED01368,RM0274,Available,HF014,Laboratory
+BED01369,RM0274,Available,HF014,Laboratory
+BED01370,RM0274,Available,HF014,Laboratory
+BED01371,RM0275,Available,HF014,Pharmacy
+BED01372,RM0275,Available,HF014,Pharmacy
+BED01373,RM0275,Available,HF014,Pharmacy
+BED01374,RM0275,Available,HF014,Pharmacy
+BED01375,RM0275,Available,HF014,Pharmacy
+BED01376,RM0276,Available,HF014,Pharmacy
+BED01377,RM0276,Available,HF014,Pharmacy
+BED01378,RM0276,Available,HF014,Pharmacy
+BED01379,RM0276,Available,HF014,Pharmacy
+BED01380,RM0276,Available,HF014,Pharmacy
+BED01381,RM0277,Available,HF014,ICU
+BED01382,RM0277,Available,HF014,ICU
+BED01383,RM0277,Available,HF014,ICU
+BED01384,RM0277,Available,HF014,ICU
+BED01385,RM0277,Available,HF014,ICU
+BED01386,RM0278,Available,HF014,ICU
+BED01387,RM0278,Available,HF014,ICU
+BED01388,RM0278,Available,HF014,ICU
+BED01389,RM0278,Available,HF014,ICU
+BED01390,RM0278,Available,HF014,ICU
+BED01391,RM0279,Available,HF014,Cardiology
+BED01392,RM0279,Available,HF014,Cardiology
+BED01393,RM0279,Available,HF014,Cardiology
+BED01394,RM0279,Available,HF014,Cardiology
+BED01395,RM0279,Available,HF014,Cardiology
+BED01396,RM0280,Available,HF014,Cardiology
+BED01397,RM0280,Available,HF014,Cardiology
+BED01398,RM0280,Available,HF014,Cardiology
+BED01399,RM0280,Available,HF014,Cardiology
+BED01400,RM0280,Available,HF014,Cardiology
+BED01401,RM0281,Available,HF015,Emergency
+BED01402,RM0281,Available,HF015,Emergency
+BED01403,RM0281,Available,HF015,Emergency
+BED01404,RM0281,Available,HF015,Emergency
+BED01405,RM0281,Available,HF015,Emergency
+BED01406,RM0282,Available,HF015,Emergency
+BED01407,RM0282,Available,HF015,Emergency
+BED01408,RM0282,Available,HF015,Emergency
+BED01409,RM0282,Available,HF015,Emergency
+BED01410,RM0282,Available,HF015,Emergency
+BED01411,RM0283,Available,HF015,Internal Medicine
+BED01412,RM0283,Available,HF015,Internal Medicine
+BED01413,RM0283,Available,HF015,Internal Medicine
+BED01414,RM0283,Available,HF015,Internal Medicine
+BED01415,RM0283,Available,HF015,Internal Medicine
+BED01416,RM0284,Available,HF015,Internal Medicine
+BED01417,RM0284,Available,HF015,Internal Medicine
+BED01418,RM0284,Available,HF015,Internal Medicine
+BED01419,RM0284,Available,HF015,Internal Medicine
+BED01420,RM0284,Available,HF015,Internal Medicine
+BED01421,RM0285,Available,HF015,Surgery
+BED01422,RM0285,Available,HF015,Surgery
+BED01423,RM0285,Available,HF015,Surgery
+BED01424,RM0285,Available,HF015,Surgery
+BED01425,RM0285,Available,HF015,Surgery
+BED01426,RM0286,Available,HF015,Surgery
+BED01427,RM0286,Available,HF015,Surgery
+BED01428,RM0286,Available,HF015,Surgery
+BED01429,RM0286,Available,HF015,Surgery
+BED01430,RM0286,Available,HF015,Surgery
+BED01431,RM0287,Available,HF015,Pediatrics
+BED01432,RM0287,Available,HF015,Pediatrics
+BED01433,RM0287,Available,HF015,Pediatrics
+BED01434,RM0287,Available,HF015,Pediatrics
+BED01435,RM0287,Available,HF015,Pediatrics
+BED01436,RM0288,Available,HF015,Pediatrics
+BED01437,RM0288,Available,HF015,Pediatrics
+BED01438,RM0288,Available,HF015,Pediatrics
+BED01439,RM0288,Available,HF015,Pediatrics
+BED01440,RM0288,Available,HF015,Pediatrics
+BED01441,RM0289,Available,HF015,Obstetrics & Gynecology
+BED01442,RM0289,Available,HF015,Obstetrics & Gynecology
+BED01443,RM0289,Available,HF015,Obstetrics & Gynecology
+BED01444,RM0289,Available,HF015,Obstetrics & Gynecology
+BED01445,RM0289,Available,HF015,Obstetrics & Gynecology
+BED01446,RM0290,Available,HF015,Obstetrics & Gynecology
+BED01447,RM0290,Available,HF015,Obstetrics & Gynecology
+BED01448,RM0290,Available,HF015,Obstetrics & Gynecology
+BED01449,RM0290,Available,HF015,Obstetrics & Gynecology
+BED01450,RM0290,Available,HF015,Obstetrics & Gynecology
+BED01451,RM0291,Available,HF015,Radiology
+BED01452,RM0291,Available,HF015,Radiology
+BED01453,RM0291,Available,HF015,Radiology
+BED01454,RM0291,Available,HF015,Radiology
+BED01455,RM0291,Available,HF015,Radiology
+BED01456,RM0292,Available,HF015,Radiology
+BED01457,RM0292,Available,HF015,Radiology
+BED01458,RM0292,Available,HF015,Radiology
+BED01459,RM0292,Available,HF015,Radiology
+BED01460,RM0292,Available,HF015,Radiology
+BED01461,RM0293,Available,HF015,Laboratory
+BED01462,RM0293,Available,HF015,Laboratory
+BED01463,RM0293,Available,HF015,Laboratory
+BED01464,RM0293,Available,HF015,Laboratory
+BED01465,RM0293,Available,HF015,Laboratory
+BED01466,RM0294,Available,HF015,Laboratory
+BED01467,RM0294,Available,HF015,Laboratory
+BED01468,RM0294,Available,HF015,Laboratory
+BED01469,RM0294,Available,HF015,Laboratory
+BED01470,RM0294,Available,HF015,Laboratory
+BED01471,RM0295,Available,HF015,Pharmacy
+BED01472,RM0295,Available,HF015,Pharmacy
+BED01473,RM0295,Available,HF015,Pharmacy
+BED01474,RM0295,Available,HF015,Pharmacy
+BED01475,RM0295,Available,HF015,Pharmacy
+BED01476,RM0296,Available,HF015,Pharmacy
+BED01477,RM0296,Available,HF015,Pharmacy
+BED01478,RM0296,Available,HF015,Pharmacy
+BED01479,RM0296,Available,HF015,Pharmacy
+BED01480,RM0296,Available,HF015,Pharmacy
+BED01481,RM0297,Available,HF015,ICU
+BED01482,RM0297,Available,HF015,ICU
+BED01483,RM0297,Available,HF015,ICU
+BED01484,RM0297,Available,HF015,ICU
+BED01485,RM0297,Available,HF015,ICU
+BED01486,RM0298,Available,HF015,ICU
+BED01487,RM0298,Available,HF015,ICU
+BED01488,RM0298,Available,HF015,ICU
+BED01489,RM0298,Available,HF015,ICU
+BED01490,RM0298,Available,HF015,ICU
+BED01491,RM0299,Available,HF015,Cardiology
+BED01492,RM0299,Available,HF015,Cardiology
+BED01493,RM0299,Available,HF015,Cardiology
+BED01494,RM0299,Available,HF015,Cardiology
+BED01495,RM0299,Available,HF015,Cardiology
+BED01496,RM0300,Available,HF015,Cardiology
+BED01497,RM0300,Available,HF015,Cardiology
+BED01498,RM0300,Available,HF015,Cardiology
+BED01499,RM0300,Available,HF015,Cardiology
+BED01500,RM0300,Available,HF015,Cardiology
+BED01501,RM0301,Available,HF016,Emergency
+BED01502,RM0301,Available,HF016,Emergency
+BED01503,RM0301,Available,HF016,Emergency
+BED01504,RM0301,Available,HF016,Emergency
+BED01505,RM0301,Available,HF016,Emergency
+BED01506,RM0302,Available,HF016,Emergency
+BED01507,RM0302,Available,HF016,Emergency
+BED01508,RM0302,Available,HF016,Emergency
+BED01509,RM0302,Available,HF016,Emergency
+BED01510,RM0302,Available,HF016,Emergency
+BED01511,RM0303,Available,HF016,Internal Medicine
+BED01512,RM0303,Available,HF016,Internal Medicine
+BED01513,RM0303,Available,HF016,Internal Medicine
+BED01514,RM0303,Available,HF016,Internal Medicine
+BED01515,RM0303,Available,HF016,Internal Medicine
+BED01516,RM0304,Available,HF016,Internal Medicine
+BED01517,RM0304,Available,HF016,Internal Medicine
+BED01518,RM0304,Available,HF016,Internal Medicine
+BED01519,RM0304,Available,HF016,Internal Medicine
+BED01520,RM0304,Available,HF016,Internal Medicine
+BED01521,RM0305,Available,HF016,Surgery
+BED01522,RM0305,Available,HF016,Surgery
+BED01523,RM0305,Available,HF016,Surgery
+BED01524,RM0305,Available,HF016,Surgery
+BED01525,RM0305,Available,HF016,Surgery
+BED01526,RM0306,Available,HF016,Surgery
+BED01527,RM0306,Available,HF016,Surgery
+BED01528,RM0306,Available,HF016,Surgery
+BED01529,RM0306,Available,HF016,Surgery
+BED01530,RM0306,Available,HF016,Surgery
+BED01531,RM0307,Available,HF016,Pediatrics
+BED01532,RM0307,Available,HF016,Pediatrics
+BED01533,RM0307,Available,HF016,Pediatrics
+BED01534,RM0307,Available,HF016,Pediatrics
+BED01535,RM0307,Available,HF016,Pediatrics
+BED01536,RM0308,Available,HF016,Pediatrics
+BED01537,RM0308,Available,HF016,Pediatrics
+BED01538,RM0308,Available,HF016,Pediatrics
+BED01539,RM0308,Available,HF016,Pediatrics
+BED01540,RM0308,Available,HF016,Pediatrics
+BED01541,RM0309,Available,HF016,Obstetrics & Gynecology
+BED01542,RM0309,Available,HF016,Obstetrics & Gynecology
+BED01543,RM0309,Available,HF016,Obstetrics & Gynecology
+BED01544,RM0309,Available,HF016,Obstetrics & Gynecology
+BED01545,RM0309,Available,HF016,Obstetrics & Gynecology
+BED01546,RM0310,Available,HF016,Obstetrics & Gynecology
+BED01547,RM0310,Available,HF016,Obstetrics & Gynecology
+BED01548,RM0310,Available,HF016,Obstetrics & Gynecology
+BED01549,RM0310,Available,HF016,Obstetrics & Gynecology
+BED01550,RM0310,Available,HF016,Obstetrics & Gynecology
+BED01551,RM0311,Available,HF016,Radiology
+BED01552,RM0311,Available,HF016,Radiology
+BED01553,RM0311,Available,HF016,Radiology
+BED01554,RM0311,Available,HF016,Radiology
+BED01555,RM0311,Available,HF016,Radiology
+BED01556,RM0312,Available,HF016,Radiology
+BED01557,RM0312,Available,HF016,Radiology
+BED01558,RM0312,Available,HF016,Radiology
+BED01559,RM0312,Available,HF016,Radiology
+BED01560,RM0312,Available,HF016,Radiology
+BED01561,RM0313,Available,HF016,Laboratory
+BED01562,RM0313,Available,HF016,Laboratory
+BED01563,RM0313,Available,HF016,Laboratory
+BED01564,RM0313,Available,HF016,Laboratory
+BED01565,RM0313,Available,HF016,Laboratory
+BED01566,RM0314,Available,HF016,Laboratory
+BED01567,RM0314,Available,HF016,Laboratory
+BED01568,RM0314,Available,HF016,Laboratory
+BED01569,RM0314,Available,HF016,Laboratory
+BED01570,RM0314,Available,HF016,Laboratory
+BED01571,RM0315,Available,HF016,Pharmacy
+BED01572,RM0315,Available,HF016,Pharmacy
+BED01573,RM0315,Available,HF016,Pharmacy
+BED01574,RM0315,Available,HF016,Pharmacy
+BED01575,RM0315,Available,HF016,Pharmacy
+BED01576,RM0316,Available,HF016,Pharmacy
+BED01577,RM0316,Available,HF016,Pharmacy
+BED01578,RM0316,Available,HF016,Pharmacy
+BED01579,RM0316,Available,HF016,Pharmacy
+BED01580,RM0316,Available,HF016,Pharmacy
+BED01581,RM0317,Available,HF016,ICU
+BED01582,RM0317,Available,HF016,ICU
+BED01583,RM0317,Available,HF016,ICU
+BED01584,RM0317,Available,HF016,ICU
+BED01585,RM0317,Available,HF016,ICU
+BED01586,RM0318,Available,HF016,ICU
+BED01587,RM0318,Available,HF016,ICU
+BED01588,RM0318,Available,HF016,ICU
+BED01589,RM0318,Available,HF016,ICU
+BED01590,RM0318,Available,HF016,ICU
+BED01591,RM0319,Available,HF016,Cardiology
+BED01592,RM0319,Available,HF016,Cardiology
+BED01593,RM0319,Available,HF016,Cardiology
+BED01594,RM0319,Available,HF016,Cardiology
+BED01595,RM0319,Available,HF016,Cardiology
+BED01596,RM0320,Available,HF016,Cardiology
+BED01597,RM0320,Available,HF016,Cardiology
+BED01598,RM0320,Available,HF016,Cardiology
+BED01599,RM0320,Available,HF016,Cardiology
+BED01600,RM0320,Available,HF016,Cardiology
+BED01601,RM0321,Available,HF017,Emergency
+BED01602,RM0321,Available,HF017,Emergency
+BED01603,RM0321,Available,HF017,Emergency
+BED01604,RM0321,Available,HF017,Emergency
+BED01605,RM0321,Available,HF017,Emergency
+BED01606,RM0322,Available,HF017,Emergency
+BED01607,RM0322,Available,HF017,Emergency
+BED01608,RM0322,Available,HF017,Emergency
+BED01609,RM0322,Available,HF017,Emergency
+BED01610,RM0322,Available,HF017,Emergency
+BED01611,RM0323,Available,HF017,Internal Medicine
+BED01612,RM0323,Available,HF017,Internal Medicine
+BED01613,RM0323,Available,HF017,Internal Medicine
+BED01614,RM0323,Available,HF017,Internal Medicine
+BED01615,RM0323,Available,HF017,Internal Medicine
+BED01616,RM0324,Available,HF017,Internal Medicine
+BED01617,RM0324,Available,HF017,Internal Medicine
+BED01618,RM0324,Available,HF017,Internal Medicine
+BED01619,RM0324,Available,HF017,Internal Medicine
+BED01620,RM0324,Available,HF017,Internal Medicine
+BED01621,RM0325,Available,HF017,Surgery
+BED01622,RM0325,Available,HF017,Surgery
+BED01623,RM0325,Available,HF017,Surgery
+BED01624,RM0325,Available,HF017,Surgery
+BED01625,RM0325,Available,HF017,Surgery
+BED01626,RM0326,Available,HF017,Surgery
+BED01627,RM0326,Available,HF017,Surgery
+BED01628,RM0326,Available,HF017,Surgery
+BED01629,RM0326,Available,HF017,Surgery
+BED01630,RM0326,Available,HF017,Surgery
+BED01631,RM0327,Available,HF017,Pediatrics
+BED01632,RM0327,Available,HF017,Pediatrics
+BED01633,RM0327,Available,HF017,Pediatrics
+BED01634,RM0327,Available,HF017,Pediatrics
+BED01635,RM0327,Available,HF017,Pediatrics
+BED01636,RM0328,Available,HF017,Pediatrics
+BED01637,RM0328,Available,HF017,Pediatrics
+BED01638,RM0328,Available,HF017,Pediatrics
+BED01639,RM0328,Available,HF017,Pediatrics
+BED01640,RM0328,Available,HF017,Pediatrics
+BED01641,RM0329,Available,HF017,Obstetrics & Gynecology
+BED01642,RM0329,Available,HF017,Obstetrics & Gynecology
+BED01643,RM0329,Available,HF017,Obstetrics & Gynecology
+BED01644,RM0329,Available,HF017,Obstetrics & Gynecology
+BED01645,RM0329,Available,HF017,Obstetrics & Gynecology
+BED01646,RM0330,Available,HF017,Obstetrics & Gynecology
+BED01647,RM0330,Available,HF017,Obstetrics & Gynecology
+BED01648,RM0330,Available,HF017,Obstetrics & Gynecology
+BED01649,RM0330,Available,HF017,Obstetrics & Gynecology
+BED01650,RM0330,Available,HF017,Obstetrics & Gynecology
+BED01651,RM0331,Available,HF017,Radiology
+BED01652,RM0331,Available,HF017,Radiology
+BED01653,RM0331,Available,HF017,Radiology
+BED01654,RM0331,Available,HF017,Radiology
+BED01655,RM0331,Available,HF017,Radiology
+BED01656,RM0332,Available,HF017,Radiology
+BED01657,RM0332,Available,HF017,Radiology
+BED01658,RM0332,Available,HF017,Radiology
+BED01659,RM0332,Available,HF017,Radiology
+BED01660,RM0332,Available,HF017,Radiology
+BED01661,RM0333,Available,HF017,Laboratory
+BED01662,RM0333,Available,HF017,Laboratory
+BED01663,RM0333,Available,HF017,Laboratory
+BED01664,RM0333,Available,HF017,Laboratory
+BED01665,RM0333,Available,HF017,Laboratory
+BED01666,RM0334,Available,HF017,Laboratory
+BED01667,RM0334,Available,HF017,Laboratory
+BED01668,RM0334,Available,HF017,Laboratory
+BED01669,RM0334,Available,HF017,Laboratory
+BED01670,RM0334,Available,HF017,Laboratory
+BED01671,RM0335,Available,HF017,Pharmacy
+BED01672,RM0335,Available,HF017,Pharmacy
+BED01673,RM0335,Available,HF017,Pharmacy
+BED01674,RM0335,Available,HF017,Pharmacy
+BED01675,RM0335,Available,HF017,Pharmacy
+BED01676,RM0336,Available,HF017,Pharmacy
+BED01677,RM0336,Available,HF017,Pharmacy
+BED01678,RM0336,Available,HF017,Pharmacy
+BED01679,RM0336,Available,HF017,Pharmacy
+BED01680,RM0336,Available,HF017,Pharmacy
+BED01681,RM0337,Available,HF017,ICU
+BED01682,RM0337,Available,HF017,ICU
+BED01683,RM0337,Available,HF017,ICU
+BED01684,RM0337,Available,HF017,ICU
+BED01685,RM0337,Available,HF017,ICU
+BED01686,RM0338,Available,HF017,ICU
+BED01687,RM0338,Available,HF017,ICU
+BED01688,RM0338,Available,HF017,ICU
+BED01689,RM0338,Available,HF017,ICU
+BED01690,RM0338,Available,HF017,ICU
+BED01691,RM0339,Available,HF017,Cardiology
+BED01692,RM0339,Available,HF017,Cardiology
+BED01693,RM0339,Available,HF017,Cardiology
+BED01694,RM0339,Available,HF017,Cardiology
+BED01695,RM0339,Available,HF017,Cardiology
+BED01696,RM0340,Available,HF017,Cardiology
+BED01697,RM0340,Available,HF017,Cardiology
+BED01698,RM0340,Available,HF017,Cardiology
+BED01699,RM0340,Available,HF017,Cardiology
+BED01700,RM0340,Available,HF017,Cardiology
+BED01701,RM0341,Available,HF018,Emergency
+BED01702,RM0341,Available,HF018,Emergency
+BED01703,RM0341,Available,HF018,Emergency
+BED01704,RM0341,Available,HF018,Emergency
+BED01705,RM0341,Available,HF018,Emergency
+BED01706,RM0342,Available,HF018,Emergency
+BED01707,RM0342,Available,HF018,Emergency
+BED01708,RM0342,Available,HF018,Emergency
+BED01709,RM0342,Available,HF018,Emergency
+BED01710,RM0342,Available,HF018,Emergency
+BED01711,RM0343,Available,HF018,Internal Medicine
+BED01712,RM0343,Available,HF018,Internal Medicine
+BED01713,RM0343,Available,HF018,Internal Medicine
+BED01714,RM0343,Available,HF018,Internal Medicine
+BED01715,RM0343,Available,HF018,Internal Medicine
+BED01716,RM0344,Available,HF018,Internal Medicine
+BED01717,RM0344,Available,HF018,Internal Medicine
+BED01718,RM0344,Available,HF018,Internal Medicine
+BED01719,RM0344,Available,HF018,Internal Medicine
+BED01720,RM0344,Available,HF018,Internal Medicine
+BED01721,RM0345,Available,HF018,Surgery
+BED01722,RM0345,Available,HF018,Surgery
+BED01723,RM0345,Available,HF018,Surgery
+BED01724,RM0345,Available,HF018,Surgery
+BED01725,RM0345,Available,HF018,Surgery
+BED01726,RM0346,Available,HF018,Surgery
+BED01727,RM0346,Available,HF018,Surgery
+BED01728,RM0346,Available,HF018,Surgery
+BED01729,RM0346,Available,HF018,Surgery
+BED01730,RM0346,Available,HF018,Surgery
+BED01731,RM0347,Available,HF018,Pediatrics
+BED01732,RM0347,Available,HF018,Pediatrics
+BED01733,RM0347,Available,HF018,Pediatrics
+BED01734,RM0347,Available,HF018,Pediatrics
+BED01735,RM0347,Available,HF018,Pediatrics
+BED01736,RM0348,Available,HF018,Pediatrics
+BED01737,RM0348,Available,HF018,Pediatrics
+BED01738,RM0348,Available,HF018,Pediatrics
+BED01739,RM0348,Available,HF018,Pediatrics
+BED01740,RM0348,Available,HF018,Pediatrics
+BED01741,RM0349,Available,HF018,Obstetrics & Gynecology
+BED01742,RM0349,Available,HF018,Obstetrics & Gynecology
+BED01743,RM0349,Available,HF018,Obstetrics & Gynecology
+BED01744,RM0349,Available,HF018,Obstetrics & Gynecology
+BED01745,RM0349,Available,HF018,Obstetrics & Gynecology
+BED01746,RM0350,Available,HF018,Obstetrics & Gynecology
+BED01747,RM0350,Available,HF018,Obstetrics & Gynecology
+BED01748,RM0350,Available,HF018,Obstetrics & Gynecology
+BED01749,RM0350,Available,HF018,Obstetrics & Gynecology
+BED01750,RM0350,Available,HF018,Obstetrics & Gynecology
+BED01751,RM0351,Available,HF018,Radiology
+BED01752,RM0351,Available,HF018,Radiology
+BED01753,RM0351,Available,HF018,Radiology
+BED01754,RM0351,Available,HF018,Radiology
+BED01755,RM0351,Available,HF018,Radiology
+BED01756,RM0352,Available,HF018,Radiology
+BED01757,RM0352,Available,HF018,Radiology
+BED01758,RM0352,Available,HF018,Radiology
+BED01759,RM0352,Available,HF018,Radiology
+BED01760,RM0352,Available,HF018,Radiology
+BED01761,RM0353,Available,HF018,Laboratory
+BED01762,RM0353,Available,HF018,Laboratory
+BED01763,RM0353,Available,HF018,Laboratory
+BED01764,RM0353,Available,HF018,Laboratory
+BED01765,RM0353,Available,HF018,Laboratory
+BED01766,RM0354,Available,HF018,Laboratory
+BED01767,RM0354,Available,HF018,Laboratory
+BED01768,RM0354,Available,HF018,Laboratory
+BED01769,RM0354,Available,HF018,Laboratory
+BED01770,RM0354,Available,HF018,Laboratory
+BED01771,RM0355,Available,HF018,Pharmacy
+BED01772,RM0355,Available,HF018,Pharmacy
+BED01773,RM0355,Available,HF018,Pharmacy
+BED01774,RM0355,Available,HF018,Pharmacy
+BED01775,RM0355,Available,HF018,Pharmacy
+BED01776,RM0356,Available,HF018,Pharmacy
+BED01777,RM0356,Available,HF018,Pharmacy
+BED01778,RM0356,Available,HF018,Pharmacy
+BED01779,RM0356,Available,HF018,Pharmacy
+BED01780,RM0356,Available,HF018,Pharmacy
+BED01781,RM0357,Available,HF018,ICU
+BED01782,RM0357,Available,HF018,ICU
+BED01783,RM0357,Available,HF018,ICU
+BED01784,RM0357,Available,HF018,ICU
+BED01785,RM0357,Available,HF018,ICU
+BED01786,RM0358,Available,HF018,ICU
+BED01787,RM0358,Available,HF018,ICU
+BED01788,RM0358,Available,HF018,ICU
+BED01789,RM0358,Available,HF018,ICU
+BED01790,RM0358,Available,HF018,ICU
+BED01791,RM0359,Available,HF018,Cardiology
+BED01792,RM0359,Available,HF018,Cardiology
+BED01793,RM0359,Available,HF018,Cardiology
+BED01794,RM0359,Available,HF018,Cardiology
+BED01795,RM0359,Available,HF018,Cardiology
+BED01796,RM0360,Available,HF018,Cardiology
+BED01797,RM0360,Available,HF018,Cardiology
+BED01798,RM0360,Available,HF018,Cardiology
+BED01799,RM0360,Available,HF018,Cardiology
+BED01800,RM0360,Available,HF018,Cardiology
+BED01801,RM0361,Available,HF019,Emergency
+BED01802,RM0361,Available,HF019,Emergency
+BED01803,RM0361,Available,HF019,Emergency
+BED01804,RM0361,Available,HF019,Emergency
+BED01805,RM0361,Available,HF019,Emergency
+BED01806,RM0362,Available,HF019,Emergency
+BED01807,RM0362,Available,HF019,Emergency
+BED01808,RM0362,Available,HF019,Emergency
+BED01809,RM0362,Available,HF019,Emergency
+BED01810,RM0362,Available,HF019,Emergency
+BED01811,RM0363,Available,HF019,Internal Medicine
+BED01812,RM0363,Available,HF019,Internal Medicine
+BED01813,RM0363,Available,HF019,Internal Medicine
+BED01814,RM0363,Available,HF019,Internal Medicine
+BED01815,RM0363,Available,HF019,Internal Medicine
+BED01816,RM0364,Available,HF019,Internal Medicine
+BED01817,RM0364,Available,HF019,Internal Medicine
+BED01818,RM0364,Available,HF019,Internal Medicine
+BED01819,RM0364,Available,HF019,Internal Medicine
+BED01820,RM0364,Available,HF019,Internal Medicine
+BED01821,RM0365,Available,HF019,Surgery
+BED01822,RM0365,Available,HF019,Surgery
+BED01823,RM0365,Available,HF019,Surgery
+BED01824,RM0365,Available,HF019,Surgery
+BED01825,RM0365,Available,HF019,Surgery
+BED01826,RM0366,Available,HF019,Surgery
+BED01827,RM0366,Available,HF019,Surgery
+BED01828,RM0366,Available,HF019,Surgery
+BED01829,RM0366,Available,HF019,Surgery
+BED01830,RM0366,Available,HF019,Surgery
+BED01831,RM0367,Available,HF019,Pediatrics
+BED01832,RM0367,Available,HF019,Pediatrics
+BED01833,RM0367,Available,HF019,Pediatrics
+BED01834,RM0367,Available,HF019,Pediatrics
+BED01835,RM0367,Available,HF019,Pediatrics
+BED01836,RM0368,Available,HF019,Pediatrics
+BED01837,RM0368,Available,HF019,Pediatrics
+BED01838,RM0368,Available,HF019,Pediatrics
+BED01839,RM0368,Available,HF019,Pediatrics
+BED01840,RM0368,Available,HF019,Pediatrics
+BED01841,RM0369,Available,HF019,Obstetrics & Gynecology
+BED01842,RM0369,Available,HF019,Obstetrics & Gynecology
+BED01843,RM0369,Available,HF019,Obstetrics & Gynecology
+BED01844,RM0369,Available,HF019,Obstetrics & Gynecology
+BED01845,RM0369,Available,HF019,Obstetrics & Gynecology
+BED01846,RM0370,Available,HF019,Obstetrics & Gynecology
+BED01847,RM0370,Available,HF019,Obstetrics & Gynecology
+BED01848,RM0370,Available,HF019,Obstetrics & Gynecology
+BED01849,RM0370,Available,HF019,Obstetrics & Gynecology
+BED01850,RM0370,Available,HF019,Obstetrics & Gynecology
+BED01851,RM0371,Available,HF019,Radiology
+BED01852,RM0371,Available,HF019,Radiology
+BED01853,RM0371,Available,HF019,Radiology
+BED01854,RM0371,Available,HF019,Radiology
+BED01855,RM0371,Available,HF019,Radiology
+BED01856,RM0372,Available,HF019,Radiology
+BED01857,RM0372,Available,HF019,Radiology
+BED01858,RM0372,Available,HF019,Radiology
+BED01859,RM0372,Available,HF019,Radiology
+BED01860,RM0372,Available,HF019,Radiology
+BED01861,RM0373,Available,HF019,Laboratory
+BED01862,RM0373,Available,HF019,Laboratory
+BED01863,RM0373,Available,HF019,Laboratory
+BED01864,RM0373,Available,HF019,Laboratory
+BED01865,RM0373,Available,HF019,Laboratory
+BED01866,RM0374,Available,HF019,Laboratory
+BED01867,RM0374,Available,HF019,Laboratory
+BED01868,RM0374,Available,HF019,Laboratory
+BED01869,RM0374,Available,HF019,Laboratory
+BED01870,RM0374,Available,HF019,Laboratory
+BED01871,RM0375,Available,HF019,Pharmacy
+BED01872,RM0375,Available,HF019,Pharmacy
+BED01873,RM0375,Available,HF019,Pharmacy
+BED01874,RM0375,Available,HF019,Pharmacy
+BED01875,RM0375,Available,HF019,Pharmacy
+BED01876,RM0376,Available,HF019,Pharmacy
+BED01877,RM0376,Available,HF019,Pharmacy
+BED01878,RM0376,Available,HF019,Pharmacy
+BED01879,RM0376,Available,HF019,Pharmacy
+BED01880,RM0376,Available,HF019,Pharmacy
+BED01881,RM0377,Available,HF019,ICU
+BED01882,RM0377,Available,HF019,ICU
+BED01883,RM0377,Available,HF019,ICU
+BED01884,RM0377,Available,HF019,ICU
+BED01885,RM0377,Available,HF019,ICU
+BED01886,RM0378,Available,HF019,ICU
+BED01887,RM0378,Available,HF019,ICU
+BED01888,RM0378,Available,HF019,ICU
+BED01889,RM0378,Available,HF019,ICU
+BED01890,RM0378,Available,HF019,ICU
+BED01891,RM0379,Available,HF019,Cardiology
+BED01892,RM0379,Available,HF019,Cardiology
+BED01893,RM0379,Available,HF019,Cardiology
+BED01894,RM0379,Available,HF019,Cardiology
+BED01895,RM0379,Available,HF019,Cardiology
+BED01896,RM0380,Available,HF019,Cardiology
+BED01897,RM0380,Available,HF019,Cardiology
+BED01898,RM0380,Available,HF019,Cardiology
+BED01899,RM0380,Available,HF019,Cardiology
+BED01900,RM0380,Available,HF019,Cardiology
+BED01901,RM0381,Available,HF020,Emergency
+BED01902,RM0381,Available,HF020,Emergency
+BED01903,RM0381,Available,HF020,Emergency
+BED01904,RM0381,Available,HF020,Emergency
+BED01905,RM0381,Available,HF020,Emergency
+BED01906,RM0382,Available,HF020,Emergency
+BED01907,RM0382,Available,HF020,Emergency
+BED01908,RM0382,Available,HF020,Emergency
+BED01909,RM0382,Available,HF020,Emergency
+BED01910,RM0382,Available,HF020,Emergency
+BED01911,RM0383,Available,HF020,Internal Medicine
+BED01912,RM0383,Available,HF020,Internal Medicine
+BED01913,RM0383,Available,HF020,Internal Medicine
+BED01914,RM0383,Available,HF020,Internal Medicine
+BED01915,RM0383,Available,HF020,Internal Medicine
+BED01916,RM0384,Available,HF020,Internal Medicine
+BED01917,RM0384,Available,HF020,Internal Medicine
+BED01918,RM0384,Available,HF020,Internal Medicine
+BED01919,RM0384,Available,HF020,Internal Medicine
+BED01920,RM0384,Available,HF020,Internal Medicine
+BED01921,RM0385,Available,HF020,Surgery
+BED01922,RM0385,Available,HF020,Surgery
+BED01923,RM0385,Available,HF020,Surgery
+BED01924,RM0385,Available,HF020,Surgery
+BED01925,RM0385,Available,HF020,Surgery
+BED01926,RM0386,Available,HF020,Surgery
+BED01927,RM0386,Available,HF020,Surgery
+BED01928,RM0386,Available,HF020,Surgery
+BED01929,RM0386,Available,HF020,Surgery
+BED01930,RM0386,Available,HF020,Surgery
+BED01931,RM0387,Available,HF020,Pediatrics
+BED01932,RM0387,Available,HF020,Pediatrics
+BED01933,RM0387,Available,HF020,Pediatrics
+BED01934,RM0387,Available,HF020,Pediatrics
+BED01935,RM0387,Available,HF020,Pediatrics
+BED01936,RM0388,Available,HF020,Pediatrics
+BED01937,RM0388,Available,HF020,Pediatrics
+BED01938,RM0388,Available,HF020,Pediatrics
+BED01939,RM0388,Available,HF020,Pediatrics
+BED01940,RM0388,Available,HF020,Pediatrics
+BED01941,RM0389,Available,HF020,Obstetrics & Gynecology
+BED01942,RM0389,Available,HF020,Obstetrics & Gynecology
+BED01943,RM0389,Available,HF020,Obstetrics & Gynecology
+BED01944,RM0389,Available,HF020,Obstetrics & Gynecology
+BED01945,RM0389,Available,HF020,Obstetrics & Gynecology
+BED01946,RM0390,Available,HF020,Obstetrics & Gynecology
+BED01947,RM0390,Available,HF020,Obstetrics & Gynecology
+BED01948,RM0390,Available,HF020,Obstetrics & Gynecology
+BED01949,RM0390,Available,HF020,Obstetrics & Gynecology
+BED01950,RM0390,Available,HF020,Obstetrics & Gynecology
+BED01951,RM0391,Available,HF020,Radiology
+BED01952,RM0391,Available,HF020,Radiology
+BED01953,RM0391,Available,HF020,Radiology
+BED01954,RM0391,Available,HF020,Radiology
+BED01955,RM0391,Available,HF020,Radiology
+BED01956,RM0392,Available,HF020,Radiology
+BED01957,RM0392,Available,HF020,Radiology
+BED01958,RM0392,Available,HF020,Radiology
+BED01959,RM0392,Available,HF020,Radiology
+BED01960,RM0392,Available,HF020,Radiology
+BED01961,RM0393,Available,HF020,Laboratory
+BED01962,RM0393,Available,HF020,Laboratory
+BED01963,RM0393,Available,HF020,Laboratory
+BED01964,RM0393,Available,HF020,Laboratory
+BED01965,RM0393,Available,HF020,Laboratory
+BED01966,RM0394,Available,HF020,Laboratory
+BED01967,RM0394,Available,HF020,Laboratory
+BED01968,RM0394,Available,HF020,Laboratory
+BED01969,RM0394,Available,HF020,Laboratory
+BED01970,RM0394,Available,HF020,Laboratory
+BED01971,RM0395,Available,HF020,Pharmacy
+BED01972,RM0395,Available,HF020,Pharmacy
+BED01973,RM0395,Available,HF020,Pharmacy
+BED01974,RM0395,Available,HF020,Pharmacy
+BED01975,RM0395,Available,HF020,Pharmacy
+BED01976,RM0396,Available,HF020,Pharmacy
+BED01977,RM0396,Available,HF020,Pharmacy
+BED01978,RM0396,Available,HF020,Pharmacy
+BED01979,RM0396,Available,HF020,Pharmacy
+BED01980,RM0396,Available,HF020,Pharmacy
+BED01981,RM0397,Available,HF020,ICU
+BED01982,RM0397,Available,HF020,ICU
+BED01983,RM0397,Available,HF020,ICU
+BED01984,RM0397,Available,HF020,ICU
+BED01985,RM0397,Available,HF020,ICU
+BED01986,RM0398,Available,HF020,ICU
+BED01987,RM0398,Available,HF020,ICU
+BED01988,RM0398,Available,HF020,ICU
+BED01989,RM0398,Available,HF020,ICU
+BED01990,RM0398,Available,HF020,ICU
+BED01991,RM0399,Available,HF020,Cardiology
+BED01992,RM0399,Available,HF020,Cardiology
+BED01993,RM0399,Available,HF020,Cardiology
+BED01994,RM0399,Available,HF020,Cardiology
+BED01995,RM0399,Available,HF020,Cardiology
+BED01996,RM0400,Available,HF020,Cardiology
+BED01997,RM0400,Available,HF020,Cardiology
+BED01998,RM0400,Available,HF020,Cardiology
+BED01999,RM0400,Available,HF020,Cardiology
+BED02000,RM0400,Available,HF020,Cardiology

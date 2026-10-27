@@ -1,0 +1,201 @@
+﻿DepartmentID,DepartmentName,FacilityID
+DEP001,Emergency,HF001
+DEP002,Internal Medicine,HF001
+DEP003,Surgery,HF001
+DEP004,Pediatrics,HF001
+DEP005,Obstetrics & Gynecology,HF001
+DEP006,Radiology,HF001
+DEP007,Laboratory,HF001
+DEP008,Pharmacy,HF001
+DEP009,ICU,HF001
+DEP010,Cardiology,HF001
+DEP011,Emergency,HF002
+DEP012,Internal Medicine,HF002
+DEP013,Surgery,HF002
+DEP014,Pediatrics,HF002
+DEP015,Obstetrics & Gynecology,HF002
+DEP016,Radiology,HF002
+DEP017,Laboratory,HF002
+DEP018,Pharmacy,HF002
+DEP019,ICU,HF002
+DEP020,Cardiology,HF002
+DEP021,Emergency,HF003
+DEP022,Internal Medicine,HF003
+DEP023,Surgery,HF003
+DEP024,Pediatrics,HF003
+DEP025,Obstetrics & Gynecology,HF003
+DEP026,Radiology,HF003
+DEP027,Laboratory,HF003
+DEP028,Pharmacy,HF003
+DEP029,ICU,HF003
+DEP030,Cardiology,HF003
+DEP031,Emergency,HF004
+DEP032,Internal Medicine,HF004
+DEP033,Surgery,HF004
+DEP034,Pediatrics,HF004
+DEP035,Obstetrics & Gynecology,HF004
+DEP036,Radiology,HF004
+DEP037,Laboratory,HF004
+DEP038,Pharmacy,HF004
+DEP039,ICU,HF004
+DEP040,Cardiology,HF004
+DEP041,Emergency,HF005
+DEP042,Internal Medicine,HF005
+DEP043,Surgery,HF005
+DEP044,Pediatrics,HF005
+DEP045,Obstetrics & Gynecology,HF005
+DEP046,Radiology,HF005
+DEP047,Laboratory,HF005
+DEP048,Pharmacy,HF005
+DEP049,ICU,HF005
+DEP050,Cardiology,HF005
+DEP051,Emergency,HF006
+DEP052,Internal Medicine,HF006
+DEP053,Surgery,HF006
+DEP054,Pediatrics,HF006
+DEP055,Obstetrics & Gynecology,HF006
+DEP056,Radiology,HF006
+DEP057,Laboratory,HF006
+DEP058,Pharmacy,HF006
+DEP059,ICU,HF006
+DEP060,Cardiology,HF006
+DEP061,Emergency,HF007
+DEP062,Internal Medicine,HF007
+DEP063,Surgery,HF007
+DEP064,Pediatrics,HF007
+DEP065,Obstetrics & Gynecology,HF007
+DEP066,Radiology,HF007
+DEP067,Laboratory,HF007
+DEP068,Pharmacy,HF007
+DEP069,ICU,HF007
+DEP070,Cardiology,HF007
+DEP071,Emergency,HF008
+DEP072,Internal Medicine,HF008
+DEP073,Surgery,HF008
+DEP074,Pediatrics,HF008
+DEP075,Obstetrics & Gynecology,HF008
+DEP076,Radiology,HF008
+DEP077,Laboratory,HF008
+DEP078,Pharmacy,HF008
+DEP079,ICU,HF008
+DEP080,Cardiology,HF008
+DEP081,Emergency,HF009
+DEP082,Internal Medicine,HF009
+DEP083,Surgery,HF009
+DEP084,Pediatrics,HF009
+DEP085,Obstetrics & Gynecology,HF009
+DEP086,Radiology,HF009
+DEP087,Laboratory,HF009
+DEP088,Pharmacy,HF009
+DEP089,ICU,HF009
+DEP090,Cardiology,HF009
+DEP091,Emergency,HF010
+DEP092,Internal Medicine,HF010
+DEP093,Surgery,HF010
+DEP094,Pediatrics,HF010
+DEP095,Obstetrics & Gynecology,HF010
+DEP096,Radiology,HF010
+DEP097,Laboratory,HF010
+DEP098,Pharmacy,HF010
+DEP099,ICU,HF010
+DEP100,Cardiology,HF010
+DEP101,Emergency,HF011
+DEP102,Internal Medicine,HF011
+DEP103,Surgery,HF011
+DEP104,Pediatrics,HF011
+DEP105,Obstetrics & Gynecology,HF011
+DEP106,Radiology,HF011
+DEP107,Laboratory,HF011
+DEP108,Pharmacy,HF011
+DEP109,ICU,HF011
+DEP110,Cardiology,HF011
+DEP111,Emergency,HF012
+DEP112,Internal Medicine,HF012
+DEP113,Surgery,HF012
+DEP114,Pediatrics,HF012
+DEP115,Obstetrics & Gynecology,HF012
+DEP116,Radiology,HF012
+DEP117,Laboratory,HF012
+DEP118,Pharmacy,HF012
+DEP119,ICU,HF012
+DEP120,Cardiology,HF012
+DEP121,Emergency,HF013
+DEP122,Internal Medicine,HF013
+DEP123,Surgery,HF013
+DEP124,Pediatrics,HF013
+DEP125,Obstetrics & Gynecology,HF013
+DEP126,Radiology,HF013
+DEP127,Laboratory,HF013
+DEP128,Pharmacy,HF013
+DEP129,ICU,HF013
+DEP130,Cardiology,HF013
+DEP131,Emergency,HF014
+DEP132,Internal Medicine,HF014
+DEP133,Surgery,HF014
+DEP134,Pediatrics,HF014
+DEP135,Obstetrics & Gynecology,HF014
+DEP136,Radiology,HF014
+DEP137,Laboratory,HF014
+DEP138,Pharmacy,HF014
+DEP139,ICU,HF014
+DEP140,Cardiology,HF014
+DEP141,Emergency,HF015
+DEP142,Internal Medicine,HF015
+DEP143,Surgery,HF015
+DEP144,Pediatrics,HF015
+DEP145,Obstetrics & Gynecology,HF015
+DEP146,Radiology,HF015
+DEP147,Laboratory,HF015
+DEP148,Pharmacy,HF015
+DEP149,ICU,HF015
+DEP150,Cardiology,HF015
+DEP151,Emergency,HF016
+DEP152,Internal Medicine,HF016
+DEP153,Surgery,HF016
+DEP154,Pediatrics,HF016
+DEP155,Obstetrics & Gynecology,HF016
+DEP156,Radiology,HF016
+DEP157,Laboratory,HF016
+DEP158,Pharmacy,HF016
+DEP159,ICU,HF016
+DEP160,Cardiology,HF016
+DEP161,Emergency,HF017
+DEP162,Internal Medicine,HF017
+DEP163,Surgery,HF017
+DEP164,Pediatrics,HF017
+DEP165,Obstetrics & Gynecology,HF017
+DEP166,Radiology,HF017
+DEP167,Laboratory,HF017
+DEP168,Pharmacy,HF017
+DEP169,ICU,HF017
+DEP170,Cardiology,HF017
+DEP171,Emergency,HF018
+DEP172,Internal Medicine,HF018
+DEP173,Surgery,HF018
+DEP174,Pediatrics,HF018
+DEP175,Obstetrics & Gynecology,HF018
+DEP176,Radiology,HF018
+DEP177,Laboratory,HF018
+DEP178,Pharmacy,HF018
+DEP179,ICU,HF018
+DEP180,Cardiology,HF018
+DEP181,Emergency,HF019
+DEP182,Internal Medicine,HF019
+DEP183,Surgery,HF019
+DEP184,Pediatrics,HF019
+DEP185,Obstetrics & Gynecology,HF019
+DEP186,Radiology,HF019
+DEP187,Laboratory,HF019
+DEP188,Pharmacy,HF019
+DEP189,ICU,HF019
+DEP190,Cardiology,HF019
+DEP191,Emergency,HF020
+DEP192,Internal Medicine,HF020
+DEP193,Surgery,HF020
+DEP194,Pediatrics,HF020
+DEP195,Obstetrics & Gynecology,HF020
+DEP196,Radiology,HF020
+DEP197,Laboratory,HF020
+DEP198,Pharmacy,HF020
+DEP199,ICU,HF020
+DEP200,Cardiology,HF020

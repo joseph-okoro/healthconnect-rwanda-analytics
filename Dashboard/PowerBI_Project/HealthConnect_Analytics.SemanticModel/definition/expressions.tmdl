@@ -1,0 +1,2 @@
+expression DataFolder = "C:\HealthConnect_Data\PowerBI_Data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 7c1c8f6e-2d0b-4d0e-9b7a-3a9f0a111111

@@ -1,0 +1,41 @@
+﻿StaffID,FirstName,LastName,Role,Department,Specialty,FacilityID,DepartmentID,YearsExperience,Status
+LA0001,Eric,Uwera,Laboratory Scientist,Emergency,Laboratory Scientist,HF001,DEP001,25,Active
+LA0002,Alice,Mukamana,Laboratory Scientist,Internal Medicine,Laboratory Scientist,HF002,DEP002,8,Active
+LA0003,Emmanuel,Uwimana,Laboratory Scientist,Surgery,Laboratory Scientist,HF003,DEP003,2,Active
+LA0004,Jean,Niyonzima,Laboratory Scientist,Pediatrics,Laboratory Scientist,HF004,DEP004,2,Active
+LA0005,Diane,Mugisha,Laboratory Scientist,Obstetrics & Gynecology,Laboratory Scientist,HF005,DEP005,13,Active
+LA0006,Eric,Habimana,Laboratory Scientist,Radiology,Laboratory Scientist,HF006,DEP006,2,Active
+LA0007,Emmanuel,Nsengimana,Laboratory Scientist,Laboratory,Laboratory Scientist,HF007,DEP007,8,Active
+LA0008,Aline,Niyonzima,Laboratory Scientist,Pharmacy,Laboratory Scientist,HF008,DEP008,14,Active
+LA0009,Aline,Uwera,Laboratory Scientist,ICU,Laboratory Scientist,HF009,DEP009,3,Active
+LA0010,Claudine,Mugisha,Laboratory Scientist,Cardiology,Laboratory Scientist,HF010,DEP010,4,Active
+LA0011,Emmanuel,Uwimana,Laboratory Scientist,Emergency,Laboratory Scientist,HF011,DEP011,6,Active
+LA0012,Grace,Uwimana,Laboratory Scientist,Internal Medicine,Laboratory Scientist,HF012,DEP012,13,Active
+LA0013,Alice,Hakizimana,Laboratory Scientist,Surgery,Laboratory Scientist,HF013,DEP013,10,Active
+LA0014,Samuel,Mugisha,Laboratory Scientist,Pediatrics,Laboratory Scientist,HF014,DEP014,3,Active
+LA0015,Emmanuel,Hakizimana,Laboratory Scientist,Obstetrics & Gynecology,Laboratory Scientist,HF015,DEP015,1,Active
+LA0016,Aline,Niyonzima,Laboratory Scientist,Radiology,Laboratory Scientist,HF016,DEP016,10,Active
+LA0017,Claudine,Uwera,Laboratory Scientist,Laboratory,Laboratory Scientist,HF017,DEP017,24,Active
+LA0018,Claudine,Niyonzima,Laboratory Scientist,Pharmacy,Laboratory Scientist,HF018,DEP018,15,Active
+LA0019,Aline,Hakizimana,Laboratory Scientist,ICU,Laboratory Scientist,HF019,DEP019,25,Active
+LA0020,Grace,Niyonzima,Laboratory Scientist,Cardiology,Laboratory Scientist,HF020,DEP020,5,Active
+LA0021,Jean,Nsengimana,Laboratory Scientist,Emergency,Laboratory Scientist,HF001,DEP021,1,Active
+LA0022,Grace,Mugisha,Laboratory Scientist,Internal Medicine,Laboratory Scientist,HF002,DEP022,21,Active
+LA0023,Jean,Mugisha,Laboratory Scientist,Surgery,Laboratory Scientist,HF003,DEP023,1,Active
+LA0024,Patrick,Uwera,Laboratory Scientist,Pediatrics,Laboratory Scientist,HF004,DEP024,4,Active
+LA0025,Grace,Niyonzima,Laboratory Scientist,Obstetrics & Gynecology,Laboratory Scientist,HF005,DEP025,14,Active
+LA0026,Diane,Uwimana,Laboratory Scientist,Radiology,Laboratory Scientist,HF006,DEP026,5,Active
+LA0027,Samuel,Mukamana,Laboratory Scientist,Laboratory,Laboratory Scientist,HF007,DEP027,2,Active
+LA0028,Grace,Nsengimana,Laboratory Scientist,Pharmacy,Laboratory Scientist,HF008,DEP028,23,Active
+LA0029,Aline,Hakizimana,Laboratory Scientist,ICU,Laboratory Scientist,HF009,DEP029,24,Active
+LA0030,Alice,Mukamana,Laboratory Scientist,Cardiology,Laboratory Scientist,HF010,DEP030,17,Active
+LA0031,Eric,Nsengimana,Laboratory Scientist,Emergency,Laboratory Scientist,HF011,DEP031,3,Active
+LA0032,Claudine,Uwimana,Laboratory Scientist,Internal Medicine,Laboratory Scientist,HF012,DEP032,14,Active
+LA0033,Eric,Niyonzima,Laboratory Scientist,Surgery,Laboratory Scientist,HF013,DEP033,10,Active
+LA0034,Samuel,Mugisha,Laboratory Scientist,Pediatrics,Laboratory Scientist,HF014,DEP034,13,Active
+LA0035,Aline,Mugisha,Laboratory Scientist,Obstetrics & Gynecology,Laboratory Scientist,HF015,DEP035,15,Active
+LA0036,Samuel,Niyonzima,Laboratory Scientist,Radiology,Laboratory Scientist,HF016,DEP036,3,Active
+LA0037,Grace,Habimana,Laboratory Scientist,Laboratory,Laboratory Scientist,HF017,DEP037,25,Active
+LA0038,Claudine,Mukamana,Laboratory Scientist,Pharmacy,Laboratory Scientist,HF018,DEP038,5,Active
+LA0039,Alice,Habimana,Laboratory Scientist,ICU,Laboratory Scientist,HF019,DEP039,15,Active
+LA0040,Diane,Mugisha,Laboratory Scientist,Cardiology,Laboratory Scientist,HF020,DEP040,14,Active

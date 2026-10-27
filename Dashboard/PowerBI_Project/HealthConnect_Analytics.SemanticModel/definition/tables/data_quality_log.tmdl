@@ -1,0 +1,48 @@
+table data_quality_log
+
+	column check_no
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: check_no
+
+	column category
+		dataType: string
+		summarizeBy: none
+		sourceColumn: category
+
+	column check_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: check_name
+
+	column records_checked
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: records_checked
+
+	column issues_found
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: issues_found
+
+	column result
+		dataType: string
+		summarizeBy: none
+		sourceColumn: result
+
+	column action_taken
+		dataType: string
+		summarizeBy: none
+		sourceColumn: action_taken
+
+	partition data_quality_log = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "data_quality_log.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"check_no", Int64.Type}, {"category", type text}, {"check_name", type text}, {"records_checked", Int64.Type}, {"issues_found", Int64.Type}, {"result", type text}, {"action_taken", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

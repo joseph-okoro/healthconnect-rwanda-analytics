@@ -1,0 +1,25 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+
+ref table dim_date
+ref table dim_facility
+ref table dim_department
+ref table dim_patient
+ref table dim_province
+ref table fact_appointments
+ref table fact_billing
+ref table fact_diagnoses
+ref table fact_feedback
+ref table fact_lab_tests
+ref table fact_prescriptions
+ref table fact_admissions
+ref table fact_referrals
+ref table fact_staff
+ref table fact_beds
+ref table fact_equipment
+ref table fact_revenue_summary
+ref table data_quality_log
+ref table _Measures
+
+ref expression DataFolder

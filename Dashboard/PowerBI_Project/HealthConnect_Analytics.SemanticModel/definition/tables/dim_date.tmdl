@@ -1,0 +1,88 @@
+table dim_date
+	dataCategory: Time
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		isKey
+		summarizeBy: none
+		sourceColumn: date
+
+	column year
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: year
+
+	column quarter_no
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: quarter_no
+
+	column quarter
+		dataType: string
+		summarizeBy: none
+		sourceColumn: quarter
+
+	column month_no
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: month_no
+
+	column month_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: month_name
+		sortByColumn: month_no
+
+	column year_month
+		dataType: string
+		summarizeBy: none
+		sourceColumn: year_month
+		sortByColumn: month_start
+
+	column month_start
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column weekday_no
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: weekday_no
+
+	column weekday_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: weekday_name
+		sortByColumn: weekday_no
+
+	column period_flag
+		dataType: string
+		summarizeBy: none
+		sourceColumn: period_flag
+
+	hierarchy 'Date Hierarchy'
+		level year
+			column: year
+
+		level quarter
+			column: quarter
+
+		level month_name
+			column: month_name
+
+		level date
+			column: date
+
+	partition dim_date = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"date", type date}, {"year", Int64.Type}, {"quarter_no", Int64.Type}, {"quarter", type text}, {"month_no", Int64.Type}, {"month_name", type text}, {"year_month", type text}, {"month_start", type date}, {"weekday_no", Int64.Type}, {"weekday_name", type text}, {"period_flag", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

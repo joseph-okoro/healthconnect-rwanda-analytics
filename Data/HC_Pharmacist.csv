@@ -1,0 +1,51 @@
+﻿StaffID,FirstName,LastName,Role,Department,Specialty,FacilityID,DepartmentID,YearsExperience,Status
+PH0001,Alice,Mukamana,Pharmacist,Emergency,Pharmacist,HF001,DEP001,11,Active
+PH0002,Aline,Uwera,Pharmacist,Internal Medicine,Pharmacist,HF002,DEP002,5,Active
+PH0003,Patrick,Habimana,Pharmacist,Surgery,Pharmacist,HF003,DEP003,21,Active
+PH0004,Eric,Mukamana,Pharmacist,Pediatrics,Pharmacist,HF004,DEP004,17,Active
+PH0005,Claudine,Uwimana,Pharmacist,Obstetrics & Gynecology,Pharmacist,HF005,DEP005,20,Active
+PH0006,Eric,Hakizimana,Pharmacist,Radiology,Pharmacist,HF006,DEP006,12,Active
+PH0007,Grace,Habimana,Pharmacist,Laboratory,Pharmacist,HF007,DEP007,14,Active
+PH0008,Claudine,Hakizimana,Pharmacist,Pharmacy,Pharmacist,HF008,DEP008,7,Active
+PH0009,Alice,Mukamana,Pharmacist,ICU,Pharmacist,HF009,DEP009,5,Active
+PH0010,Alice,Nsengimana,Pharmacist,Cardiology,Pharmacist,HF010,DEP010,12,Active
+PH0011,Patrick,Mugisha,Pharmacist,Emergency,Pharmacist,HF011,DEP011,5,Active
+PH0012,Grace,Uwera,Pharmacist,Internal Medicine,Pharmacist,HF012,DEP012,21,Active
+PH0013,Alice,Niyonzima,Pharmacist,Surgery,Pharmacist,HF013,DEP013,18,Active
+PH0014,Claudine,Uwera,Pharmacist,Pediatrics,Pharmacist,HF014,DEP014,25,Active
+PH0015,Jean,Uwera,Pharmacist,Obstetrics & Gynecology,Pharmacist,HF015,DEP015,7,Active
+PH0016,Emmanuel,Niyonzima,Pharmacist,Radiology,Pharmacist,HF016,DEP016,24,Active
+PH0017,Patrick,Uwera,Pharmacist,Laboratory,Pharmacist,HF017,DEP017,21,Active
+PH0018,Jean,Niyonzima,Pharmacist,Pharmacy,Pharmacist,HF018,DEP018,16,Active
+PH0019,Patrick,Mukamana,Pharmacist,ICU,Pharmacist,HF019,DEP019,8,Active
+PH0020,Diane,Mukamana,Pharmacist,Cardiology,Pharmacist,HF020,DEP020,17,Active
+PH0021,Jean,Mugisha,Pharmacist,Emergency,Pharmacist,HF001,DEP021,11,Active
+PH0022,Eric,Nsengimana,Pharmacist,Internal Medicine,Pharmacist,HF002,DEP022,19,Active
+PH0023,Patrick,Mugisha,Pharmacist,Surgery,Pharmacist,HF003,DEP023,18,Active
+PH0024,Eric,Hakizimana,Pharmacist,Pediatrics,Pharmacist,HF004,DEP024,25,Active
+PH0025,Alice,Uwimana,Pharmacist,Obstetrics & Gynecology,Pharmacist,HF005,DEP025,19,Active
+PH0026,Alice,Uwimana,Pharmacist,Radiology,Pharmacist,HF006,DEP026,9,Active
+PH0027,Grace,Uwimana,Pharmacist,Laboratory,Pharmacist,HF007,DEP027,2,Active
+PH0028,Patrick,Uwera,Pharmacist,Pharmacy,Pharmacist,HF008,DEP028,21,Active
+PH0029,Emmanuel,Nsengimana,Pharmacist,ICU,Pharmacist,HF009,DEP029,14,Active
+PH0030,Patrick,Mukamana,Pharmacist,Cardiology,Pharmacist,HF010,DEP030,21,Active
+PH0031,Emmanuel,Habimana,Pharmacist,Emergency,Pharmacist,HF011,DEP031,9,Active
+PH0032,Alice,Uwera,Pharmacist,Internal Medicine,Pharmacist,HF012,DEP032,3,Active
+PH0033,Emmanuel,Niyonzima,Pharmacist,Surgery,Pharmacist,HF013,DEP033,5,Active
+PH0034,Emmanuel,Mugisha,Pharmacist,Pediatrics,Pharmacist,HF014,DEP034,13,Active
+PH0035,Claudine,Mukamana,Pharmacist,Obstetrics & Gynecology,Pharmacist,HF015,DEP035,10,Active
+PH0036,Patrick,Niyonzima,Pharmacist,Radiology,Pharmacist,HF016,DEP036,2,Active
+PH0037,Grace,Mukamana,Pharmacist,Laboratory,Pharmacist,HF017,DEP037,14,Active
+PH0038,Alice,Hakizimana,Pharmacist,Pharmacy,Pharmacist,HF018,DEP038,20,Active
+PH0039,Claudine,Uwimana,Pharmacist,ICU,Pharmacist,HF019,DEP039,10,Active
+PH0040,Eric,Mukamana,Pharmacist,Cardiology,Pharmacist,HF020,DEP040,1,Active
+PH0041,Eric,Uwimana,Pharmacist,Emergency,Pharmacist,HF001,DEP041,6,Active
+PH0042,Diane,Mugisha,Pharmacist,Internal Medicine,Pharmacist,HF002,DEP042,17,Active
+PH0043,Emmanuel,Uwera,Pharmacist,Surgery,Pharmacist,HF003,DEP043,6,Active
+PH0044,Aline,Habimana,Pharmacist,Pediatrics,Pharmacist,HF004,DEP044,24,Active
+PH0045,Samuel,Mukamana,Pharmacist,Obstetrics & Gynecology,Pharmacist,HF005,DEP045,25,Active
+PH0046,Jean,Mugisha,Pharmacist,Radiology,Pharmacist,HF006,DEP046,14,Active
+PH0047,Samuel,Mukamana,Pharmacist,Laboratory,Pharmacist,HF007,DEP047,9,Active
+PH0048,Claudine,Mukamana,Pharmacist,Pharmacy,Pharmacist,HF008,DEP048,16,Active
+PH0049,Diane,Mugisha,Pharmacist,ICU,Pharmacist,HF009,DEP049,2,Active
+PH0050,Diane,Habimana,Pharmacist,Cardiology,Pharmacist,HF010,DEP050,12,Active

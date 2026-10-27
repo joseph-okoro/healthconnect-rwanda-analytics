@@ -1,0 +1,38 @@
+table fact_beds
+
+	column bed_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: bed_id
+
+	column room_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: room_id
+
+	column bed_status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: bed_status
+
+	column facility_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: facility_id
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	partition fact_beds = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_beds.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"bed_id", type text}, {"room_id", type text}, {"bed_status", type text}, {"facility_id", type text}, {"department_name", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

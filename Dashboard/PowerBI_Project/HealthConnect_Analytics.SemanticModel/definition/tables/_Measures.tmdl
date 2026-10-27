@@ -1,0 +1,371 @@
+table _Measures
+
+	column Dummy
+		dataType: int64
+		isHidden
+		summarizeBy: none
+		sourceColumn: Dummy
+
+	measure 'Total Patients' = COUNTROWS(dim_patient)
+		formatString: #,0
+
+	measure 'Active Patients' = CALCULATE(COUNTROWS(dim_patient), dim_patient[status] = "Active")
+		formatString: #,0
+
+	measure 'Patients Seen' = DISTINCTCOUNT(fact_appointments[patient_id])
+		formatString: #,0
+
+	measure 'New Patients' = ```
+			VAR _start = MIN(dim_date[date])
+			VAR _end   = MAX(dim_date[date])
+			RETURN
+			COUNTROWS(
+			    FILTER(
+			        VALUES(fact_appointments[patient_id]),
+			        VAR _first = CALCULATE(MIN(fact_appointments[date]), ALL(dim_date))
+			        RETURN _first >= _start && _first <= _end
+			    )
+			)
+			```
+		formatString: #,0
+
+	measure 'Returning Patients' = [Patients Seen] - [New Patients]
+		formatString: #,0
+
+	measure 'Repeat Patients (2+ visits)' = ```
+			COUNTROWS(
+			    FILTER(
+			        VALUES(fact_appointments[patient_id]),
+			        CALCULATE(COUNTROWS(fact_appointments), ALL(dim_date)) > 1
+			    )
+			)
+			```
+		formatString: #,0
+
+	measure 'Male Patients' = CALCULATE([Total Patients], dim_patient[gender] = "Male")
+		formatString: #,0
+
+	measure 'Female Patients' = CALCULATE([Total Patients], dim_patient[gender] = "Female")
+		formatString: #,0
+
+	measure 'Female Share' = DIVIDE([Female Patients], [Total Patients])
+		formatString: 0.0%
+
+	measure 'Male Patients (pyramid)' = -[Male Patients]
+		formatString: #,0
+
+	measure 'Average Patient Age' = AVERAGE(dim_patient[age])
+		formatString: #,0.00
+
+	measure 'Patients Over 65' = CALCULATE([Total Patients], dim_patient[age] > 65)
+		formatString: #,0
+
+	measure 'Insurance Coverage Rate' = ```
+			DIVIDE(
+			    CALCULATE(COUNTROWS(dim_patient), NOT(ISBLANK(dim_patient[insurance_id])), dim_patient[insurance_id] <> ""),
+			    COUNTROWS(dim_patient)
+			)
+			```
+		formatString: 0.0%
+
+	measure 'Chronic Patients' = CALCULATE(COUNTROWS(dim_patient), dim_patient[has_chronic_condition] = "Yes")
+		formatString: #,0
+
+	measure 'Chronic Rate' = DIVIDE([Chronic Patients], [Total Patients])
+		formatString: 0.0%
+
+	measure 'Total Appointments' = COUNTROWS(fact_appointments)
+		formatString: #,0
+
+	measure 'Active Days' = DISTINCTCOUNT(fact_appointments[date])
+		formatString: #,0
+
+	measure 'Avg Daily Appointments' = DIVIDE([Total Appointments], [Active Days])
+		formatString: #,0.00
+
+	measure 'Appointments Last Month' = CALCULATE([Total Appointments], DATEADD(dim_date[date], -1, MONTH))
+		formatString: #,0
+
+	measure 'Appointment Growth %' = DIVIDE([Total Appointments] - [Appointments Last Month], [Appointments Last Month])
+		formatString: 0.0%
+
+	measure 'Appointments YTD' = TOTALYTD([Total Appointments], dim_date[date])
+		formatString: #,0
+
+	measure 'Appointments Running Total' = CALCULATE([Total Appointments], FILTER(ALL(dim_date[date]), dim_date[date] <= MAX(dim_date[date])))
+		formatString: #,0
+
+	measure 'Emergency Appointments' = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Emergency")
+		formatString: #,0
+
+	measure 'Follow-up Appointments' = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Follow-up")
+		formatString: #,0
+
+	measure 'Consultation Appointments' = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Consultation")
+		formatString: #,0
+
+	measure 'Emergency Share' = DIVIDE([Emergency Appointments], [Total Appointments])
+		formatString: 0.0%
+
+	measure 'Referred Appointments' = CALCULATE([Total Appointments], fact_appointments[was_referred] = "Yes")
+		formatString: #,0
+
+	measure 'Referral Rate' = DIVIDE([Referred Appointments], [Total Appointments])
+		formatString: 0.0%
+
+	measure 'Total Doctors' = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Doctor")
+		formatString: #,0
+
+	measure 'Avg Appointments per Doctor' = DIVIDE([Total Appointments], [Total Doctors])
+		formatString: #,0.00
+
+	measure 'Total Diagnoses' = COUNTROWS(fact_diagnoses)
+		formatString: #,0
+
+	measure 'Severe Cases' = CALCULATE([Total Diagnoses], fact_diagnoses[severity] = "Severe")
+		formatString: #,0
+
+	measure 'Severe Rate' = DIVIDE([Severe Cases], [Total Diagnoses])
+		formatString: 0.0%
+
+	measure 'Lab Tests' = COUNTROWS(fact_lab_tests)
+		formatString: #,0
+
+	measure 'Abnormal Lab Results' = CALCULATE([Lab Tests], fact_lab_tests[result] = "Abnormal")
+		formatString: #,0
+
+	measure 'Abnormal Lab Rate' = DIVIDE([Abnormal Lab Results], [Lab Tests])
+		formatString: 0.0%
+
+	measure Prescriptions = COUNTROWS(fact_prescriptions)
+		formatString: #,0
+
+	measure Admissions = COUNTROWS(fact_admissions)
+		formatString: #,0
+
+	measure 'Admitted Appointments' = CALCULATE([Total Appointments], fact_appointments[was_admitted] = "Yes")
+		formatString: #,0
+
+	measure 'Admission Rate' = DIVIDE([Admitted Appointments], [Total Appointments])
+		formatString: 0.0%
+
+	measure 'Avg Length of Stay' = AVERAGE(fact_admissions[length_of_stay_days])
+		formatString: #,0.00
+
+	measure Referrals = COUNTROWS(fact_referrals)
+		formatString: #,0
+
+	measure 'Admitted Patients' = ```
+			COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+			    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 0))
+			```
+		formatString: #,0
+
+	measure 'Readmitted Patients' = ```
+			COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+			    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 1))
+			```
+		formatString: #,0
+
+	measure 'Readmission Indicator' = DIVIDE([Readmitted Patients], [Admitted Patients])
+		formatString: 0.0%
+
+	measure 'Total Staff' = COUNTROWS(fact_staff)
+		formatString: #,0
+
+	measure 'Total Nurses' = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Nurse")
+		formatString: #,0
+
+	measure 'Total Pharmacists' = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Pharmacist")
+		formatString: #,0
+
+	measure 'Total Lab Scientists' = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Laboratory Scientist")
+		formatString: #,0
+
+	measure 'Total Radiographers' = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Radiographer")
+		formatString: #,0
+
+	measure 'Avg Years of Experience' = AVERAGE(fact_staff[years_experience])
+		formatString: #,0.00
+
+	measure 'Patients per Staff Member' = DIVIDE([Total Patients], [Total Staff])
+		formatString: #,0.00
+
+	measure 'Patients per Doctor' = DIVIDE([Total Patients], [Total Doctors])
+		formatString: #,0.00
+
+	measure 'Patients Seen per Doctor' = DIVIDE([Patients Seen], [Total Doctors])
+		formatString: #,0
+
+	measure 'Total Facilities' = DISTINCTCOUNT(dim_facility[facility_id])
+		formatString: #,0
+
+	measure 'Total Beds' = COUNTROWS(fact_beds)
+		formatString: #,0
+
+	measure 'Available Beds' = CALCULATE(COUNTROWS(fact_beds), fact_beds[bed_status] = "Available")
+		formatString: #,0
+
+	measure 'Total Rooms' = SUM(dim_facility[rooms])
+		formatString: #,0
+
+	measure 'Equipment Items' = COUNTROWS(fact_equipment)
+		formatString: #,0
+
+	measure 'Bed Days Used' = SUM(fact_admissions[length_of_stay_days])
+		formatString: #,0
+
+	measure 'Bed Utilization Rate' = DIVIDE([Bed Days Used], [Total Beds] * 365)
+		formatString: 0.0%
+
+	measure 'Appointments per Bed' = DIVIDE([Total Appointments], [Total Beds])
+		formatString: #,0.00
+
+	measure 'Total Revenue' = SUM(fact_billing[billed_amount])
+		formatString: #,0
+
+	measure 'Collected Amount' = SUM(fact_billing[paid_amount])
+		formatString: #,0
+
+	measure 'Outstanding Bills' = SUM(fact_billing[outstanding_amount])
+		formatString: #,0
+
+	measure 'Outstanding Share' = DIVIDE([Outstanding Bills], [Total Revenue])
+		formatString: 0.0%
+
+	measure 'Collection Rate' = DIVIDE([Collected Amount], [Total Revenue])
+		formatString: 0.0%
+
+	measure 'Average Billing Amount' = AVERAGE(fact_billing[billed_amount])
+		formatString: #,0
+
+	measure 'Total Bills' = COUNTROWS(fact_billing)
+		formatString: #,0
+
+	measure 'Bills Not Fully Paid' = CALCULATE(COUNTROWS(fact_billing), fact_billing[outstanding_amount] > 0)
+		formatString: #,0
+
+	measure Claims = CALCULATE(COUNTROWS(fact_billing), NOT(ISBLANK(fact_billing[claim_status])))
+		formatString: #,0
+
+	measure 'Approved Claims' = CALCULATE(COUNTROWS(fact_billing), fact_billing[claim_status] = "Approved")
+		formatString: #,0
+
+	measure 'Claim Approval Rate' = DIVIDE([Approved Claims], [Claims])
+		formatString: 0.0%
+
+	measure 'Claimed Amount' = SUM(fact_billing[claim_amount])
+		formatString: #,0
+
+	measure 'Payments Made' = COUNTROWS(fact_billing)
+		formatString: #,0
+
+	measure 'Monthly Revenue (Summary)' = SUM(fact_revenue_summary[revenue])
+		formatString: #,0
+
+	measure 'Revenue Last Month (Summary)' = CALCULATE([Monthly Revenue (Summary)], DATEADD(dim_date[date], -1, MONTH))
+		formatString: #,0
+
+	measure 'Revenue Growth %' = DIVIDE([Monthly Revenue (Summary)] - [Revenue Last Month (Summary)], [Revenue Last Month (Summary)])
+		formatString: 0.0%
+
+	measure 'Revenue YTD (Summary)' = TOTALYTD([Monthly Revenue (Summary)], dim_date[date])
+		formatString: #,0
+
+	measure 'Revenue (Linked)' = CALCULATE([Total Revenue], fact_billing[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Collected (Linked)' = CALCULATE([Collected Amount], fact_billing[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Collection Rate (Linked)' = DIVIDE([Collected (Linked)], [Revenue (Linked)])
+		formatString: 0.0%
+
+	measure 'Outstanding (Linked)' = CALCULATE([Outstanding Bills], fact_billing[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Revenue Linked Share' = DIVIDE([Revenue (Linked)], [Total Revenue])
+		formatString: 0.0%
+
+	measure 'Feedback Count' = COUNTROWS(fact_feedback)
+		formatString: #,0
+
+	measure 'Avg Satisfaction' = AVERAGE(fact_feedback[rating])
+		formatString: #,0.00
+
+	measure 'Avg Rating (Linked)' = CALCULATE(AVERAGE(fact_feedback[rating]), fact_feedback[link_status] = "Linked")
+		formatString: #,0.00
+
+	measure 'Poor Ratings (1-2)' = CALCULATE([Feedback Count], fact_feedback[rating] <= 2)
+		formatString: #,0
+
+	measure 'Excellent Ratings (4-5)' = CALCULATE([Feedback Count], fact_feedback[rating] >= 4)
+		formatString: #,0
+
+	measure 'Poor Rating Rate' = DIVIDE([Poor Ratings (1-2)], [Feedback Count])
+		formatString: 0.0%
+
+	measure 'Excellent Rating Rate' = DIVIDE([Excellent Ratings (4-5)], [Feedback Count])
+		formatString: 0.0%
+
+	measure 'Feedback Linked' = CALCULATE([Feedback Count], fact_feedback[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Poor Ratings (Linked)' = CALCULATE([Poor Ratings (1-2)], fact_feedback[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Excellent Ratings (Linked)' = CALCULATE([Excellent Ratings (4-5)], fact_feedback[link_status] = "Linked")
+		formatString: #,0
+
+	measure 'Rank - Volume' = RANKX(ALL(dim_facility[facility_id]), [Total Appointments], , DESC, DENSE)
+		formatString: 0
+
+	measure 'Rank - Collection' = RANKX(ALL(dim_facility[facility_id]), [Collection Rate (Linked)], , DESC, DENSE)
+		formatString: 0
+
+	measure 'Rank - Satisfaction' = RANKX(ALL(dim_facility[facility_id]), [Avg Rating (Linked)], , DESC, DENSE)
+		formatString: 0
+
+	measure 'Hospital Score' = DIVIDE([Rank - Volume] + [Rank - Collection] + [Rank - Satisfaction], 3)
+		formatString: #,0.00
+
+	measure 'Hospital Overall Rank' = RANKX(ALL(dim_facility[facility_id]), [Hospital Score], , ASC, DENSE)
+		formatString: 0
+
+	measure 'Selected Month' = SELECTEDVALUE(dim_date[year_month], "All months")
+
+	measure 'Selected Hospital' = SELECTEDVALUE(dim_facility[facility_id], "All hospitals")
+
+	measure 'Selected Province' = SELECTEDVALUE(dim_province[province_name], "All provinces")
+
+	measure 'Title - Executive' = "HealthConnect Rwanda | " & [Selected Hospital] & " | " & [Selected Province] & " | " & [Selected Month]
+
+	measure 'Title - Revenue' = "Revenue by hospital (RWF) - " & [Selected Province] & " - " & [Selected Month]
+
+	measure 'Title - Satisfaction' = "Average rating " & FORMAT([Avg Satisfaction], "0.00") & " out of 5 - " & [Selected Hospital]
+
+	measure 'Rating Colour' = ```
+			SWITCH(TRUE(),
+			    ISBLANK([Avg Rating (Linked)]), "#BDBDBD",
+			    [Avg Rating (Linked)] >= 3.0, "#2E7D32",
+			    [Avg Rating (Linked)] >= 2.85, "#F9A825",
+			    "#C62828")
+			```
+
+	measure 'Collection Colour' = ```
+			SWITCH(TRUE(),
+			    ISBLANK([Collection Rate (Linked)]), "#BDBDBD",
+			    [Collection Rate (Linked)] >= 0.91, "#2E7D32",
+			    [Collection Rate (Linked)] >= 0.89, "#F9A825",
+			    "#C62828")
+			```
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Dummy=Int64.Type], {{1}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

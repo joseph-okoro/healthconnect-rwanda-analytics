@@ -1,0 +1,73 @@
+table dim_facility
+
+	column facility_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: facility_id
+
+	column doctors
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: doctors
+
+	column nurses
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: nurses
+
+	column pharmacists
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: pharmacists
+
+	column lab_scientists
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: lab_scientists
+
+	column radiographers
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: radiographers
+
+	column admin_staff
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: admin_staff
+
+	column total_staff
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: total_staff
+
+	column departments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: departments
+
+	column rooms
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: rooms
+
+	column beds
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: beds
+
+	column equipment_items
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: equipment_items
+
+	partition dim_facility = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_facility.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"facility_id", type text}, {"doctors", Int64.Type}, {"nurses", Int64.Type}, {"pharmacists", Int64.Type}, {"lab_scientists", Int64.Type}, {"radiographers", Int64.Type}, {"admin_staff", Int64.Type}, {"total_staff", Int64.Type}, {"departments", Int64.Type}, {"rooms", Int64.Type}, {"beds", Int64.Type}, {"equipment_items", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

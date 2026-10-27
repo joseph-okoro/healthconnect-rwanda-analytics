@@ -1,0 +1,164 @@
+relationship 5070bca8-dc39-56ea-a862-7103dd093e44
+	fromColumn: fact_appointments.date
+	toColumn: dim_date.date
+
+relationship 96bb8c0d-6ec2-574e-802d-d187a4be46ae
+	fromColumn: fact_billing.date
+	toColumn: dim_date.date
+
+relationship 49158b84-87c6-589c-aae9-c9bd7153e7a2
+	fromColumn: fact_diagnoses.date
+	toColumn: dim_date.date
+
+relationship 07fa991f-38ad-5f2a-a3a8-944b5c8a14f7
+	fromColumn: fact_feedback.date
+	toColumn: dim_date.date
+
+relationship b4381724-233c-5852-a39a-72242b927219
+	fromColumn: fact_lab_tests.date
+	toColumn: dim_date.date
+
+relationship 9fb5cd4a-19ff-53d7-adaf-9bd01399185f
+	fromColumn: fact_prescriptions.date
+	toColumn: dim_date.date
+
+relationship 358b9396-fc47-5142-836f-4dcdf9eac006
+	fromColumn: fact_admissions.date
+	toColumn: dim_date.date
+
+relationship 1ce259a8-1bca-52c1-9471-6490c7a1e8e5
+	fromColumn: fact_referrals.date
+	toColumn: dim_date.date
+
+relationship 0a8f1df0-42b6-5039-a6e5-97aebfc5f984
+	fromColumn: fact_revenue_summary.month_start
+	toColumn: dim_date.date
+
+relationship 72d4b521-648a-514a-8190-dc9cd53b790d
+	fromColumn: fact_appointments.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship 80264608-aabb-5295-8c72-c8701902aacf
+	fromColumn: fact_billing.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship dbf344f9-07f5-5ae4-9d9f-c089a003edf2
+	fromColumn: fact_diagnoses.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship 1b7a0c86-2f60-57fe-8161-4e9d6944b24f
+	fromColumn: fact_feedback.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship da52a7de-399c-5e54-974d-9905765e00d5
+	fromColumn: fact_lab_tests.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship b15bb8ae-5866-585d-8fd3-6f09b51d071d
+	fromColumn: fact_prescriptions.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship e901e9be-2304-59ec-8988-36bd71ec9166
+	fromColumn: fact_admissions.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship ab612a56-6159-511d-ae12-a44f6f6e33b2
+	fromColumn: fact_staff.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship e3f5346f-66e5-59f5-b833-de47a3f05ba5
+	fromColumn: fact_beds.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship f3aec167-5db8-5555-adf4-d7c50a9dad86
+	fromColumn: fact_equipment.facility_id
+	toColumn: dim_facility.facility_id
+
+relationship 9efe528f-0814-504b-9e82-58a45fd51f5d
+	fromColumn: fact_referrals.from_facility_id
+	toColumn: dim_facility.facility_id
+
+relationship 947feeb9-c74d-5162-8736-b73a6162909a
+	isActive: false
+	fromColumn: fact_referrals.referred_facility_id
+	toColumn: dim_facility.facility_id
+
+relationship 15f2e939-1581-5327-90ed-2b62d7b5a832
+	fromColumn: fact_appointments.department_name
+	toColumn: dim_department.department_name
+
+relationship d9a4aea2-67f5-571f-9753-14e64e0aa03d
+	fromColumn: fact_billing.department_name
+	toColumn: dim_department.department_name
+
+relationship 8041712f-657a-5bd4-a1f7-7748dc7b15d0
+	fromColumn: fact_diagnoses.department_name
+	toColumn: dim_department.department_name
+
+relationship 92d3ebd0-0149-566a-99c2-44eb07203e78
+	fromColumn: fact_feedback.department_name
+	toColumn: dim_department.department_name
+
+relationship 0b8b1df9-07d9-5135-ba31-9bcd8ea63a18
+	fromColumn: fact_lab_tests.department_name
+	toColumn: dim_department.department_name
+
+relationship a65c34d5-6936-51fa-9321-108a92324b24
+	fromColumn: fact_prescriptions.department_name
+	toColumn: dim_department.department_name
+
+relationship b6b71a49-5ffb-5591-81c1-7a5e712f0c69
+	fromColumn: fact_admissions.department_name
+	toColumn: dim_department.department_name
+
+relationship 9618b024-fd3e-5a3d-8b8f-dbc8d159892c
+	fromColumn: fact_referrals.department_name
+	toColumn: dim_department.department_name
+
+relationship e4fb3516-29a4-5a05-8952-1e7b1c6a6560
+	fromColumn: fact_staff.department_name
+	toColumn: dim_department.department_name
+
+relationship 041ae782-936c-5e2d-b0d4-cbabc293f657
+	fromColumn: fact_beds.department_name
+	toColumn: dim_department.department_name
+
+relationship 1104e133-8baa-5331-aef4-83f2b93aab6d
+	fromColumn: fact_equipment.department_name
+	toColumn: dim_department.department_name
+
+relationship 95abc1a7-b7fc-5c3f-87e1-cad5449dcca5
+	fromColumn: fact_appointments.patient_id
+	toColumn: dim_patient.patient_id
+
+relationship 9da092a5-792f-583c-9128-3e6f2162f908
+	fromColumn: dim_patient.province_name
+	toColumn: dim_province.province_name
+
+relationship 11fe0aba-7a36-5e61-8038-990f42c39b4b
+	fromColumn: fact_billing.province_name
+	toColumn: dim_province.province_name
+
+relationship 3f66739e-6927-52a9-8594-109f7f3a1726
+	fromColumn: fact_diagnoses.province_name
+	toColumn: dim_province.province_name
+
+relationship 87c41616-0aac-58b3-9f6b-fd7865f021f6
+	fromColumn: fact_feedback.province_name
+	toColumn: dim_province.province_name
+
+relationship bca08db5-a152-506b-bca5-518122847012
+	fromColumn: fact_lab_tests.province_name
+	toColumn: dim_province.province_name
+
+relationship 08460a6a-c42d-5784-95a8-556e3258ca12
+	fromColumn: fact_prescriptions.province_name
+	toColumn: dim_province.province_name
+
+relationship fe74fa4b-fe77-50f4-bfc5-f31ccfc8a2bb
+	fromColumn: fact_admissions.province_name
+	toColumn: dim_province.province_name
+
+relationship f3e98905-fbb5-5237-b1d0-cede12420668
+	fromColumn: fact_referrals.province_name
+	toColumn: dim_province.province_name

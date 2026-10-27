@@ -1,0 +1,117 @@
+table dim_patient
+
+	column patient_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: patient_id
+
+	column first_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: first_name
+
+	column last_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: last_name
+
+	column gender
+		dataType: string
+		summarizeBy: none
+		sourceColumn: gender
+
+	column date_of_birth
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: date_of_birth
+
+	column age
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: age
+
+	column age_group
+		dataType: string
+		summarizeBy: none
+		sourceColumn: age_group
+
+	column age_band
+		dataType: string
+		summarizeBy: none
+		sourceColumn: age_band
+
+	column blood_group
+		dataType: string
+		summarizeBy: none
+		sourceColumn: blood_group
+
+	column insurance_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: insurance_id
+
+	column chronic_condition
+		dataType: string
+		summarizeBy: none
+		sourceColumn: chronic_condition
+
+	column has_chronic_condition
+		dataType: string
+		summarizeBy: none
+		sourceColumn: has_chronic_condition
+
+	column status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: status
+
+	column village_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: village_name
+
+	column sector_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: sector_name
+
+	column district_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: district_name
+
+	column province_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: province_name
+
+	column appointments_count
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: appointments_count
+
+	hierarchy Geography
+		level province_name
+			column: province_name
+
+		level district_name
+			column: district_name
+
+		level sector_name
+			column: sector_name
+
+		level village_name
+			column: village_name
+
+	partition dim_patient = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_patient.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"patient_id", type text}, {"first_name", type text}, {"last_name", type text}, {"gender", type text}, {"date_of_birth", type date}, {"age", Int64.Type}, {"age_group", type text}, {"age_band", type text}, {"blood_group", type text}, {"insurance_id", type text}, {"chronic_condition", type text}, {"has_chronic_condition", type text}, {"status", type text}, {"village_name", type text}, {"sector_name", type text}, {"district_name", type text}, {"province_name", type text}, {"appointments_count", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

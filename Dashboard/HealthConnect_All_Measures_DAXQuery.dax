@@ -1,0 +1,250 @@
+// HealthConnect | all measures in one script
+// STEP 1: Home > Enter data > name the table  _Measures  > Load.
+// STEP 2: left sidebar > DAX query view > paste this whole file.
+// STEP 3: click "Update model with changes" (top bar, or "Update model: Add new measure"). All measures are created at once.
+// Do NOT click Run; this file only defines measures.
+
+DEFINE
+
+    MEASURE _Measures[Total Patients] = COUNTROWS(dim_patient)
+
+    MEASURE _Measures[Active Patients] = CALCULATE(COUNTROWS(dim_patient), dim_patient[status] = "Active")
+
+    MEASURE _Measures[Patients Seen] = DISTINCTCOUNT(fact_appointments[patient_id])
+
+    MEASURE _Measures[New Patients] = VAR _start = MIN(dim_date[date])
+VAR _end   = MAX(dim_date[date])
+RETURN
+COUNTROWS(
+    FILTER(
+        VALUES(fact_appointments[patient_id]),
+        VAR _first = CALCULATE(MIN(fact_appointments[date]), ALL(dim_date))
+        RETURN _first >= _start && _first <= _end
+    )
+)
+
+    MEASURE _Measures[Returning Patients] = [Patients Seen] - [New Patients]
+
+    MEASURE _Measures[Repeat Patients (2+ visits)] = COUNTROWS(
+    FILTER(
+        VALUES(fact_appointments[patient_id]),
+        CALCULATE(COUNTROWS(fact_appointments), ALL(dim_date)) > 1
+    )
+)
+
+    MEASURE _Measures[Male Patients] = CALCULATE([Total Patients], dim_patient[gender] = "Male")
+
+    MEASURE _Measures[Female Patients] = CALCULATE([Total Patients], dim_patient[gender] = "Female")
+
+    MEASURE _Measures[Female Share] = DIVIDE([Female Patients], [Total Patients])
+
+    MEASURE _Measures[Male Patients (pyramid)] = -[Male Patients]
+
+    MEASURE _Measures[Average Patient Age] = AVERAGE(dim_patient[age])
+
+    MEASURE _Measures[Patients Over 65] = CALCULATE([Total Patients], dim_patient[age] > 65)
+
+    MEASURE _Measures[Insurance Coverage Rate] = DIVIDE(
+    CALCULATE(COUNTROWS(dim_patient), NOT(ISBLANK(dim_patient[insurance_id])), dim_patient[insurance_id] <> ""),
+    COUNTROWS(dim_patient)
+)
+
+    MEASURE _Measures[Chronic Patients] = CALCULATE(COUNTROWS(dim_patient), dim_patient[has_chronic_condition] = "Yes")
+
+    MEASURE _Measures[Chronic Rate] = DIVIDE([Chronic Patients], [Total Patients])
+
+    MEASURE _Measures[Total Appointments] = COUNTROWS(fact_appointments)
+
+    MEASURE _Measures[Active Days] = DISTINCTCOUNT(fact_appointments[date])
+
+    MEASURE _Measures[Avg Daily Appointments] = DIVIDE([Total Appointments], [Active Days])
+
+    MEASURE _Measures[Appointments Last Month] = CALCULATE([Total Appointments], DATEADD(dim_date[date], -1, MONTH))
+
+    MEASURE _Measures[Appointment Growth %] = DIVIDE([Total Appointments] - [Appointments Last Month], [Appointments Last Month])
+
+    MEASURE _Measures[Appointments YTD] = TOTALYTD([Total Appointments], dim_date[date])
+
+    MEASURE _Measures[Appointments Running Total] = CALCULATE([Total Appointments], FILTER(ALL(dim_date[date]), dim_date[date] <= MAX(dim_date[date])))
+
+    MEASURE _Measures[Emergency Appointments] = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Emergency")
+
+    MEASURE _Measures[Follow-up Appointments] = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Follow-up")
+
+    MEASURE _Measures[Consultation Appointments] = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Consultation")
+
+    MEASURE _Measures[Emergency Share] = DIVIDE([Emergency Appointments], [Total Appointments])
+
+    MEASURE _Measures[Referred Appointments] = CALCULATE([Total Appointments], fact_appointments[was_referred] = "Yes")
+
+    MEASURE _Measures[Referral Rate] = DIVIDE([Referred Appointments], [Total Appointments])
+
+    MEASURE _Measures[Total Doctors] = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Doctor")
+
+    MEASURE _Measures[Avg Appointments per Doctor] = DIVIDE([Total Appointments], [Total Doctors])
+
+    MEASURE _Measures[Total Diagnoses] = COUNTROWS(fact_diagnoses)
+
+    MEASURE _Measures[Severe Cases] = CALCULATE([Total Diagnoses], fact_diagnoses[severity] = "Severe")
+
+    MEASURE _Measures[Severe Rate] = DIVIDE([Severe Cases], [Total Diagnoses])
+
+    MEASURE _Measures[Lab Tests] = COUNTROWS(fact_lab_tests)
+
+    MEASURE _Measures[Abnormal Lab Results] = CALCULATE([Lab Tests], fact_lab_tests[result] = "Abnormal")
+
+    MEASURE _Measures[Abnormal Lab Rate] = DIVIDE([Abnormal Lab Results], [Lab Tests])
+
+    MEASURE _Measures[Prescriptions] = COUNTROWS(fact_prescriptions)
+
+    MEASURE _Measures[Admissions] = COUNTROWS(fact_admissions)
+
+    MEASURE _Measures[Admitted Appointments] = CALCULATE([Total Appointments], fact_appointments[was_admitted] = "Yes")
+
+    MEASURE _Measures[Admission Rate] = DIVIDE([Admitted Appointments], [Total Appointments])
+
+    MEASURE _Measures[Avg Length of Stay] = AVERAGE(fact_admissions[length_of_stay_days])
+
+    MEASURE _Measures[Referrals] = COUNTROWS(fact_referrals)
+
+    MEASURE _Measures[Admitted Patients] = COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 0))
+
+    MEASURE _Measures[Readmitted Patients] = COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 1))
+
+    MEASURE _Measures[Readmission Indicator] = DIVIDE([Readmitted Patients], [Admitted Patients])
+
+    MEASURE _Measures[Total Staff] = COUNTROWS(fact_staff)
+
+    MEASURE _Measures[Total Nurses] = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Nurse")
+
+    MEASURE _Measures[Total Pharmacists] = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Pharmacist")
+
+    MEASURE _Measures[Total Lab Scientists] = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Laboratory Scientist")
+
+    MEASURE _Measures[Total Radiographers] = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Radiographer")
+
+    MEASURE _Measures[Avg Years of Experience] = AVERAGE(fact_staff[years_experience])
+
+    MEASURE _Measures[Patients per Staff Member] = DIVIDE([Total Patients], [Total Staff])
+
+    MEASURE _Measures[Patients per Doctor] = DIVIDE([Total Patients], [Total Doctors])
+
+    MEASURE _Measures[Patients Seen per Doctor] = DIVIDE([Patients Seen], [Total Doctors])
+
+    MEASURE _Measures[Total Facilities] = DISTINCTCOUNT(dim_facility[facility_id])
+
+    MEASURE _Measures[Total Beds] = COUNTROWS(fact_beds)
+
+    MEASURE _Measures[Available Beds] = CALCULATE(COUNTROWS(fact_beds), fact_beds[bed_status] = "Available")
+
+    MEASURE _Measures[Total Rooms] = SUM(dim_facility[rooms])
+
+    MEASURE _Measures[Equipment Items] = COUNTROWS(fact_equipment)
+
+    MEASURE _Measures[Bed Days Used] = SUM(fact_admissions[length_of_stay_days])
+
+    MEASURE _Measures[Bed Utilization Rate] = DIVIDE([Bed Days Used], [Total Beds] * 365)
+
+    MEASURE _Measures[Appointments per Bed] = DIVIDE([Total Appointments], [Total Beds])
+
+    MEASURE _Measures[Total Revenue] = SUM(fact_billing[billed_amount])
+
+    MEASURE _Measures[Collected Amount] = SUM(fact_billing[paid_amount])
+
+    MEASURE _Measures[Outstanding Bills] = SUM(fact_billing[outstanding_amount])
+
+    MEASURE _Measures[Outstanding Share] = DIVIDE([Outstanding Bills], [Total Revenue])
+
+    MEASURE _Measures[Collection Rate] = DIVIDE([Collected Amount], [Total Revenue])
+
+    MEASURE _Measures[Average Billing Amount] = AVERAGE(fact_billing[billed_amount])
+
+    MEASURE _Measures[Total Bills] = COUNTROWS(fact_billing)
+
+    MEASURE _Measures[Bills Not Fully Paid] = CALCULATE(COUNTROWS(fact_billing), fact_billing[outstanding_amount] > 0)
+
+    MEASURE _Measures[Claims] = CALCULATE(COUNTROWS(fact_billing), NOT(ISBLANK(fact_billing[claim_status])))
+
+    MEASURE _Measures[Approved Claims] = CALCULATE(COUNTROWS(fact_billing), fact_billing[claim_status] = "Approved")
+
+    MEASURE _Measures[Claim Approval Rate] = DIVIDE([Approved Claims], [Claims])
+
+    MEASURE _Measures[Claimed Amount] = SUM(fact_billing[claim_amount])
+
+    MEASURE _Measures[Payments Made] = COUNTROWS(fact_billing)
+
+    MEASURE _Measures[Monthly Revenue (Summary)] = SUM(fact_revenue_summary[revenue])
+
+    MEASURE _Measures[Revenue Last Month (Summary)] = CALCULATE([Monthly Revenue (Summary)], DATEADD(dim_date[date], -1, MONTH))
+
+    MEASURE _Measures[Revenue Growth %] = DIVIDE([Monthly Revenue (Summary)] - [Revenue Last Month (Summary)], [Revenue Last Month (Summary)])
+
+    MEASURE _Measures[Revenue YTD (Summary)] = TOTALYTD([Monthly Revenue (Summary)], dim_date[date])
+
+    MEASURE _Measures[Revenue (Linked)] = CALCULATE([Total Revenue], fact_billing[link_status] = "Linked")
+
+    MEASURE _Measures[Collected (Linked)] = CALCULATE([Collected Amount], fact_billing[link_status] = "Linked")
+
+    MEASURE _Measures[Collection Rate (Linked)] = DIVIDE([Collected (Linked)], [Revenue (Linked)])
+
+    MEASURE _Measures[Outstanding (Linked)] = CALCULATE([Outstanding Bills], fact_billing[link_status] = "Linked")
+
+    MEASURE _Measures[Revenue Linked Share] = DIVIDE([Revenue (Linked)], [Total Revenue])
+
+    MEASURE _Measures[Feedback Count] = COUNTROWS(fact_feedback)
+
+    MEASURE _Measures[Avg Satisfaction] = AVERAGE(fact_feedback[rating])
+
+    MEASURE _Measures[Avg Rating (Linked)] = CALCULATE(AVERAGE(fact_feedback[rating]), fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Poor Ratings (1-2)] = CALCULATE([Feedback Count], fact_feedback[rating] <= 2)
+
+    MEASURE _Measures[Excellent Ratings (4-5)] = CALCULATE([Feedback Count], fact_feedback[rating] >= 4)
+
+    MEASURE _Measures[Poor Rating Rate] = DIVIDE([Poor Ratings (1-2)], [Feedback Count])
+
+    MEASURE _Measures[Excellent Rating Rate] = DIVIDE([Excellent Ratings (4-5)], [Feedback Count])
+
+    MEASURE _Measures[Feedback Linked] = CALCULATE([Feedback Count], fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Poor Ratings (Linked)] = CALCULATE([Poor Ratings (1-2)], fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Excellent Ratings (Linked)] = CALCULATE([Excellent Ratings (4-5)], fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Rank - Volume] = RANKX(ALL(dim_facility[facility_id]), [Total Appointments], , DESC, DENSE)
+
+    MEASURE _Measures[Rank - Collection] = RANKX(ALL(dim_facility[facility_id]), [Collection Rate (Linked)], , DESC, DENSE)
+
+    MEASURE _Measures[Rank - Satisfaction] = RANKX(ALL(dim_facility[facility_id]), [Avg Rating (Linked)], , DESC, DENSE)
+
+    MEASURE _Measures[Hospital Score] = DIVIDE([Rank - Volume] + [Rank - Collection] + [Rank - Satisfaction], 3)
+
+    MEASURE _Measures[Hospital Overall Rank] = RANKX(ALL(dim_facility[facility_id]), [Hospital Score], , ASC, DENSE)
+
+    MEASURE _Measures[Selected Month] = SELECTEDVALUE(dim_date[year_month], "All months")
+
+    MEASURE _Measures[Selected Hospital] = SELECTEDVALUE(dim_facility[facility_id], "All hospitals")
+
+    MEASURE _Measures[Selected Province] = SELECTEDVALUE(dim_province[province_name], "All provinces")
+
+    MEASURE _Measures[Title - Executive] = "HealthConnect Rwanda | " & [Selected Hospital] & " | " & [Selected Province] & " | " & [Selected Month]
+
+    MEASURE _Measures[Title - Revenue] = "Revenue by hospital (RWF) - " & [Selected Province] & " - " & [Selected Month]
+
+    MEASURE _Measures[Title - Satisfaction] = "Average rating " & FORMAT([Avg Satisfaction], "0.00") & " out of 5 - " & [Selected Hospital]
+
+    MEASURE _Measures[Rating Colour] = SWITCH(TRUE(),
+    ISBLANK([Avg Rating (Linked)]), "#BDBDBD",
+    [Avg Rating (Linked)] >= 3.0, "#2E7D32",
+    [Avg Rating (Linked)] >= 2.85, "#F9A825",
+    "#C62828")
+
+    MEASURE _Measures[Collection Colour] = SWITCH(TRUE(),
+    ISBLANK([Collection Rate (Linked)]), "#BDBDBD",
+    [Collection Rate (Linked)] >= 0.91, "#2E7D32",
+    [Collection Rate (Linked)] >= 0.89, "#F9A825",
+    "#C62828")
+
+EVALUATE ROW("Measures", 1)

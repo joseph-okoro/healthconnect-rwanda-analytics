@@ -1,0 +1,401 @@
+﻿ServiceID,ServiceName,DepartmentID
+SER0001,Emergency Consultation,DEP001
+SER0002,Emergency Procedure,DEP001
+SER0003,Internal Medicine Consultation,DEP002
+SER0004,Internal Medicine Procedure,DEP002
+SER0005,Surgery Consultation,DEP003
+SER0006,Surgery Procedure,DEP003
+SER0007,Pediatrics Consultation,DEP004
+SER0008,Pediatrics Procedure,DEP004
+SER0009,Obstetrics & Gynecology Consultation,DEP005
+SER0010,Obstetrics & Gynecology Procedure,DEP005
+SER0011,Radiology Consultation,DEP006
+SER0012,Radiology Procedure,DEP006
+SER0013,Laboratory Consultation,DEP007
+SER0014,Laboratory Procedure,DEP007
+SER0015,Pharmacy Consultation,DEP008
+SER0016,Pharmacy Procedure,DEP008
+SER0017,ICU Consultation,DEP009
+SER0018,ICU Procedure,DEP009
+SER0019,Cardiology Consultation,DEP010
+SER0020,Cardiology Procedure,DEP010
+SER0021,Emergency Consultation,DEP011
+SER0022,Emergency Procedure,DEP011
+SER0023,Internal Medicine Consultation,DEP012
+SER0024,Internal Medicine Procedure,DEP012
+SER0025,Surgery Consultation,DEP013
+SER0026,Surgery Procedure,DEP013
+SER0027,Pediatrics Consultation,DEP014
+SER0028,Pediatrics Procedure,DEP014
+SER0029,Obstetrics & Gynecology Consultation,DEP015
+SER0030,Obstetrics & Gynecology Procedure,DEP015
+SER0031,Radiology Consultation,DEP016
+SER0032,Radiology Procedure,DEP016
+SER0033,Laboratory Consultation,DEP017
+SER0034,Laboratory Procedure,DEP017
+SER0035,Pharmacy Consultation,DEP018
+SER0036,Pharmacy Procedure,DEP018
+SER0037,ICU Consultation,DEP019
+SER0038,ICU Procedure,DEP019
+SER0039,Cardiology Consultation,DEP020
+SER0040,Cardiology Procedure,DEP020
+SER0041,Emergency Consultation,DEP021
+SER0042,Emergency Procedure,DEP021
+SER0043,Internal Medicine Consultation,DEP022
+SER0044,Internal Medicine Procedure,DEP022
+SER0045,Surgery Consultation,DEP023
+SER0046,Surgery Procedure,DEP023
+SER0047,Pediatrics Consultation,DEP024
+SER0048,Pediatrics Procedure,DEP024
+SER0049,Obstetrics & Gynecology Consultation,DEP025
+SER0050,Obstetrics & Gynecology Procedure,DEP025
+SER0051,Radiology Consultation,DEP026
+SER0052,Radiology Procedure,DEP026
+SER0053,Laboratory Consultation,DEP027
+SER0054,Laboratory Procedure,DEP027
+SER0055,Pharmacy Consultation,DEP028
+SER0056,Pharmacy Procedure,DEP028
+SER0057,ICU Consultation,DEP029
+SER0058,ICU Procedure,DEP029
+SER0059,Cardiology Consultation,DEP030
+SER0060,Cardiology Procedure,DEP030
+SER0061,Emergency Consultation,DEP031
+SER0062,Emergency Procedure,DEP031
+SER0063,Internal Medicine Consultation,DEP032
+SER0064,Internal Medicine Procedure,DEP032
+SER0065,Surgery Consultation,DEP033
+SER0066,Surgery Procedure,DEP033
+SER0067,Pediatrics Consultation,DEP034
+SER0068,Pediatrics Procedure,DEP034
+SER0069,Obstetrics & Gynecology Consultation,DEP035
+SER0070,Obstetrics & Gynecology Procedure,DEP035
+SER0071,Radiology Consultation,DEP036
+SER0072,Radiology Procedure,DEP036
+SER0073,Laboratory Consultation,DEP037
+SER0074,Laboratory Procedure,DEP037
+SER0075,Pharmacy Consultation,DEP038
+SER0076,Pharmacy Procedure,DEP038
+SER0077,ICU Consultation,DEP039
+SER0078,ICU Procedure,DEP039
+SER0079,Cardiology Consultation,DEP040
+SER0080,Cardiology Procedure,DEP040
+SER0081,Emergency Consultation,DEP041
+SER0082,Emergency Procedure,DEP041
+SER0083,Internal Medicine Consultation,DEP042
+SER0084,Internal Medicine Procedure,DEP042
+SER0085,Surgery Consultation,DEP043
+SER0086,Surgery Procedure,DEP043
+SER0087,Pediatrics Consultation,DEP044
+SER0088,Pediatrics Procedure,DEP044
+SER0089,Obstetrics & Gynecology Consultation,DEP045
+SER0090,Obstetrics & Gynecology Procedure,DEP045
+SER0091,Radiology Consultation,DEP046
+SER0092,Radiology Procedure,DEP046
+SER0093,Laboratory Consultation,DEP047
+SER0094,Laboratory Procedure,DEP047
+SER0095,Pharmacy Consultation,DEP048
+SER0096,Pharmacy Procedure,DEP048
+SER0097,ICU Consultation,DEP049
+SER0098,ICU Procedure,DEP049
+SER0099,Cardiology Consultation,DEP050
+SER0100,Cardiology Procedure,DEP050
+SER0101,Emergency Consultation,DEP051
+SER0102,Emergency Procedure,DEP051
+SER0103,Internal Medicine Consultation,DEP052
+SER0104,Internal Medicine Procedure,DEP052
+SER0105,Surgery Consultation,DEP053
+SER0106,Surgery Procedure,DEP053
+SER0107,Pediatrics Consultation,DEP054
+SER0108,Pediatrics Procedure,DEP054
+SER0109,Obstetrics & Gynecology Consultation,DEP055
+SER0110,Obstetrics & Gynecology Procedure,DEP055
+SER0111,Radiology Consultation,DEP056
+SER0112,Radiology Procedure,DEP056
+SER0113,Laboratory Consultation,DEP057
+SER0114,Laboratory Procedure,DEP057
+SER0115,Pharmacy Consultation,DEP058
+SER0116,Pharmacy Procedure,DEP058
+SER0117,ICU Consultation,DEP059
+SER0118,ICU Procedure,DEP059
+SER0119,Cardiology Consultation,DEP060
+SER0120,Cardiology Procedure,DEP060
+SER0121,Emergency Consultation,DEP061
+SER0122,Emergency Procedure,DEP061
+SER0123,Internal Medicine Consultation,DEP062
+SER0124,Internal Medicine Procedure,DEP062
+SER0125,Surgery Consultation,DEP063
+SER0126,Surgery Procedure,DEP063
+SER0127,Pediatrics Consultation,DEP064
+SER0128,Pediatrics Procedure,DEP064
+SER0129,Obstetrics & Gynecology Consultation,DEP065
+SER0130,Obstetrics & Gynecology Procedure,DEP065
+SER0131,Radiology Consultation,DEP066
+SER0132,Radiology Procedure,DEP066
+SER0133,Laboratory Consultation,DEP067
+SER0134,Laboratory Procedure,DEP067
+SER0135,Pharmacy Consultation,DEP068
+SER0136,Pharmacy Procedure,DEP068
+SER0137,ICU Consultation,DEP069
+SER0138,ICU Procedure,DEP069
+SER0139,Cardiology Consultation,DEP070
+SER0140,Cardiology Procedure,DEP070
+SER0141,Emergency Consultation,DEP071
+SER0142,Emergency Procedure,DEP071
+SER0143,Internal Medicine Consultation,DEP072
+SER0144,Internal Medicine Procedure,DEP072
+SER0145,Surgery Consultation,DEP073
+SER0146,Surgery Procedure,DEP073
+SER0147,Pediatrics Consultation,DEP074
+SER0148,Pediatrics Procedure,DEP074
+SER0149,Obstetrics & Gynecology Consultation,DEP075
+SER0150,Obstetrics & Gynecology Procedure,DEP075
+SER0151,Radiology Consultation,DEP076
+SER0152,Radiology Procedure,DEP076
+SER0153,Laboratory Consultation,DEP077
+SER0154,Laboratory Procedure,DEP077
+SER0155,Pharmacy Consultation,DEP078
+SER0156,Pharmacy Procedure,DEP078
+SER0157,ICU Consultation,DEP079
+SER0158,ICU Procedure,DEP079
+SER0159,Cardiology Consultation,DEP080
+SER0160,Cardiology Procedure,DEP080
+SER0161,Emergency Consultation,DEP081
+SER0162,Emergency Procedure,DEP081
+SER0163,Internal Medicine Consultation,DEP082
+SER0164,Internal Medicine Procedure,DEP082
+SER0165,Surgery Consultation,DEP083
+SER0166,Surgery Procedure,DEP083
+SER0167,Pediatrics Consultation,DEP084
+SER0168,Pediatrics Procedure,DEP084
+SER0169,Obstetrics & Gynecology Consultation,DEP085
+SER0170,Obstetrics & Gynecology Procedure,DEP085
+SER0171,Radiology Consultation,DEP086
+SER0172,Radiology Procedure,DEP086
+SER0173,Laboratory Consultation,DEP087
+SER0174,Laboratory Procedure,DEP087
+SER0175,Pharmacy Consultation,DEP088
+SER0176,Pharmacy Procedure,DEP088
+SER0177,ICU Consultation,DEP089
+SER0178,ICU Procedure,DEP089
+SER0179,Cardiology Consultation,DEP090
+SER0180,Cardiology Procedure,DEP090
+SER0181,Emergency Consultation,DEP091
+SER0182,Emergency Procedure,DEP091
+SER0183,Internal Medicine Consultation,DEP092
+SER0184,Internal Medicine Procedure,DEP092
+SER0185,Surgery Consultation,DEP093
+SER0186,Surgery Procedure,DEP093
+SER0187,Pediatrics Consultation,DEP094
+SER0188,Pediatrics Procedure,DEP094
+SER0189,Obstetrics & Gynecology Consultation,DEP095
+SER0190,Obstetrics & Gynecology Procedure,DEP095
+SER0191,Radiology Consultation,DEP096
+SER0192,Radiology Procedure,DEP096
+SER0193,Laboratory Consultation,DEP097
+SER0194,Laboratory Procedure,DEP097
+SER0195,Pharmacy Consultation,DEP098
+SER0196,Pharmacy Procedure,DEP098
+SER0197,ICU Consultation,DEP099
+SER0198,ICU Procedure,DEP099
+SER0199,Cardiology Consultation,DEP100
+SER0200,Cardiology Procedure,DEP100
+SER0201,Emergency Consultation,DEP101
+SER0202,Emergency Procedure,DEP101
+SER0203,Internal Medicine Consultation,DEP102
+SER0204,Internal Medicine Procedure,DEP102
+SER0205,Surgery Consultation,DEP103
+SER0206,Surgery Procedure,DEP103
+SER0207,Pediatrics Consultation,DEP104
+SER0208,Pediatrics Procedure,DEP104
+SER0209,Obstetrics & Gynecology Consultation,DEP105
+SER0210,Obstetrics & Gynecology Procedure,DEP105
+SER0211,Radiology Consultation,DEP106
+SER0212,Radiology Procedure,DEP106
+SER0213,Laboratory Consultation,DEP107
+SER0214,Laboratory Procedure,DEP107
+SER0215,Pharmacy Consultation,DEP108
+SER0216,Pharmacy Procedure,DEP108
+SER0217,ICU Consultation,DEP109
+SER0218,ICU Procedure,DEP109
+SER0219,Cardiology Consultation,DEP110
+SER0220,Cardiology Procedure,DEP110
+SER0221,Emergency Consultation,DEP111
+SER0222,Emergency Procedure,DEP111
+SER0223,Internal Medicine Consultation,DEP112
+SER0224,Internal Medicine Procedure,DEP112
+SER0225,Surgery Consultation,DEP113
+SER0226,Surgery Procedure,DEP113
+SER0227,Pediatrics Consultation,DEP114
+SER0228,Pediatrics Procedure,DEP114
+SER0229,Obstetrics & Gynecology Consultation,DEP115
+SER0230,Obstetrics & Gynecology Procedure,DEP115
+SER0231,Radiology Consultation,DEP116
+SER0232,Radiology Procedure,DEP116
+SER0233,Laboratory Consultation,DEP117
+SER0234,Laboratory Procedure,DEP117
+SER0235,Pharmacy Consultation,DEP118
+SER0236,Pharmacy Procedure,DEP118
+SER0237,ICU Consultation,DEP119
+SER0238,ICU Procedure,DEP119
+SER0239,Cardiology Consultation,DEP120
+SER0240,Cardiology Procedure,DEP120
+SER0241,Emergency Consultation,DEP121
+SER0242,Emergency Procedure,DEP121
+SER0243,Internal Medicine Consultation,DEP122
+SER0244,Internal Medicine Procedure,DEP122
+SER0245,Surgery Consultation,DEP123
+SER0246,Surgery Procedure,DEP123
+SER0247,Pediatrics Consultation,DEP124
+SER0248,Pediatrics Procedure,DEP124
+SER0249,Obstetrics & Gynecology Consultation,DEP125
+SER0250,Obstetrics & Gynecology Procedure,DEP125
+SER0251,Radiology Consultation,DEP126
+SER0252,Radiology Procedure,DEP126
+SER0253,Laboratory Consultation,DEP127
+SER0254,Laboratory Procedure,DEP127
+SER0255,Pharmacy Consultation,DEP128
+SER0256,Pharmacy Procedure,DEP128
+SER0257,ICU Consultation,DEP129
+SER0258,ICU Procedure,DEP129
+SER0259,Cardiology Consultation,DEP130
+SER0260,Cardiology Procedure,DEP130
+SER0261,Emergency Consultation,DEP131
+SER0262,Emergency Procedure,DEP131
+SER0263,Internal Medicine Consultation,DEP132
+SER0264,Internal Medicine Procedure,DEP132
+SER0265,Surgery Consultation,DEP133
+SER0266,Surgery Procedure,DEP133
+SER0267,Pediatrics Consultation,DEP134
+SER0268,Pediatrics Procedure,DEP134
+SER0269,Obstetrics & Gynecology Consultation,DEP135
+SER0270,Obstetrics & Gynecology Procedure,DEP135
+SER0271,Radiology Consultation,DEP136
+SER0272,Radiology Procedure,DEP136
+SER0273,Laboratory Consultation,DEP137
+SER0274,Laboratory Procedure,DEP137
+SER0275,Pharmacy Consultation,DEP138
+SER0276,Pharmacy Procedure,DEP138
+SER0277,ICU Consultation,DEP139
+SER0278,ICU Procedure,DEP139
+SER0279,Cardiology Consultation,DEP140
+SER0280,Cardiology Procedure,DEP140
+SER0281,Emergency Consultation,DEP141
+SER0282,Emergency Procedure,DEP141
+SER0283,Internal Medicine Consultation,DEP142
+SER0284,Internal Medicine Procedure,DEP142
+SER0285,Surgery Consultation,DEP143
+SER0286,Surgery Procedure,DEP143
+SER0287,Pediatrics Consultation,DEP144
+SER0288,Pediatrics Procedure,DEP144
+SER0289,Obstetrics & Gynecology Consultation,DEP145
+SER0290,Obstetrics & Gynecology Procedure,DEP145
+SER0291,Radiology Consultation,DEP146
+SER0292,Radiology Procedure,DEP146
+SER0293,Laboratory Consultation,DEP147
+SER0294,Laboratory Procedure,DEP147
+SER0295,Pharmacy Consultation,DEP148
+SER0296,Pharmacy Procedure,DEP148
+SER0297,ICU Consultation,DEP149
+SER0298,ICU Procedure,DEP149
+SER0299,Cardiology Consultation,DEP150
+SER0300,Cardiology Procedure,DEP150
+SER0301,Emergency Consultation,DEP151
+SER0302,Emergency Procedure,DEP151
+SER0303,Internal Medicine Consultation,DEP152
+SER0304,Internal Medicine Procedure,DEP152
+SER0305,Surgery Consultation,DEP153
+SER0306,Surgery Procedure,DEP153
+SER0307,Pediatrics Consultation,DEP154
+SER0308,Pediatrics Procedure,DEP154
+SER0309,Obstetrics & Gynecology Consultation,DEP155
+SER0310,Obstetrics & Gynecology Procedure,DEP155
+SER0311,Radiology Consultation,DEP156
+SER0312,Radiology Procedure,DEP156
+SER0313,Laboratory Consultation,DEP157
+SER0314,Laboratory Procedure,DEP157
+SER0315,Pharmacy Consultation,DEP158
+SER0316,Pharmacy Procedure,DEP158
+SER0317,ICU Consultation,DEP159
+SER0318,ICU Procedure,DEP159
+SER0319,Cardiology Consultation,DEP160
+SER0320,Cardiology Procedure,DEP160
+SER0321,Emergency Consultation,DEP161
+SER0322,Emergency Procedure,DEP161
+SER0323,Internal Medicine Consultation,DEP162
+SER0324,Internal Medicine Procedure,DEP162
+SER0325,Surgery Consultation,DEP163
+SER0326,Surgery Procedure,DEP163
+SER0327,Pediatrics Consultation,DEP164
+SER0328,Pediatrics Procedure,DEP164
+SER0329,Obstetrics & Gynecology Consultation,DEP165
+SER0330,Obstetrics & Gynecology Procedure,DEP165
+SER0331,Radiology Consultation,DEP166
+SER0332,Radiology Procedure,DEP166
+SER0333,Laboratory Consultation,DEP167
+SER0334,Laboratory Procedure,DEP167
+SER0335,Pharmacy Consultation,DEP168
+SER0336,Pharmacy Procedure,DEP168
+SER0337,ICU Consultation,DEP169
+SER0338,ICU Procedure,DEP169
+SER0339,Cardiology Consultation,DEP170
+SER0340,Cardiology Procedure,DEP170
+SER0341,Emergency Consultation,DEP171
+SER0342,Emergency Procedure,DEP171
+SER0343,Internal Medicine Consultation,DEP172
+SER0344,Internal Medicine Procedure,DEP172
+SER0345,Surgery Consultation,DEP173
+SER0346,Surgery Procedure,DEP173
+SER0347,Pediatrics Consultation,DEP174
+SER0348,Pediatrics Procedure,DEP174
+SER0349,Obstetrics & Gynecology Consultation,DEP175
+SER0350,Obstetrics & Gynecology Procedure,DEP175
+SER0351,Radiology Consultation,DEP176
+SER0352,Radiology Procedure,DEP176
+SER0353,Laboratory Consultation,DEP177
+SER0354,Laboratory Procedure,DEP177
+SER0355,Pharmacy Consultation,DEP178
+SER0356,Pharmacy Procedure,DEP178
+SER0357,ICU Consultation,DEP179
+SER0358,ICU Procedure,DEP179
+SER0359,Cardiology Consultation,DEP180
+SER0360,Cardiology Procedure,DEP180
+SER0361,Emergency Consultation,DEP181
+SER0362,Emergency Procedure,DEP181
+SER0363,Internal Medicine Consultation,DEP182
+SER0364,Internal Medicine Procedure,DEP182
+SER0365,Surgery Consultation,DEP183
+SER0366,Surgery Procedure,DEP183
+SER0367,Pediatrics Consultation,DEP184
+SER0368,Pediatrics Procedure,DEP184
+SER0369,Obstetrics & Gynecology Consultation,DEP185
+SER0370,Obstetrics & Gynecology Procedure,DEP185
+SER0371,Radiology Consultation,DEP186
+SER0372,Radiology Procedure,DEP186
+SER0373,Laboratory Consultation,DEP187
+SER0374,Laboratory Procedure,DEP187
+SER0375,Pharmacy Consultation,DEP188
+SER0376,Pharmacy Procedure,DEP188
+SER0377,ICU Consultation,DEP189
+SER0378,ICU Procedure,DEP189
+SER0379,Cardiology Consultation,DEP190
+SER0380,Cardiology Procedure,DEP190
+SER0381,Emergency Consultation,DEP191
+SER0382,Emergency Procedure,DEP191
+SER0383,Internal Medicine Consultation,DEP192
+SER0384,Internal Medicine Procedure,DEP192
+SER0385,Surgery Consultation,DEP193
+SER0386,Surgery Procedure,DEP193
+SER0387,Pediatrics Consultation,DEP194
+SER0388,Pediatrics Procedure,DEP194
+SER0389,Obstetrics & Gynecology Consultation,DEP195
+SER0390,Obstetrics & Gynecology Procedure,DEP195
+SER0391,Radiology Consultation,DEP196
+SER0392,Radiology Procedure,DEP196
+SER0393,Laboratory Consultation,DEP197
+SER0394,Laboratory Procedure,DEP197
+SER0395,Pharmacy Consultation,DEP198
+SER0396,Pharmacy Procedure,DEP198
+SER0397,ICU Consultation,DEP199
+SER0398,ICU Procedure,DEP199
+SER0399,Cardiology Consultation,DEP200
+SER0400,Cardiology Procedure,DEP200

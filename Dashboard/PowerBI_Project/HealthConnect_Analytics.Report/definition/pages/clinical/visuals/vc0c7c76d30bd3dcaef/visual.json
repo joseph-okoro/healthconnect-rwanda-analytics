@@ -1,0 +1,136 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "vc0c7c76d30bd3dcaef",
+  "position": {
+    "x": 640,
+    "y": 456,
+    "width": 620,
+    "height": 215,
+    "z": 0,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "keyDriversVisual",
+    "query": {
+      "queryState": {
+        "Target": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_appointments"
+                    }
+                  },
+                  "Property": "was_admitted"
+                }
+              },
+              "queryRef": "fact_appointments.was_admitted",
+              "nativeQueryRef": "was_admitted",
+              "active": true
+            }
+          ]
+        },
+        "Explanatory": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_appointments"
+                    }
+                  },
+                  "Property": "visit_type"
+                }
+              },
+              "queryRef": "fact_appointments.visit_type",
+              "nativeQueryRef": "visit_type",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_appointments"
+                    }
+                  },
+                  "Property": "department_name"
+                }
+              },
+              "queryRef": "fact_appointments.department_name",
+              "nativeQueryRef": "department_name",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_appointments"
+                    }
+                  },
+                  "Property": "was_referred"
+                }
+              },
+              "queryRef": "fact_appointments.was_referred",
+              "nativeQueryRef": "was_referred",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_appointments"
+                    }
+                  },
+                  "Property": "had_lab_test"
+                }
+              },
+              "queryRef": "fact_appointments.had_lab_test",
+              "nativeQueryRef": "had_lab_test",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Key influencers: what drives admission'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#12263F'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

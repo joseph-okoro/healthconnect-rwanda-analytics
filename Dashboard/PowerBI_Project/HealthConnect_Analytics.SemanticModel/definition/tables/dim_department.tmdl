@@ -1,0 +1,43 @@
+table dim_department
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	column department_units
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: department_units
+
+	column rooms
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: rooms
+
+	column beds
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: beds
+
+	column equipment_items
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: equipment_items
+
+	column staff
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: staff
+
+	partition dim_department = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_department.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"department_name", type text}, {"department_units", Int64.Type}, {"rooms", Int64.Type}, {"beds", Int64.Type}, {"equipment_items", Int64.Type}, {"staff", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

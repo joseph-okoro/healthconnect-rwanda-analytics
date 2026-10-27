@@ -1,0 +1,34 @@
+table fact_revenue_summary
+
+	column month_start
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: month_start
+
+	column year_month
+		dataType: string
+		summarizeBy: none
+		sourceColumn: year_month
+
+	column revenue
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: revenue
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	partition fact_revenue_summary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_revenue_summary.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"month_start", type date}, {"year_month", type text}, {"revenue", Int64.Type}, {"appointments", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

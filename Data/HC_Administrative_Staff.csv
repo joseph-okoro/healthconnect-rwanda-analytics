@@ -1,0 +1,81 @@
+﻿StaffID,FirstName,LastName,Role,Department,Specialty,FacilityID,DepartmentID,YearsExperience,Status
+AD0001,Eric,Nsengimana,Administrative Staff,Emergency,Administrative Staff,HF001,DEP001,7,Active
+AD0002,Emmanuel,Niyonzima,Administrative Staff,Internal Medicine,Administrative Staff,HF002,DEP002,21,Active
+AD0003,Emmanuel,Uwimana,Administrative Staff,Surgery,Administrative Staff,HF003,DEP003,13,Active
+AD0004,Aline,Hakizimana,Administrative Staff,Pediatrics,Administrative Staff,HF004,DEP004,18,Active
+AD0005,Diane,Mugisha,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF005,DEP005,19,Active
+AD0006,Emmanuel,Mugisha,Administrative Staff,Radiology,Administrative Staff,HF006,DEP006,13,Active
+AD0007,Samuel,Habimana,Administrative Staff,Laboratory,Administrative Staff,HF007,DEP007,1,Active
+AD0008,Aline,Niyonzima,Administrative Staff,Pharmacy,Administrative Staff,HF008,DEP008,1,Active
+AD0009,Samuel,Uwimana,Administrative Staff,ICU,Administrative Staff,HF009,DEP009,16,Active
+AD0010,Emmanuel,Mugisha,Administrative Staff,Cardiology,Administrative Staff,HF010,DEP010,25,Active
+AD0011,Claudine,Niyonzima,Administrative Staff,Emergency,Administrative Staff,HF011,DEP011,6,Active
+AD0012,Alice,Niyonzima,Administrative Staff,Internal Medicine,Administrative Staff,HF012,DEP012,22,Active
+AD0013,Grace,Uwera,Administrative Staff,Surgery,Administrative Staff,HF013,DEP013,18,Active
+AD0014,Jean,Niyonzima,Administrative Staff,Pediatrics,Administrative Staff,HF014,DEP014,19,Active
+AD0015,Patrick,Mugisha,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF015,DEP015,6,Active
+AD0016,Eric,Niyonzima,Administrative Staff,Radiology,Administrative Staff,HF016,DEP016,19,Active
+AD0017,Aline,Mugisha,Administrative Staff,Laboratory,Administrative Staff,HF017,DEP017,19,Active
+AD0018,Jean,Mugisha,Administrative Staff,Pharmacy,Administrative Staff,HF018,DEP018,19,Active
+AD0019,Claudine,Habimana,Administrative Staff,ICU,Administrative Staff,HF019,DEP019,19,Active
+AD0020,Grace,Hakizimana,Administrative Staff,Cardiology,Administrative Staff,HF020,DEP020,18,Active
+AD0021,Samuel,Habimana,Administrative Staff,Emergency,Administrative Staff,HF001,DEP021,16,Active
+AD0022,Jean,Mukamana,Administrative Staff,Internal Medicine,Administrative Staff,HF002,DEP022,2,Active
+AD0023,Grace,Niyonzima,Administrative Staff,Surgery,Administrative Staff,HF003,DEP023,1,Active
+AD0024,Emmanuel,Hakizimana,Administrative Staff,Pediatrics,Administrative Staff,HF004,DEP024,1,Active
+AD0025,Aline,Niyonzima,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF005,DEP025,5,Active
+AD0026,Aline,Habimana,Administrative Staff,Radiology,Administrative Staff,HF006,DEP026,11,Active
+AD0027,Jean,Uwimana,Administrative Staff,Laboratory,Administrative Staff,HF007,DEP027,5,Active
+AD0028,Claudine,Habimana,Administrative Staff,Pharmacy,Administrative Staff,HF008,DEP028,25,Active
+AD0029,Alice,Mugisha,Administrative Staff,ICU,Administrative Staff,HF009,DEP029,3,Active
+AD0030,Aline,Nsengimana,Administrative Staff,Cardiology,Administrative Staff,HF010,DEP030,19,Active
+AD0031,Alice,Mugisha,Administrative Staff,Emergency,Administrative Staff,HF011,DEP031,10,Active
+AD0032,Aline,Habimana,Administrative Staff,Internal Medicine,Administrative Staff,HF012,DEP032,6,Active
+AD0033,Patrick,Hakizimana,Administrative Staff,Surgery,Administrative Staff,HF013,DEP033,21,Active
+AD0034,Aline,Habimana,Administrative Staff,Pediatrics,Administrative Staff,HF014,DEP034,23,Active
+AD0035,Emmanuel,Mugisha,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF015,DEP035,8,Active
+AD0036,Claudine,Habimana,Administrative Staff,Radiology,Administrative Staff,HF016,DEP036,13,Active
+AD0037,Samuel,Uwera,Administrative Staff,Laboratory,Administrative Staff,HF017,DEP037,5,Active
+AD0038,Eric,Uwimana,Administrative Staff,Pharmacy,Administrative Staff,HF018,DEP038,23,Active
+AD0039,Claudine,Nsengimana,Administrative Staff,ICU,Administrative Staff,HF019,DEP039,25,Active
+AD0040,Claudine,Uwimana,Administrative Staff,Cardiology,Administrative Staff,HF020,DEP040,6,Active
+AD0041,Claudine,Mugisha,Administrative Staff,Emergency,Administrative Staff,HF001,DEP041,20,Active
+AD0042,Grace,Mukamana,Administrative Staff,Internal Medicine,Administrative Staff,HF002,DEP042,16,Active
+AD0043,Eric,Mugisha,Administrative Staff,Surgery,Administrative Staff,HF003,DEP043,24,Active
+AD0044,Alice,Niyonzima,Administrative Staff,Pediatrics,Administrative Staff,HF004,DEP044,12,Active
+AD0045,Aline,Habimana,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF005,DEP045,21,Active
+AD0046,Alice,Mugisha,Administrative Staff,Radiology,Administrative Staff,HF006,DEP046,15,Active
+AD0047,Jean,Uwera,Administrative Staff,Laboratory,Administrative Staff,HF007,DEP047,7,Active
+AD0048,Grace,Mukamana,Administrative Staff,Pharmacy,Administrative Staff,HF008,DEP048,12,Active
+AD0049,Samuel,Mukamana,Administrative Staff,ICU,Administrative Staff,HF009,DEP049,24,Active
+AD0050,Jean,Uwimana,Administrative Staff,Cardiology,Administrative Staff,HF010,DEP050,13,Active
+AD0051,Diane,Nsengimana,Administrative Staff,Emergency,Administrative Staff,HF011,DEP051,6,Active
+AD0052,Patrick,Hakizimana,Administrative Staff,Internal Medicine,Administrative Staff,HF012,DEP052,13,Active
+AD0053,Aline,Nsengimana,Administrative Staff,Surgery,Administrative Staff,HF013,DEP053,4,Active
+AD0054,Diane,Niyonzima,Administrative Staff,Pediatrics,Administrative Staff,HF014,DEP054,6,Active
+AD0055,Diane,Mukamana,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF015,DEP055,2,Active
+AD0056,Samuel,Uwimana,Administrative Staff,Radiology,Administrative Staff,HF016,DEP056,11,Active
+AD0057,Samuel,Mukamana,Administrative Staff,Laboratory,Administrative Staff,HF017,DEP057,3,Active
+AD0058,Aline,Habimana,Administrative Staff,Pharmacy,Administrative Staff,HF018,DEP058,13,Active
+AD0059,Eric,Mukamana,Administrative Staff,ICU,Administrative Staff,HF019,DEP059,18,Active
+AD0060,Alice,Mugisha,Administrative Staff,Cardiology,Administrative Staff,HF020,DEP060,20,Active
+AD0061,Claudine,Hakizimana,Administrative Staff,Emergency,Administrative Staff,HF001,DEP061,23,Active
+AD0062,Jean,Nsengimana,Administrative Staff,Internal Medicine,Administrative Staff,HF002,DEP062,21,Active
+AD0063,Eric,Nsengimana,Administrative Staff,Surgery,Administrative Staff,HF003,DEP063,6,Active
+AD0064,Jean,Mukamana,Administrative Staff,Pediatrics,Administrative Staff,HF004,DEP064,11,Active
+AD0065,Grace,Niyonzima,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF005,DEP065,14,Active
+AD0066,Emmanuel,Uwera,Administrative Staff,Radiology,Administrative Staff,HF006,DEP066,22,Active
+AD0067,Samuel,Uwera,Administrative Staff,Laboratory,Administrative Staff,HF007,DEP067,8,Active
+AD0068,Alice,Uwimana,Administrative Staff,Pharmacy,Administrative Staff,HF008,DEP068,13,Active
+AD0069,Claudine,Hakizimana,Administrative Staff,ICU,Administrative Staff,HF009,DEP069,5,Active
+AD0070,Jean,Mugisha,Administrative Staff,Cardiology,Administrative Staff,HF010,DEP070,1,Active
+AD0071,Patrick,Mukamana,Administrative Staff,Emergency,Administrative Staff,HF011,DEP071,10,Active
+AD0072,Claudine,Hakizimana,Administrative Staff,Internal Medicine,Administrative Staff,HF012,DEP072,7,Active
+AD0073,Alice,Uwimana,Administrative Staff,Surgery,Administrative Staff,HF013,DEP073,7,Active
+AD0074,Eric,Uwera,Administrative Staff,Pediatrics,Administrative Staff,HF014,DEP074,3,Active
+AD0075,Diane,Mukamana,Administrative Staff,Obstetrics & Gynecology,Administrative Staff,HF015,DEP075,10,Active
+AD0076,Patrick,Hakizimana,Administrative Staff,Radiology,Administrative Staff,HF016,DEP076,16,Active
+AD0077,Samuel,Mukamana,Administrative Staff,Laboratory,Administrative Staff,HF017,DEP077,21,Active
+AD0078,Emmanuel,Nsengimana,Administrative Staff,Pharmacy,Administrative Staff,HF018,DEP078,6,Active
+AD0079,Aline,Nsengimana,Administrative Staff,ICU,Administrative Staff,HF019,DEP079,12,Active
+AD0080,Eric,Hakizimana,Administrative Staff,Cardiology,Administrative Staff,HF020,DEP080,2,Active

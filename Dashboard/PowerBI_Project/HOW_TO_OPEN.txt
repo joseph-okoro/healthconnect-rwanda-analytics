@@ -1,0 +1,15 @@
+HealthConnect Power BI project (generated, not tested in Power BI Desktop)
+
+1. Unzip this folder anywhere (keep the three items together: the .pbip file, the .Report folder and the .SemanticModel folder).
+2. Double-click HealthConnect_Analytics.pbip. If Power BI says the format is not enabled:
+   File > Options and settings > Options > Preview features, tick
+   "Power BI Project (.pbip) save option", "Store semantic model using TMDL format" and "Store reports using enhanced metadata format (PBIR)". Restart Power BI and open the file again.
+3. Tell Power BI where your data is: Home > Transform data > Edit parameters > DataFolder.
+   Type the folder that holds the 18 csv files, ending with a backslash, e.g.  C:\Users\You\Downloads\PowerBI_Data\
+   Click OK, then Apply changes. The data loads (about a minute).
+4. Check the numbers: page 1 should show Total Patients 20,000, Total Appointments 5,000, Total Revenue 9,309,401,961.
+5. File > Save as > HealthConnect_Analytics.pbix. Then File > Export > Export to PDF.
+
+Included: 8 pages (6 main pages, a Hospital Detail drill-through page and a tooltip page), 107 measures, relationships, hierarchies, slicers synced across pages, dynamic titles, conditional colours, decomposition tree, key influencers, matrix, map, page navigator.
+Not included (do these in Power BI, 5 minutes): the forecast (select the line chart on page 1 > Analytics pane > Forecast > On) and bookmarks (View > Bookmarks).
+If a visual shows an error, tell me its name.

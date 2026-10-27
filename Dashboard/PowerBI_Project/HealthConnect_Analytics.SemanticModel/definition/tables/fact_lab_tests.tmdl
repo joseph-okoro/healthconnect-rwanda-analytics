@@ -1,0 +1,59 @@
+table fact_lab_tests
+
+	column lab_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: lab_id
+
+	column appointment_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: appointment_id
+
+	column test
+		dataType: string
+		summarizeBy: none
+		sourceColumn: test
+
+	column result
+		dataType: string
+		summarizeBy: none
+		sourceColumn: result
+
+	column link_status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: link_status
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		summarizeBy: none
+		sourceColumn: date
+
+	column facility_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: facility_id
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	column province_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: province_name
+
+	partition fact_lab_tests = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_lab_tests.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"lab_id", type text}, {"appointment_id", type text}, {"test", type text}, {"result", type text}, {"link_status", type text}, {"date", type date}, {"facility_id", type text}, {"department_name", type text}, {"province_name", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

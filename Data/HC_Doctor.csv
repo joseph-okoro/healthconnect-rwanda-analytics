@@ -1,0 +1,351 @@
+﻿StaffID,FirstName,LastName,Role,Department,Specialty,FacilityID,DepartmentID,YearsExperience,Status
+DO0001,Alice,Uwimana,Doctor,Emergency,Emergency Physician,HF001,DEP001,24,Active
+DO0002,Samuel,Niyonzima,Doctor,Internal Medicine,Internist,HF002,DEP002,8,Active
+DO0003,Eric,Mukamana,Doctor,Surgery,General Surgeon,HF003,DEP003,22,Active
+DO0004,Emmanuel,Mukamana,Doctor,Pediatrics,Pediatrician,HF004,DEP004,19,Active
+DO0005,Patrick,Uwimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP005,1,Active
+DO0006,Alice,Niyonzima,Doctor,Radiology,Radiologist,HF006,DEP006,8,Active
+DO0007,Emmanuel,Uwimana,Doctor,Laboratory,Pathologist,HF007,DEP007,18,Active
+DO0008,Grace,Nsengimana,Doctor,Pharmacy,Pharmacist,HF008,DEP008,8,Active
+DO0009,Diane,Uwera,Doctor,ICU,Intensivist,HF009,DEP009,1,Active
+DO0010,Eric,Nsengimana,Doctor,Cardiology,Cardiologist,HF010,DEP010,11,Active
+DO0011,Samuel,Habimana,Doctor,Emergency,Emergency Physician,HF011,DEP011,7,Active
+DO0012,Aline,Mukamana,Doctor,Internal Medicine,Internist,HF012,DEP012,3,Active
+DO0013,Patrick,Mukamana,Doctor,Surgery,General Surgeon,HF013,DEP013,12,Active
+DO0014,Aline,Uwera,Doctor,Pediatrics,Pediatrician,HF014,DEP014,2,Active
+DO0015,Diane,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP015,13,Active
+DO0016,Alice,Uwera,Doctor,Radiology,Radiologist,HF016,DEP016,21,Active
+DO0017,Claudine,Mugisha,Doctor,Laboratory,Pathologist,HF017,DEP017,19,Active
+DO0018,Grace,Mukamana,Doctor,Pharmacy,Pharmacist,HF018,DEP018,2,Active
+DO0019,Grace,Uwera,Doctor,ICU,Intensivist,HF019,DEP019,3,Active
+DO0020,Grace,Mukamana,Doctor,Cardiology,Cardiologist,HF020,DEP020,13,Active
+DO0021,Samuel,Hakizimana,Doctor,Emergency,Emergency Physician,HF001,DEP021,21,Active
+DO0022,Aline,Habimana,Doctor,Internal Medicine,Internist,HF002,DEP022,12,Active
+DO0023,Aline,Niyonzima,Doctor,Surgery,General Surgeon,HF003,DEP023,22,Active
+DO0024,Samuel,Mukamana,Doctor,Pediatrics,Pediatrician,HF004,DEP024,20,Active
+DO0025,Eric,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP025,6,Active
+DO0026,Diane,Nsengimana,Doctor,Radiology,Radiologist,HF006,DEP026,9,Active
+DO0027,Emmanuel,Niyonzima,Doctor,Laboratory,Pathologist,HF007,DEP027,22,Active
+DO0028,Aline,Uwimana,Doctor,Pharmacy,Pharmacist,HF008,DEP028,8,Active
+DO0029,Jean,Mugisha,Doctor,ICU,Intensivist,HF009,DEP029,13,Active
+DO0030,Samuel,Mukamana,Doctor,Cardiology,Cardiologist,HF010,DEP030,7,Active
+DO0031,Claudine,Mugisha,Doctor,Emergency,Emergency Physician,HF011,DEP031,7,Active
+DO0032,Diane,Nsengimana,Doctor,Internal Medicine,Internist,HF012,DEP032,21,Active
+DO0033,Diane,Habimana,Doctor,Surgery,General Surgeon,HF013,DEP033,9,Active
+DO0034,Eric,Niyonzima,Doctor,Pediatrics,Pediatrician,HF014,DEP034,24,Active
+DO0035,Emmanuel,Uwera,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP035,24,Active
+DO0036,Claudine,Nsengimana,Doctor,Radiology,Radiologist,HF016,DEP036,19,Active
+DO0037,Patrick,Mugisha,Doctor,Laboratory,Pathologist,HF017,DEP037,8,Active
+DO0038,Eric,Hakizimana,Doctor,Pharmacy,Pharmacist,HF018,DEP038,3,Active
+DO0039,Jean,Mukamana,Doctor,ICU,Intensivist,HF019,DEP039,5,Active
+DO0040,Eric,Nsengimana,Doctor,Cardiology,Cardiologist,HF020,DEP040,20,Active
+DO0041,Alice,Nsengimana,Doctor,Emergency,Emergency Physician,HF001,DEP041,13,Active
+DO0042,Claudine,Hakizimana,Doctor,Internal Medicine,Internist,HF002,DEP042,17,Active
+DO0043,Samuel,Uwimana,Doctor,Surgery,General Surgeon,HF003,DEP043,22,Active
+DO0044,Alice,Uwera,Doctor,Pediatrics,Pediatrician,HF004,DEP044,25,Active
+DO0045,Aline,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP045,10,Active
+DO0046,Patrick,Habimana,Doctor,Radiology,Radiologist,HF006,DEP046,15,Active
+DO0047,Jean,Uwera,Doctor,Laboratory,Pathologist,HF007,DEP047,17,Active
+DO0048,Eric,Mukamana,Doctor,Pharmacy,Pharmacist,HF008,DEP048,21,Active
+DO0049,Samuel,Niyonzima,Doctor,ICU,Intensivist,HF009,DEP049,5,Active
+DO0050,Aline,Habimana,Doctor,Cardiology,Cardiologist,HF010,DEP050,18,Active
+DO0051,Emmanuel,Uwimana,Doctor,Emergency,Emergency Physician,HF011,DEP051,20,Active
+DO0052,Aline,Hakizimana,Doctor,Internal Medicine,Internist,HF012,DEP052,1,Active
+DO0053,Alice,Mugisha,Doctor,Surgery,General Surgeon,HF013,DEP053,10,Active
+DO0054,Grace,Uwimana,Doctor,Pediatrics,Pediatrician,HF014,DEP054,8,Active
+DO0055,Claudine,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP055,3,Active
+DO0056,Diane,Mukamana,Doctor,Radiology,Radiologist,HF016,DEP056,25,Active
+DO0057,Emmanuel,Habimana,Doctor,Laboratory,Pathologist,HF017,DEP057,5,Active
+DO0058,Diane,Habimana,Doctor,Pharmacy,Pharmacist,HF018,DEP058,9,Active
+DO0059,Emmanuel,Nsengimana,Doctor,ICU,Intensivist,HF019,DEP059,7,Active
+DO0060,Emmanuel,Niyonzima,Doctor,Cardiology,Cardiologist,HF020,DEP060,23,Active
+DO0061,Samuel,Nsengimana,Doctor,Emergency,Emergency Physician,HF001,DEP061,22,Active
+DO0062,Aline,Hakizimana,Doctor,Internal Medicine,Internist,HF002,DEP062,17,Active
+DO0063,Diane,Mukamana,Doctor,Surgery,General Surgeon,HF003,DEP063,8,Active
+DO0064,Grace,Mukamana,Doctor,Pediatrics,Pediatrician,HF004,DEP064,11,Active
+DO0065,Jean,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP065,19,Active
+DO0066,Grace,Uwimana,Doctor,Radiology,Radiologist,HF006,DEP066,3,Active
+DO0067,Jean,Niyonzima,Doctor,Laboratory,Pathologist,HF007,DEP067,3,Active
+DO0068,Jean,Mugisha,Doctor,Pharmacy,Pharmacist,HF008,DEP068,3,Active
+DO0069,Emmanuel,Niyonzima,Doctor,ICU,Intensivist,HF009,DEP069,9,Active
+DO0070,Diane,Niyonzima,Doctor,Cardiology,Cardiologist,HF010,DEP070,18,Active
+DO0071,Eric,Hakizimana,Doctor,Emergency,Emergency Physician,HF011,DEP071,8,Active
+DO0072,Diane,Nsengimana,Doctor,Internal Medicine,Internist,HF012,DEP072,7,Active
+DO0073,Alice,Mukamana,Doctor,Surgery,General Surgeon,HF013,DEP073,22,Active
+DO0074,Patrick,Mugisha,Doctor,Pediatrics,Pediatrician,HF014,DEP074,14,Active
+DO0075,Patrick,Hakizimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP075,24,Active
+DO0076,Jean,Mukamana,Doctor,Radiology,Radiologist,HF016,DEP076,2,Active
+DO0077,Patrick,Mugisha,Doctor,Laboratory,Pathologist,HF017,DEP077,4,Active
+DO0078,Grace,Niyonzima,Doctor,Pharmacy,Pharmacist,HF018,DEP078,7,Active
+DO0079,Emmanuel,Hakizimana,Doctor,ICU,Intensivist,HF019,DEP079,5,Active
+DO0080,Patrick,Habimana,Doctor,Cardiology,Cardiologist,HF020,DEP080,9,Active
+DO0081,Diane,Niyonzima,Doctor,Emergency,Emergency Physician,HF001,DEP081,3,Active
+DO0082,Diane,Mukamana,Doctor,Internal Medicine,Internist,HF002,DEP082,2,Active
+DO0083,Emmanuel,Uwimana,Doctor,Surgery,General Surgeon,HF003,DEP083,3,Active
+DO0084,Grace,Habimana,Doctor,Pediatrics,Pediatrician,HF004,DEP084,14,Active
+DO0085,Diane,Hakizimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP085,7,Active
+DO0086,Patrick,Uwimana,Doctor,Radiology,Radiologist,HF006,DEP086,6,Active
+DO0087,Patrick,Uwimana,Doctor,Laboratory,Pathologist,HF007,DEP087,13,Active
+DO0088,Samuel,Hakizimana,Doctor,Pharmacy,Pharmacist,HF008,DEP088,10,Active
+DO0089,Patrick,Hakizimana,Doctor,ICU,Intensivist,HF009,DEP089,5,Active
+DO0090,Grace,Uwera,Doctor,Cardiology,Cardiologist,HF010,DEP090,7,Active
+DO0091,Jean,Uwimana,Doctor,Emergency,Emergency Physician,HF011,DEP091,24,Active
+DO0092,Aline,Uwimana,Doctor,Internal Medicine,Internist,HF012,DEP092,2,Active
+DO0093,Claudine,Hakizimana,Doctor,Surgery,General Surgeon,HF013,DEP093,17,Active
+DO0094,Emmanuel,Habimana,Doctor,Pediatrics,Pediatrician,HF014,DEP094,2,Active
+DO0095,Emmanuel,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP095,6,Active
+DO0096,Alice,Mukamana,Doctor,Radiology,Radiologist,HF016,DEP096,22,Active
+DO0097,Grace,Nsengimana,Doctor,Laboratory,Pathologist,HF017,DEP097,4,Active
+DO0098,Claudine,Niyonzima,Doctor,Pharmacy,Pharmacist,HF018,DEP098,19,Active
+DO0099,Claudine,Uwimana,Doctor,ICU,Intensivist,HF019,DEP099,20,Active
+DO0100,Alice,Nsengimana,Doctor,Cardiology,Cardiologist,HF020,DEP100,22,Active
+DO0101,Claudine,Mugisha,Doctor,Emergency,Emergency Physician,HF001,DEP101,9,Active
+DO0102,Grace,Mugisha,Doctor,Internal Medicine,Internist,HF002,DEP102,8,Active
+DO0103,Samuel,Nsengimana,Doctor,Surgery,General Surgeon,HF003,DEP103,5,Active
+DO0104,Samuel,Hakizimana,Doctor,Pediatrics,Pediatrician,HF004,DEP104,11,Active
+DO0105,Alice,Uwimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP105,15,Active
+DO0106,Claudine,Mukamana,Doctor,Radiology,Radiologist,HF006,DEP106,3,Active
+DO0107,Emmanuel,Niyonzima,Doctor,Laboratory,Pathologist,HF007,DEP107,17,Active
+DO0108,Samuel,Habimana,Doctor,Pharmacy,Pharmacist,HF008,DEP108,12,Active
+DO0109,Alice,Niyonzima,Doctor,ICU,Intensivist,HF009,DEP109,12,Active
+DO0110,Samuel,Habimana,Doctor,Cardiology,Cardiologist,HF010,DEP110,15,Active
+DO0111,Emmanuel,Uwera,Doctor,Emergency,Emergency Physician,HF011,DEP111,20,Active
+DO0112,Emmanuel,Uwimana,Doctor,Internal Medicine,Internist,HF012,DEP112,22,Active
+DO0113,Emmanuel,Uwera,Doctor,Surgery,General Surgeon,HF013,DEP113,22,Active
+DO0114,Alice,Habimana,Doctor,Pediatrics,Pediatrician,HF014,DEP114,9,Active
+DO0115,Alice,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP115,24,Active
+DO0116,Emmanuel,Habimana,Doctor,Radiology,Radiologist,HF016,DEP116,9,Active
+DO0117,Samuel,Niyonzima,Doctor,Laboratory,Pathologist,HF017,DEP117,23,Active
+DO0118,Aline,Niyonzima,Doctor,Pharmacy,Pharmacist,HF018,DEP118,22,Active
+DO0119,Samuel,Hakizimana,Doctor,ICU,Intensivist,HF019,DEP119,9,Active
+DO0120,Jean,Mukamana,Doctor,Cardiology,Cardiologist,HF020,DEP120,21,Active
+DO0121,Patrick,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP121,2,Active
+DO0122,Jean,Mugisha,Doctor,Internal Medicine,Internist,HF002,DEP122,25,Active
+DO0123,Eric,Uwera,Doctor,Surgery,General Surgeon,HF003,DEP123,6,Active
+DO0124,Diane,Nsengimana,Doctor,Pediatrics,Pediatrician,HF004,DEP124,18,Active
+DO0125,Jean,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP125,3,Active
+DO0126,Eric,Uwimana,Doctor,Radiology,Radiologist,HF006,DEP126,12,Active
+DO0127,Claudine,Habimana,Doctor,Laboratory,Pathologist,HF007,DEP127,14,Active
+DO0128,Eric,Uwimana,Doctor,Pharmacy,Pharmacist,HF008,DEP128,10,Active
+DO0129,Aline,Uwimana,Doctor,ICU,Intensivist,HF009,DEP129,12,Active
+DO0130,Grace,Niyonzima,Doctor,Cardiology,Cardiologist,HF010,DEP130,22,Active
+DO0131,Alice,Mugisha,Doctor,Emergency,Emergency Physician,HF011,DEP131,25,Active
+DO0132,Emmanuel,Nsengimana,Doctor,Internal Medicine,Internist,HF012,DEP132,20,Active
+DO0133,Eric,Niyonzima,Doctor,Surgery,General Surgeon,HF013,DEP133,6,Active
+DO0134,Eric,Nsengimana,Doctor,Pediatrics,Pediatrician,HF014,DEP134,1,Active
+DO0135,Eric,Mugisha,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP135,14,Active
+DO0136,Grace,Uwera,Doctor,Radiology,Radiologist,HF016,DEP136,6,Active
+DO0137,Alice,Nsengimana,Doctor,Laboratory,Pathologist,HF017,DEP137,2,Active
+DO0138,Diane,Niyonzima,Doctor,Pharmacy,Pharmacist,HF018,DEP138,7,Active
+DO0139,Diane,Mugisha,Doctor,ICU,Intensivist,HF019,DEP139,10,Active
+DO0140,Grace,Niyonzima,Doctor,Cardiology,Cardiologist,HF020,DEP140,1,Active
+DO0141,Grace,Nsengimana,Doctor,Emergency,Emergency Physician,HF001,DEP141,11,Active
+DO0142,Samuel,Mukamana,Doctor,Internal Medicine,Internist,HF002,DEP142,25,Active
+DO0143,Samuel,Mugisha,Doctor,Surgery,General Surgeon,HF003,DEP143,21,Active
+DO0144,Emmanuel,Nsengimana,Doctor,Pediatrics,Pediatrician,HF004,DEP144,22,Active
+DO0145,Emmanuel,Mugisha,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP145,1,Active
+DO0146,Alice,Uwera,Doctor,Radiology,Radiologist,HF006,DEP146,6,Active
+DO0147,Claudine,Uwera,Doctor,Laboratory,Pathologist,HF007,DEP147,2,Active
+DO0148,Alice,Nsengimana,Doctor,Pharmacy,Pharmacist,HF008,DEP148,12,Active
+DO0149,Aline,Nsengimana,Doctor,ICU,Intensivist,HF009,DEP149,20,Active
+DO0150,Emmanuel,Mukamana,Doctor,Cardiology,Cardiologist,HF010,DEP150,13,Active
+DO0151,Claudine,Niyonzima,Doctor,Emergency,Emergency Physician,HF011,DEP151,9,Active
+DO0152,Jean,Nsengimana,Doctor,Internal Medicine,Internist,HF012,DEP152,1,Active
+DO0153,Emmanuel,Niyonzima,Doctor,Surgery,General Surgeon,HF013,DEP153,12,Active
+DO0154,Patrick,Mukamana,Doctor,Pediatrics,Pediatrician,HF014,DEP154,22,Active
+DO0155,Aline,Mugisha,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP155,22,Active
+DO0156,Alice,Uwera,Doctor,Radiology,Radiologist,HF016,DEP156,17,Active
+DO0157,Samuel,Nsengimana,Doctor,Laboratory,Pathologist,HF017,DEP157,11,Active
+DO0158,Patrick,Uwera,Doctor,Pharmacy,Pharmacist,HF018,DEP158,18,Active
+DO0159,Eric,Niyonzima,Doctor,ICU,Intensivist,HF019,DEP159,14,Active
+DO0160,Patrick,Habimana,Doctor,Cardiology,Cardiologist,HF020,DEP160,20,Active
+DO0161,Claudine,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP161,13,Active
+DO0162,Emmanuel,Uwimana,Doctor,Internal Medicine,Internist,HF002,DEP162,10,Active
+DO0163,Samuel,Niyonzima,Doctor,Surgery,General Surgeon,HF003,DEP163,14,Active
+DO0164,Claudine,Mugisha,Doctor,Pediatrics,Pediatrician,HF004,DEP164,15,Active
+DO0165,Diane,Hakizimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP165,22,Active
+DO0166,Grace,Hakizimana,Doctor,Radiology,Radiologist,HF006,DEP166,24,Active
+DO0167,Eric,Mukamana,Doctor,Laboratory,Pathologist,HF007,DEP167,10,Active
+DO0168,Emmanuel,Mugisha,Doctor,Pharmacy,Pharmacist,HF008,DEP168,3,Active
+DO0169,Grace,Uwera,Doctor,ICU,Intensivist,HF009,DEP169,8,Active
+DO0170,Grace,Habimana,Doctor,Cardiology,Cardiologist,HF010,DEP170,1,Active
+DO0171,Jean,Niyonzima,Doctor,Emergency,Emergency Physician,HF011,DEP171,16,Active
+DO0172,Claudine,Mukamana,Doctor,Internal Medicine,Internist,HF012,DEP172,15,Active
+DO0173,Patrick,Niyonzima,Doctor,Surgery,General Surgeon,HF013,DEP173,23,Active
+DO0174,Patrick,Hakizimana,Doctor,Pediatrics,Pediatrician,HF014,DEP174,13,Active
+DO0175,Grace,Habimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP175,21,Active
+DO0176,Jean,Mukamana,Doctor,Radiology,Radiologist,HF016,DEP176,25,Active
+DO0177,Patrick,Niyonzima,Doctor,Laboratory,Pathologist,HF017,DEP177,6,Active
+DO0178,Emmanuel,Hakizimana,Doctor,Pharmacy,Pharmacist,HF018,DEP178,2,Active
+DO0179,Emmanuel,Niyonzima,Doctor,ICU,Intensivist,HF019,DEP179,4,Active
+DO0180,Diane,Habimana,Doctor,Cardiology,Cardiologist,HF020,DEP180,15,Active
+DO0181,Emmanuel,Mugisha,Doctor,Emergency,Emergency Physician,HF001,DEP181,25,Active
+DO0182,Diane,Nsengimana,Doctor,Internal Medicine,Internist,HF002,DEP182,18,Active
+DO0183,Diane,Habimana,Doctor,Surgery,General Surgeon,HF003,DEP183,24,Active
+DO0184,Diane,Hakizimana,Doctor,Pediatrics,Pediatrician,HF004,DEP184,9,Active
+DO0185,Grace,Uwera,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP185,25,Active
+DO0186,Emmanuel,Hakizimana,Doctor,Radiology,Radiologist,HF006,DEP186,21,Active
+DO0187,Grace,Uwera,Doctor,Laboratory,Pathologist,HF007,DEP187,15,Active
+DO0188,Alice,Uwera,Doctor,Pharmacy,Pharmacist,HF008,DEP188,8,Active
+DO0189,Samuel,Mugisha,Doctor,ICU,Intensivist,HF009,DEP189,11,Active
+DO0190,Emmanuel,Mukamana,Doctor,Cardiology,Cardiologist,HF010,DEP190,5,Active
+DO0191,Eric,Niyonzima,Doctor,Emergency,Emergency Physician,HF011,DEP191,13,Active
+DO0192,Eric,Niyonzima,Doctor,Internal Medicine,Internist,HF012,DEP192,3,Active
+DO0193,Patrick,Nsengimana,Doctor,Surgery,General Surgeon,HF013,DEP193,11,Active
+DO0194,Emmanuel,Hakizimana,Doctor,Pediatrics,Pediatrician,HF014,DEP194,14,Active
+DO0195,Jean,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP195,14,Active
+DO0196,Patrick,Uwimana,Doctor,Radiology,Radiologist,HF016,DEP196,25,Active
+DO0197,Claudine,Nsengimana,Doctor,Laboratory,Pathologist,HF017,DEP197,16,Active
+DO0198,Jean,Mugisha,Doctor,Pharmacy,Pharmacist,HF018,DEP198,10,Active
+DO0199,Patrick,Nsengimana,Doctor,ICU,Intensivist,HF019,DEP199,18,Active
+DO0200,Emmanuel,Niyonzima,Doctor,Cardiology,Cardiologist,HF020,DEP200,16,Active
+DO0201,Grace,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP001,14,Active
+DO0202,Diane,Uwimana,Doctor,Internal Medicine,Internist,HF002,DEP002,13,Active
+DO0203,Aline,Nsengimana,Doctor,Surgery,General Surgeon,HF003,DEP003,24,Active
+DO0204,Eric,Hakizimana,Doctor,Pediatrics,Pediatrician,HF004,DEP004,5,Active
+DO0205,Claudine,Uwimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP005,13,Active
+DO0206,Claudine,Uwimana,Doctor,Radiology,Radiologist,HF006,DEP006,3,Active
+DO0207,Patrick,Habimana,Doctor,Laboratory,Pathologist,HF007,DEP007,15,Active
+DO0208,Eric,Uwimana,Doctor,Pharmacy,Pharmacist,HF008,DEP008,9,Active
+DO0209,Patrick,Mugisha,Doctor,ICU,Intensivist,HF009,DEP009,7,Active
+DO0210,Diane,Mugisha,Doctor,Cardiology,Cardiologist,HF010,DEP010,11,Active
+DO0211,Patrick,Uwera,Doctor,Emergency,Emergency Physician,HF011,DEP011,25,Active
+DO0212,Patrick,Uwera,Doctor,Internal Medicine,Internist,HF012,DEP012,3,Active
+DO0213,Diane,Uwimana,Doctor,Surgery,General Surgeon,HF013,DEP013,24,Active
+DO0214,Emmanuel,Uwimana,Doctor,Pediatrics,Pediatrician,HF014,DEP014,12,Active
+DO0215,Grace,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP015,25,Active
+DO0216,Jean,Uwimana,Doctor,Radiology,Radiologist,HF016,DEP016,8,Active
+DO0217,Grace,Uwimana,Doctor,Laboratory,Pathologist,HF017,DEP017,20,Active
+DO0218,Eric,Niyonzima,Doctor,Pharmacy,Pharmacist,HF018,DEP018,5,Active
+DO0219,Diane,Mukamana,Doctor,ICU,Intensivist,HF019,DEP019,19,Active
+DO0220,Grace,Hakizimana,Doctor,Cardiology,Cardiologist,HF020,DEP020,23,Active
+DO0221,Samuel,Mugisha,Doctor,Emergency,Emergency Physician,HF001,DEP021,6,Active
+DO0222,Claudine,Mukamana,Doctor,Internal Medicine,Internist,HF002,DEP022,25,Active
+DO0223,Eric,Uwera,Doctor,Surgery,General Surgeon,HF003,DEP023,4,Active
+DO0224,Claudine,Uwimana,Doctor,Pediatrics,Pediatrician,HF004,DEP024,10,Active
+DO0225,Claudine,Nsengimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP025,13,Active
+DO0226,Grace,Mukamana,Doctor,Radiology,Radiologist,HF006,DEP026,19,Active
+DO0227,Grace,Mukamana,Doctor,Laboratory,Pathologist,HF007,DEP027,23,Active
+DO0228,Samuel,Mukamana,Doctor,Pharmacy,Pharmacist,HF008,DEP028,19,Active
+DO0229,Jean,Mugisha,Doctor,ICU,Intensivist,HF009,DEP029,18,Active
+DO0230,Patrick,Mugisha,Doctor,Cardiology,Cardiologist,HF010,DEP030,3,Active
+DO0231,Emmanuel,Mugisha,Doctor,Emergency,Emergency Physician,HF011,DEP031,1,Active
+DO0232,Patrick,Hakizimana,Doctor,Internal Medicine,Internist,HF012,DEP032,4,Active
+DO0233,Patrick,Mugisha,Doctor,Surgery,General Surgeon,HF013,DEP033,21,Active
+DO0234,Diane,Habimana,Doctor,Pediatrics,Pediatrician,HF014,DEP034,14,Active
+DO0235,Eric,Uwera,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP035,20,Active
+DO0236,Emmanuel,Hakizimana,Doctor,Radiology,Radiologist,HF016,DEP036,15,Active
+DO0237,Patrick,Uwera,Doctor,Laboratory,Pathologist,HF017,DEP037,11,Active
+DO0238,Grace,Mukamana,Doctor,Pharmacy,Pharmacist,HF018,DEP038,9,Active
+DO0239,Diane,Niyonzima,Doctor,ICU,Intensivist,HF019,DEP039,25,Active
+DO0240,Diane,Nsengimana,Doctor,Cardiology,Cardiologist,HF020,DEP040,11,Active
+DO0241,Jean,Hakizimana,Doctor,Emergency,Emergency Physician,HF001,DEP041,11,Active
+DO0242,Eric,Hakizimana,Doctor,Internal Medicine,Internist,HF002,DEP042,7,Active
+DO0243,Aline,Uwera,Doctor,Surgery,General Surgeon,HF003,DEP043,11,Active
+DO0244,Samuel,Uwera,Doctor,Pediatrics,Pediatrician,HF004,DEP044,18,Active
+DO0245,Jean,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP045,3,Active
+DO0246,Grace,Nsengimana,Doctor,Radiology,Radiologist,HF006,DEP046,16,Active
+DO0247,Emmanuel,Niyonzima,Doctor,Laboratory,Pathologist,HF007,DEP047,23,Active
+DO0248,Diane,Hakizimana,Doctor,Pharmacy,Pharmacist,HF008,DEP048,15,Active
+DO0249,Jean,Mukamana,Doctor,ICU,Intensivist,HF009,DEP049,10,Active
+DO0250,Grace,Nsengimana,Doctor,Cardiology,Cardiologist,HF010,DEP050,23,Active
+DO0251,Grace,Uwera,Doctor,Emergency,Emergency Physician,HF011,DEP051,22,Active
+DO0252,Claudine,Mugisha,Doctor,Internal Medicine,Internist,HF012,DEP052,16,Active
+DO0253,Emmanuel,Mugisha,Doctor,Surgery,General Surgeon,HF013,DEP053,14,Active
+DO0254,Emmanuel,Mugisha,Doctor,Pediatrics,Pediatrician,HF014,DEP054,12,Active
+DO0255,Diane,Uwera,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP055,10,Active
+DO0256,Samuel,Niyonzima,Doctor,Radiology,Radiologist,HF016,DEP056,4,Active
+DO0257,Grace,Mugisha,Doctor,Laboratory,Pathologist,HF017,DEP057,4,Active
+DO0258,Emmanuel,Habimana,Doctor,Pharmacy,Pharmacist,HF018,DEP058,7,Active
+DO0259,Grace,Hakizimana,Doctor,ICU,Intensivist,HF019,DEP059,9,Active
+DO0260,Claudine,Uwera,Doctor,Cardiology,Cardiologist,HF020,DEP060,4,Active
+DO0261,Grace,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP061,8,Active
+DO0262,Aline,Habimana,Doctor,Internal Medicine,Internist,HF002,DEP062,10,Active
+DO0263,Jean,Habimana,Doctor,Surgery,General Surgeon,HF003,DEP063,9,Active
+DO0264,Jean,Uwimana,Doctor,Pediatrics,Pediatrician,HF004,DEP064,18,Active
+DO0265,Samuel,Habimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP065,21,Active
+DO0266,Diane,Mukamana,Doctor,Radiology,Radiologist,HF006,DEP066,1,Active
+DO0267,Claudine,Uwera,Doctor,Laboratory,Pathologist,HF007,DEP067,16,Active
+DO0268,Diane,Hakizimana,Doctor,Pharmacy,Pharmacist,HF008,DEP068,11,Active
+DO0269,Eric,Uwimana,Doctor,ICU,Intensivist,HF009,DEP069,9,Active
+DO0270,Diane,Mukamana,Doctor,Cardiology,Cardiologist,HF010,DEP070,3,Active
+DO0271,Patrick,Hakizimana,Doctor,Emergency,Emergency Physician,HF011,DEP071,3,Active
+DO0272,Claudine,Uwimana,Doctor,Internal Medicine,Internist,HF012,DEP072,5,Active
+DO0273,Eric,Uwera,Doctor,Surgery,General Surgeon,HF013,DEP073,3,Active
+DO0274,Grace,Mukamana,Doctor,Pediatrics,Pediatrician,HF014,DEP074,18,Active
+DO0275,Patrick,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP075,25,Active
+DO0276,Emmanuel,Nsengimana,Doctor,Radiology,Radiologist,HF016,DEP076,15,Active
+DO0277,Diane,Uwera,Doctor,Laboratory,Pathologist,HF017,DEP077,19,Active
+DO0278,Patrick,Uwera,Doctor,Pharmacy,Pharmacist,HF018,DEP078,19,Active
+DO0279,Claudine,Uwimana,Doctor,ICU,Intensivist,HF019,DEP079,20,Active
+DO0280,Alice,Niyonzima,Doctor,Cardiology,Cardiologist,HF020,DEP080,21,Active
+DO0281,Grace,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP081,22,Active
+DO0282,Alice,Habimana,Doctor,Internal Medicine,Internist,HF002,DEP082,8,Active
+DO0283,Eric,Mukamana,Doctor,Surgery,General Surgeon,HF003,DEP083,6,Active
+DO0284,Jean,Nsengimana,Doctor,Pediatrics,Pediatrician,HF004,DEP084,15,Active
+DO0285,Claudine,Hakizimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP085,10,Active
+DO0286,Jean,Niyonzima,Doctor,Radiology,Radiologist,HF006,DEP086,10,Active
+DO0287,Samuel,Hakizimana,Doctor,Laboratory,Pathologist,HF007,DEP087,3,Active
+DO0288,Grace,Uwera,Doctor,Pharmacy,Pharmacist,HF008,DEP088,21,Active
+DO0289,Claudine,Niyonzima,Doctor,ICU,Intensivist,HF009,DEP089,14,Active
+DO0290,Alice,Niyonzima,Doctor,Cardiology,Cardiologist,HF010,DEP090,21,Active
+DO0291,Eric,Uwera,Doctor,Emergency,Emergency Physician,HF011,DEP091,5,Active
+DO0292,Alice,Uwimana,Doctor,Internal Medicine,Internist,HF012,DEP092,6,Active
+DO0293,Samuel,Uwera,Doctor,Surgery,General Surgeon,HF013,DEP093,15,Active
+DO0294,Alice,Hakizimana,Doctor,Pediatrics,Pediatrician,HF014,DEP094,23,Active
+DO0295,Samuel,Nsengimana,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP095,9,Active
+DO0296,Emmanuel,Hakizimana,Doctor,Radiology,Radiologist,HF016,DEP096,15,Active
+DO0297,Alice,Uwimana,Doctor,Laboratory,Pathologist,HF017,DEP097,14,Active
+DO0298,Aline,Uwera,Doctor,Pharmacy,Pharmacist,HF018,DEP098,1,Active
+DO0299,Alice,Niyonzima,Doctor,ICU,Intensivist,HF019,DEP099,22,Active
+DO0300,Claudine,Uwimana,Doctor,Cardiology,Cardiologist,HF020,DEP100,25,Active
+DO0301,Samuel,Uwimana,Doctor,Emergency,Emergency Physician,HF001,DEP101,25,Active
+DO0302,Eric,Hakizimana,Doctor,Internal Medicine,Internist,HF002,DEP102,17,Active
+DO0303,Diane,Uwera,Doctor,Surgery,General Surgeon,HF003,DEP103,6,Active
+DO0304,Claudine,Nsengimana,Doctor,Pediatrics,Pediatrician,HF004,DEP104,21,Active
+DO0305,Diane,Mukamana,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP105,16,Active
+DO0306,Aline,Nsengimana,Doctor,Radiology,Radiologist,HF006,DEP106,11,Active
+DO0307,Aline,Mukamana,Doctor,Laboratory,Pathologist,HF007,DEP107,6,Active
+DO0308,Aline,Nsengimana,Doctor,Pharmacy,Pharmacist,HF008,DEP108,23,Active
+DO0309,Diane,Uwera,Doctor,ICU,Intensivist,HF009,DEP109,22,Active
+DO0310,Patrick,Uwimana,Doctor,Cardiology,Cardiologist,HF010,DEP110,15,Active
+DO0311,Alice,Mugisha,Doctor,Emergency,Emergency Physician,HF011,DEP111,9,Active
+DO0312,Aline,Mukamana,Doctor,Internal Medicine,Internist,HF012,DEP112,25,Active
+DO0313,Patrick,Uwimana,Doctor,Surgery,General Surgeon,HF013,DEP113,22,Active
+DO0314,Emmanuel,Hakizimana,Doctor,Pediatrics,Pediatrician,HF014,DEP114,14,Active
+DO0315,Jean,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP115,17,Active
+DO0316,Aline,Hakizimana,Doctor,Radiology,Radiologist,HF016,DEP116,21,Active
+DO0317,Diane,Uwimana,Doctor,Laboratory,Pathologist,HF017,DEP117,7,Active
+DO0318,Samuel,Habimana,Doctor,Pharmacy,Pharmacist,HF018,DEP118,10,Active
+DO0319,Diane,Hakizimana,Doctor,ICU,Intensivist,HF019,DEP119,4,Active
+DO0320,Jean,Niyonzima,Doctor,Cardiology,Cardiologist,HF020,DEP120,23,Active
+DO0321,Eric,Uwera,Doctor,Emergency,Emergency Physician,HF001,DEP121,18,Active
+DO0322,Jean,Nsengimana,Doctor,Internal Medicine,Internist,HF002,DEP122,3,Active
+DO0323,Grace,Mukamana,Doctor,Surgery,General Surgeon,HF003,DEP123,15,Active
+DO0324,Alice,Habimana,Doctor,Pediatrics,Pediatrician,HF004,DEP124,16,Active
+DO0325,Samuel,Uwera,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP125,14,Active
+DO0326,Diane,Hakizimana,Doctor,Radiology,Radiologist,HF006,DEP126,8,Active
+DO0327,Diane,Habimana,Doctor,Laboratory,Pathologist,HF007,DEP127,13,Active
+DO0328,Grace,Habimana,Doctor,Pharmacy,Pharmacist,HF008,DEP128,3,Active
+DO0329,Samuel,Nsengimana,Doctor,ICU,Intensivist,HF009,DEP129,11,Active
+DO0330,Emmanuel,Uwera,Doctor,Cardiology,Cardiologist,HF010,DEP130,1,Active
+DO0331,Samuel,Uwera,Doctor,Emergency,Emergency Physician,HF011,DEP131,19,Active
+DO0332,Claudine,Hakizimana,Doctor,Internal Medicine,Internist,HF012,DEP132,5,Active
+DO0333,Diane,Hakizimana,Doctor,Surgery,General Surgeon,HF013,DEP133,12,Active
+DO0334,Aline,Nsengimana,Doctor,Pediatrics,Pediatrician,HF014,DEP134,15,Active
+DO0335,Aline,Niyonzima,Doctor,Obstetrics & Gynecology,Obstetrician,HF015,DEP135,23,Active
+DO0336,Grace,Nsengimana,Doctor,Radiology,Radiologist,HF016,DEP136,8,Active
+DO0337,Patrick,Uwimana,Doctor,Laboratory,Pathologist,HF017,DEP137,11,Active
+DO0338,Diane,Nsengimana,Doctor,Pharmacy,Pharmacist,HF018,DEP138,13,Active
+DO0339,Eric,Hakizimana,Doctor,ICU,Intensivist,HF019,DEP139,2,Active
+DO0340,Eric,Mugisha,Doctor,Cardiology,Cardiologist,HF020,DEP140,4,Active
+DO0341,Diane,Mukamana,Doctor,Emergency,Emergency Physician,HF001,DEP141,17,Active
+DO0342,Diane,Uwimana,Doctor,Internal Medicine,Internist,HF002,DEP142,24,Active
+DO0343,Eric,Nsengimana,Doctor,Surgery,General Surgeon,HF003,DEP143,21,Active
+DO0344,Eric,Mukamana,Doctor,Pediatrics,Pediatrician,HF004,DEP144,16,Active
+DO0345,Samuel,Mugisha,Doctor,Obstetrics & Gynecology,Obstetrician,HF005,DEP145,20,Active
+DO0346,Patrick,Mukamana,Doctor,Radiology,Radiologist,HF006,DEP146,11,Active
+DO0347,Emmanuel,Nsengimana,Doctor,Laboratory,Pathologist,HF007,DEP147,11,Active
+DO0348,Diane,Uwimana,Doctor,Pharmacy,Pharmacist,HF008,DEP148,20,Active
+DO0349,Alice,Niyonzima,Doctor,ICU,Intensivist,HF009,DEP149,21,Active
+DO0350,Samuel,Niyonzima,Doctor,Cardiology,Cardiologist,HF010,DEP150,24,Active

@@ -1,0 +1,31 @@
+﻿StaffID,FirstName,LastName,Role,Department,Specialty,FacilityID,DepartmentID,YearsExperience,Status
+RA0001,Alice,Mugisha,Radiographer,Emergency,Radiographer,HF001,DEP001,25,Active
+RA0002,Grace,Hakizimana,Radiographer,Internal Medicine,Radiographer,HF002,DEP002,10,Active
+RA0003,Diane,Uwera,Radiographer,Surgery,Radiographer,HF003,DEP003,4,Active
+RA0004,Alice,Habimana,Radiographer,Pediatrics,Radiographer,HF004,DEP004,22,Active
+RA0005,Samuel,Uwimana,Radiographer,Obstetrics & Gynecology,Radiographer,HF005,DEP005,7,Active
+RA0006,Aline,Habimana,Radiographer,Radiology,Radiographer,HF006,DEP006,3,Active
+RA0007,Grace,Mugisha,Radiographer,Laboratory,Radiographer,HF007,DEP007,13,Active
+RA0008,Emmanuel,Uwimana,Radiographer,Pharmacy,Radiographer,HF008,DEP008,22,Active
+RA0009,Samuel,Uwera,Radiographer,ICU,Radiographer,HF009,DEP009,6,Active
+RA0010,Jean,Nsengimana,Radiographer,Cardiology,Radiographer,HF010,DEP010,15,Active
+RA0011,Emmanuel,Niyonzima,Radiographer,Emergency,Radiographer,HF011,DEP011,4,Active
+RA0012,Diane,Mukamana,Radiographer,Internal Medicine,Radiographer,HF012,DEP012,5,Active
+RA0013,Alice,Uwimana,Radiographer,Surgery,Radiographer,HF013,DEP013,2,Active
+RA0014,Grace,Habimana,Radiographer,Pediatrics,Radiographer,HF014,DEP014,7,Active
+RA0015,Patrick,Mugisha,Radiographer,Obstetrics & Gynecology,Radiographer,HF015,DEP015,22,Active
+RA0016,Alice,Uwera,Radiographer,Radiology,Radiographer,HF016,DEP016,3,Active
+RA0017,Jean,Mukamana,Radiographer,Laboratory,Radiographer,HF017,DEP017,7,Active
+RA0018,Diane,Habimana,Radiographer,Pharmacy,Radiographer,HF018,DEP018,3,Active
+RA0019,Aline,Mukamana,Radiographer,ICU,Radiographer,HF019,DEP019,2,Active
+RA0020,Diane,Uwimana,Radiographer,Cardiology,Radiographer,HF020,DEP020,6,Active
+RA0021,Claudine,Nsengimana,Radiographer,Emergency,Radiographer,HF001,DEP021,24,Active
+RA0022,Patrick,Hakizimana,Radiographer,Internal Medicine,Radiographer,HF002,DEP022,1,Active
+RA0023,Patrick,Nsengimana,Radiographer,Surgery,Radiographer,HF003,DEP023,6,Active
+RA0024,Aline,Niyonzima,Radiographer,Pediatrics,Radiographer,HF004,DEP024,6,Active
+RA0025,Samuel,Uwera,Radiographer,Obstetrics & Gynecology,Radiographer,HF005,DEP025,15,Active
+RA0026,Eric,Uwimana,Radiographer,Radiology,Radiographer,HF006,DEP026,20,Active
+RA0027,Claudine,Niyonzima,Radiographer,Laboratory,Radiographer,HF007,DEP027,21,Active
+RA0028,Samuel,Hakizimana,Radiographer,Pharmacy,Radiographer,HF008,DEP028,14,Active
+RA0029,Emmanuel,Hakizimana,Radiographer,ICU,Radiographer,HF009,DEP029,2,Active
+RA0030,Alice,Uwera,Radiographer,Cardiology,Radiographer,HF010,DEP030,13,Active

@@ -1,0 +1,58 @@
+table fact_staff
+
+	column staff_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: staff_id
+
+	column first_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: first_name
+
+	column last_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: last_name
+
+	column role
+		dataType: string
+		summarizeBy: none
+		sourceColumn: role
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	column specialty
+		dataType: string
+		summarizeBy: none
+		sourceColumn: specialty
+
+	column facility_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: facility_id
+
+	column years_experience
+		dataType: int64
+		summarizeBy: none
+		sourceColumn: years_experience
+
+	column status
+		dataType: string
+		summarizeBy: none
+		sourceColumn: status
+
+	partition fact_staff = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_staff.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"staff_id", type text}, {"first_name", type text}, {"last_name", type text}, {"role", type text}, {"department_name", type text}, {"specialty", type text}, {"facility_id", type text}, {"years_experience", Int64.Type}, {"status", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

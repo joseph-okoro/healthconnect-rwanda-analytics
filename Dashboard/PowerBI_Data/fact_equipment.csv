@@ -1,0 +1,201 @@
+equipment_id,equipment_name,facility_id,department_name
+EQ0001,Emergency Equipment,HF001,Emergency
+EQ0002,Internal Medicine Equipment,HF001,Internal Medicine
+EQ0003,Surgery Equipment,HF001,Surgery
+EQ0004,Pediatrics Equipment,HF001,Pediatrics
+EQ0005,Obstetrics & Gynecology Equipment,HF001,Obstetrics & Gynecology
+EQ0006,Radiology Equipment,HF001,Radiology
+EQ0007,Laboratory Equipment,HF001,Laboratory
+EQ0008,Pharmacy Equipment,HF001,Pharmacy
+EQ0009,ICU Equipment,HF001,ICU
+EQ0010,Cardiology Equipment,HF001,Cardiology
+EQ0011,Emergency Equipment,HF002,Emergency
+EQ0012,Internal Medicine Equipment,HF002,Internal Medicine
+EQ0013,Surgery Equipment,HF002,Surgery
+EQ0014,Pediatrics Equipment,HF002,Pediatrics
+EQ0015,Obstetrics & Gynecology Equipment,HF002,Obstetrics & Gynecology
+EQ0016,Radiology Equipment,HF002,Radiology
+EQ0017,Laboratory Equipment,HF002,Laboratory
+EQ0018,Pharmacy Equipment,HF002,Pharmacy
+EQ0019,ICU Equipment,HF002,ICU
+EQ0020,Cardiology Equipment,HF002,Cardiology
+EQ0021,Emergency Equipment,HF003,Emergency
+EQ0022,Internal Medicine Equipment,HF003,Internal Medicine
+EQ0023,Surgery Equipment,HF003,Surgery
+EQ0024,Pediatrics Equipment,HF003,Pediatrics
+EQ0025,Obstetrics & Gynecology Equipment,HF003,Obstetrics & Gynecology
+EQ0026,Radiology Equipment,HF003,Radiology
+EQ0027,Laboratory Equipment,HF003,Laboratory
+EQ0028,Pharmacy Equipment,HF003,Pharmacy
+EQ0029,ICU Equipment,HF003,ICU
+EQ0030,Cardiology Equipment,HF003,Cardiology
+EQ0031,Emergency Equipment,HF004,Emergency
+EQ0032,Internal Medicine Equipment,HF004,Internal Medicine
+EQ0033,Surgery Equipment,HF004,Surgery
+EQ0034,Pediatrics Equipment,HF004,Pediatrics
+EQ0035,Obstetrics & Gynecology Equipment,HF004,Obstetrics & Gynecology
+EQ0036,Radiology Equipment,HF004,Radiology
+EQ0037,Laboratory Equipment,HF004,Laboratory
+EQ0038,Pharmacy Equipment,HF004,Pharmacy
+EQ0039,ICU Equipment,HF004,ICU
+EQ0040,Cardiology Equipment,HF004,Cardiology
+EQ0041,Emergency Equipment,HF005,Emergency
+EQ0042,Internal Medicine Equipment,HF005,Internal Medicine
+EQ0043,Surgery Equipment,HF005,Surgery
+EQ0044,Pediatrics Equipment,HF005,Pediatrics
+EQ0045,Obstetrics & Gynecology Equipment,HF005,Obstetrics & Gynecology
+EQ0046,Radiology Equipment,HF005,Radiology
+EQ0047,Laboratory Equipment,HF005,Laboratory
+EQ0048,Pharmacy Equipment,HF005,Pharmacy
+EQ0049,ICU Equipment,HF005,ICU
+EQ0050,Cardiology Equipment,HF005,Cardiology
+EQ0051,Emergency Equipment,HF006,Emergency
+EQ0052,Internal Medicine Equipment,HF006,Internal Medicine
+EQ0053,Surgery Equipment,HF006,Surgery
+EQ0054,Pediatrics Equipment,HF006,Pediatrics
+EQ0055,Obstetrics & Gynecology Equipment,HF006,Obstetrics & Gynecology
+EQ0056,Radiology Equipment,HF006,Radiology
+EQ0057,Laboratory Equipment,HF006,Laboratory
+EQ0058,Pharmacy Equipment,HF006,Pharmacy
+EQ0059,ICU Equipment,HF006,ICU
+EQ0060,Cardiology Equipment,HF006,Cardiology
+EQ0061,Emergency Equipment,HF007,Emergency
+EQ0062,Internal Medicine Equipment,HF007,Internal Medicine
+EQ0063,Surgery Equipment,HF007,Surgery
+EQ0064,Pediatrics Equipment,HF007,Pediatrics
+EQ0065,Obstetrics & Gynecology Equipment,HF007,Obstetrics & Gynecology
+EQ0066,Radiology Equipment,HF007,Radiology
+EQ0067,Laboratory Equipment,HF007,Laboratory
+EQ0068,Pharmacy Equipment,HF007,Pharmacy
+EQ0069,ICU Equipment,HF007,ICU
+EQ0070,Cardiology Equipment,HF007,Cardiology
+EQ0071,Emergency Equipment,HF008,Emergency
+EQ0072,Internal Medicine Equipment,HF008,Internal Medicine
+EQ0073,Surgery Equipment,HF008,Surgery
+EQ0074,Pediatrics Equipment,HF008,Pediatrics
+EQ0075,Obstetrics & Gynecology Equipment,HF008,Obstetrics & Gynecology
+EQ0076,Radiology Equipment,HF008,Radiology
+EQ0077,Laboratory Equipment,HF008,Laboratory
+EQ0078,Pharmacy Equipment,HF008,Pharmacy
+EQ0079,ICU Equipment,HF008,ICU
+EQ0080,Cardiology Equipment,HF008,Cardiology
+EQ0081,Emergency Equipment,HF009,Emergency
+EQ0082,Internal Medicine Equipment,HF009,Internal Medicine
+EQ0083,Surgery Equipment,HF009,Surgery
+EQ0084,Pediatrics Equipment,HF009,Pediatrics
+EQ0085,Obstetrics & Gynecology Equipment,HF009,Obstetrics & Gynecology
+EQ0086,Radiology Equipment,HF009,Radiology
+EQ0087,Laboratory Equipment,HF009,Laboratory
+EQ0088,Pharmacy Equipment,HF009,Pharmacy
+EQ0089,ICU Equipment,HF009,ICU
+EQ0090,Cardiology Equipment,HF009,Cardiology
+EQ0091,Emergency Equipment,HF010,Emergency
+EQ0092,Internal Medicine Equipment,HF010,Internal Medicine
+EQ0093,Surgery Equipment,HF010,Surgery
+EQ0094,Pediatrics Equipment,HF010,Pediatrics
+EQ0095,Obstetrics & Gynecology Equipment,HF010,Obstetrics & Gynecology
+EQ0096,Radiology Equipment,HF010,Radiology
+EQ0097,Laboratory Equipment,HF010,Laboratory
+EQ0098,Pharmacy Equipment,HF010,Pharmacy
+EQ0099,ICU Equipment,HF010,ICU
+EQ0100,Cardiology Equipment,HF010,Cardiology
+EQ0101,Emergency Equipment,HF011,Emergency
+EQ0102,Internal Medicine Equipment,HF011,Internal Medicine
+EQ0103,Surgery Equipment,HF011,Surgery
+EQ0104,Pediatrics Equipment,HF011,Pediatrics
+EQ0105,Obstetrics & Gynecology Equipment,HF011,Obstetrics & Gynecology
+EQ0106,Radiology Equipment,HF011,Radiology
+EQ0107,Laboratory Equipment,HF011,Laboratory
+EQ0108,Pharmacy Equipment,HF011,Pharmacy
+EQ0109,ICU Equipment,HF011,ICU
+EQ0110,Cardiology Equipment,HF011,Cardiology
+EQ0111,Emergency Equipment,HF012,Emergency
+EQ0112,Internal Medicine Equipment,HF012,Internal Medicine
+EQ0113,Surgery Equipment,HF012,Surgery
+EQ0114,Pediatrics Equipment,HF012,Pediatrics
+EQ0115,Obstetrics & Gynecology Equipment,HF012,Obstetrics & Gynecology
+EQ0116,Radiology Equipment,HF012,Radiology
+EQ0117,Laboratory Equipment,HF012,Laboratory
+EQ0118,Pharmacy Equipment,HF012,Pharmacy
+EQ0119,ICU Equipment,HF012,ICU
+EQ0120,Cardiology Equipment,HF012,Cardiology
+EQ0121,Emergency Equipment,HF013,Emergency
+EQ0122,Internal Medicine Equipment,HF013,Internal Medicine
+EQ0123,Surgery Equipment,HF013,Surgery
+EQ0124,Pediatrics Equipment,HF013,Pediatrics
+EQ0125,Obstetrics & Gynecology Equipment,HF013,Obstetrics & Gynecology
+EQ0126,Radiology Equipment,HF013,Radiology
+EQ0127,Laboratory Equipment,HF013,Laboratory
+EQ0128,Pharmacy Equipment,HF013,Pharmacy
+EQ0129,ICU Equipment,HF013,ICU
+EQ0130,Cardiology Equipment,HF013,Cardiology
+EQ0131,Emergency Equipment,HF014,Emergency
+EQ0132,Internal Medicine Equipment,HF014,Internal Medicine
+EQ0133,Surgery Equipment,HF014,Surgery
+EQ0134,Pediatrics Equipment,HF014,Pediatrics
+EQ0135,Obstetrics & Gynecology Equipment,HF014,Obstetrics & Gynecology
+EQ0136,Radiology Equipment,HF014,Radiology
+EQ0137,Laboratory Equipment,HF014,Laboratory
+EQ0138,Pharmacy Equipment,HF014,Pharmacy
+EQ0139,ICU Equipment,HF014,ICU
+EQ0140,Cardiology Equipment,HF014,Cardiology
+EQ0141,Emergency Equipment,HF015,Emergency
+EQ0142,Internal Medicine Equipment,HF015,Internal Medicine
+EQ0143,Surgery Equipment,HF015,Surgery
+EQ0144,Pediatrics Equipment,HF015,Pediatrics
+EQ0145,Obstetrics & Gynecology Equipment,HF015,Obstetrics & Gynecology
+EQ0146,Radiology Equipment,HF015,Radiology
+EQ0147,Laboratory Equipment,HF015,Laboratory
+EQ0148,Pharmacy Equipment,HF015,Pharmacy
+EQ0149,ICU Equipment,HF015,ICU
+EQ0150,Cardiology Equipment,HF015,Cardiology
+EQ0151,Emergency Equipment,HF016,Emergency
+EQ0152,Internal Medicine Equipment,HF016,Internal Medicine
+EQ0153,Surgery Equipment,HF016,Surgery
+EQ0154,Pediatrics Equipment,HF016,Pediatrics
+EQ0155,Obstetrics & Gynecology Equipment,HF016,Obstetrics & Gynecology
+EQ0156,Radiology Equipment,HF016,Radiology
+EQ0157,Laboratory Equipment,HF016,Laboratory
+EQ0158,Pharmacy Equipment,HF016,Pharmacy
+EQ0159,ICU Equipment,HF016,ICU
+EQ0160,Cardiology Equipment,HF016,Cardiology
+EQ0161,Emergency Equipment,HF017,Emergency
+EQ0162,Internal Medicine Equipment,HF017,Internal Medicine
+EQ0163,Surgery Equipment,HF017,Surgery
+EQ0164,Pediatrics Equipment,HF017,Pediatrics
+EQ0165,Obstetrics & Gynecology Equipment,HF017,Obstetrics & Gynecology
+EQ0166,Radiology Equipment,HF017,Radiology
+EQ0167,Laboratory Equipment,HF017,Laboratory
+EQ0168,Pharmacy Equipment,HF017,Pharmacy
+EQ0169,ICU Equipment,HF017,ICU
+EQ0170,Cardiology Equipment,HF017,Cardiology
+EQ0171,Emergency Equipment,HF018,Emergency
+EQ0172,Internal Medicine Equipment,HF018,Internal Medicine
+EQ0173,Surgery Equipment,HF018,Surgery
+EQ0174,Pediatrics Equipment,HF018,Pediatrics
+EQ0175,Obstetrics & Gynecology Equipment,HF018,Obstetrics & Gynecology
+EQ0176,Radiology Equipment,HF018,Radiology
+EQ0177,Laboratory Equipment,HF018,Laboratory
+EQ0178,Pharmacy Equipment,HF018,Pharmacy
+EQ0179,ICU Equipment,HF018,ICU
+EQ0180,Cardiology Equipment,HF018,Cardiology
+EQ0181,Emergency Equipment,HF019,Emergency
+EQ0182,Internal Medicine Equipment,HF019,Internal Medicine
+EQ0183,Surgery Equipment,HF019,Surgery
+EQ0184,Pediatrics Equipment,HF019,Pediatrics
+EQ0185,Obstetrics & Gynecology Equipment,HF019,Obstetrics & Gynecology
+EQ0186,Radiology Equipment,HF019,Radiology
+EQ0187,Laboratory Equipment,HF019,Laboratory
+EQ0188,Pharmacy Equipment,HF019,Pharmacy
+EQ0189,ICU Equipment,HF019,ICU
+EQ0190,Cardiology Equipment,HF019,Cardiology
+EQ0191,Emergency Equipment,HF020,Emergency
+EQ0192,Internal Medicine Equipment,HF020,Internal Medicine
+EQ0193,Surgery Equipment,HF020,Surgery
+EQ0194,Pediatrics Equipment,HF020,Pediatrics
+EQ0195,Obstetrics & Gynecology Equipment,HF020,Obstetrics & Gynecology
+EQ0196,Radiology Equipment,HF020,Radiology
+EQ0197,Laboratory Equipment,HF020,Laboratory
+EQ0198,Pharmacy Equipment,HF020,Pharmacy
+EQ0199,ICU Equipment,HF020,ICU
+EQ0200,Cardiology Equipment,HF020,Cardiology

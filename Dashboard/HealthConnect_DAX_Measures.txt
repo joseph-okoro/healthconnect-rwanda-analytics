@@ -1,0 +1,262 @@
+=====================================================================================================
+HEALTHCONNECT RWANDA | DAX MEASURES FOR POWER BI
+Copy each measure into Power BI:  Modeling > New measure, paste, press Enter.
+Home them all in one table called _Measures (Home > Enter data > name it _Measures > Load; then set each measure's "Home table").
+Expected values (checked against the PostgreSQL database) are written after "// expect". If a number differs, check the relationships first.
+Currency = Rwandan francs (RWF). Data period = 2026 (appointments run Jan to Dec 2026).
+=====================================================================================================
+
+-----------------------------------------------------------------------------------------------------
+0. BEFORE YOU START  (model setup, 10 minutes)
+-----------------------------------------------------------------------------------------------------
+Load the 18 CSV files from Dashboard/PowerBI_Data/ (Get data > Text/CSV > Transform Data).
+Check data types in Power Query: dates (date, month_start, date_of_birth) = Date; amounts, ratings, ages, counts = Whole number;
+everything else = Text. Close & Apply.
+
+Mark dim_date as the date table:  select dim_date > Table tools > Mark as date table > choose the column  date.
+Sort year_month, month_name by month_no (select the column > Column tools > Sort by column).
+
+Relationships (Model view). Drag from the ONE side (dimension) to the MANY side (fact). All are One-to-many, single direction.
+  dim_date[date]                 ->  fact_appointments[date], fact_billing[date], fact_diagnoses[date], fact_feedback[date],
+                                     fact_lab_tests[date], fact_prescriptions[date], fact_admissions[date], fact_referrals[date],
+                                     fact_revenue_summary[month_start]
+  dim_facility[facility_id]      ->  fact_appointments, fact_billing, fact_diagnoses, fact_feedback, fact_lab_tests,
+                                     fact_prescriptions, fact_admissions, fact_staff, fact_beds, fact_equipment  (all on facility_id)
+                                 ->  fact_referrals[from_facility_id]  (ACTIVE)
+                                 ->  fact_referrals[referred_facility_id]  (create it, then make it INACTIVE: dotted line)
+  dim_department[department_name]->  fact_appointments, fact_billing, fact_diagnoses, fact_feedback, fact_lab_tests,
+                                     fact_prescriptions, fact_admissions, fact_referrals, fact_staff, fact_beds, fact_equipment
+  dim_patient[patient_id]        ->  fact_appointments[patient_id]
+  dim_province[province_name]    ->  dim_patient[province_name], fact_billing, fact_diagnoses, fact_feedback,
+                                     fact_lab_tests, fact_prescriptions, fact_admissions, fact_referrals (all on province_name)
+Do NOT relate dim_province directly to fact_appointments (it reaches it through dim_patient).
+Rows whose key is empty (the "Not linked" rows) simply do not match a dimension. That is expected.
+
+IMPORTANT: "Linked" and "Not linked"
+  Billing, Diagnoses, Feedback, Lab, Prescriptions, Admissions and Referrals point to up to 60,000 appointments, but only 5,000
+  appointments have full details. Rows without details have link_status = "Not linked".
+  * Totals (total revenue, total diagnoses ...) use all rows.
+  * Hospital / department / province visuals must use the "(Linked)" measures below. They return blank for Not-linked rows,
+    so the visual shows only real hospitals, departments and provinces.
+
+-----------------------------------------------------------------------------------------------------
+1. PATIENT MEASURES
+-----------------------------------------------------------------------------------------------------
+Total Patients = COUNTROWS(dim_patient)                                                         // expect 20,000
+
+Active Patients = CALCULATE(COUNTROWS(dim_patient), dim_patient[status] = "Active")             // expect 20,000
+
+Patients Seen = DISTINCTCOUNT(fact_appointments[patient_id])                                     // expect 4,443
+
+New Patients =
+VAR _start = MIN(dim_date[date])
+VAR _end   = MAX(dim_date[date])
+RETURN
+COUNTROWS(
+    FILTER(
+        VALUES(fact_appointments[patient_id]),
+        VAR _first = CALCULATE(MIN(fact_appointments[date]), ALL(dim_date))
+        RETURN _first >= _start && _first <= _end
+    )
+)
+// New = a patient whose first appointment falls in the period.  expect 4,443 for the whole year
+
+Returning Patients = [Patients Seen] - [New Patients]
+// Returning = seen in the period AND had an earlier appointment before it. Whole year = 0; by month it shows repeat visits.
+
+Repeat Patients (2+ visits) =
+COUNTROWS(
+    FILTER(
+        VALUES(fact_appointments[patient_id]),
+        CALCULATE(COUNTROWS(fact_appointments), ALL(dim_date)) > 1
+    )
+)                                                                                                 // expect 510
+
+Male Patients = CALCULATE([Total Patients], dim_patient[gender] = "Male")                       // expect 10,090
+Female Patients = CALCULATE([Total Patients], dim_patient[gender] = "Female")                   // expect 9,910
+Female Share = DIVIDE([Female Patients], [Total Patients])                                      // expect 49.6%
+Male Patients (pyramid) = -[Male Patients]
+// Use "Male Patients (pyramid)" and "Female Patients" in a clustered bar chart for the age pyramid (see the guide).
+
+Average Patient Age = AVERAGE(dim_patient[age])                                                 // expect 45.0
+
+Patients Over 65 = CALCULATE([Total Patients], dim_patient[age] > 65)                           // expect 5,487
+
+Insurance Coverage Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(dim_patient), NOT(ISBLANK(dim_patient[insurance_id])), dim_patient[insurance_id] <> ""),
+    COUNTROWS(dim_patient)
+)                                                                                                 // expect 100%
+
+Chronic Patients = CALCULATE(COUNTROWS(dim_patient), dim_patient[has_chronic_condition] = "Yes") // expect 14,929
+Chronic Rate = DIVIDE([Chronic Patients], [Total Patients])                                     // expect 74.6%
+
+-----------------------------------------------------------------------------------------------------
+2. APPOINTMENT MEASURES
+-----------------------------------------------------------------------------------------------------
+Total Appointments = COUNTROWS(fact_appointments)                                                // expect 5,000
+
+Active Days = DISTINCTCOUNT(fact_appointments[date])
+Avg Daily Appointments = DIVIDE([Total Appointments], [Active Days])                            // expect 14.9 (5,000 / 336 days)
+
+Appointments Last Month = CALCULATE([Total Appointments], DATEADD(dim_date[date], -1, MONTH))
+Appointment Growth % = DIVIDE([Total Appointments] - [Appointments Last Month], [Appointments Last Month])
+
+Appointments YTD = TOTALYTD([Total Appointments], dim_date[date])
+Appointments Running Total =
+CALCULATE([Total Appointments], FILTER(ALL(dim_date[date]), dim_date[date] <= MAX(dim_date[date])))
+
+Emergency Appointments = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Emergency")        // expect 1,650
+Follow-up Appointments = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Follow-up")        // expect 1,694
+Consultation Appointments = CALCULATE([Total Appointments], fact_appointments[visit_type] = "Consultation") // expect 1,656
+Emergency Share = DIVIDE([Emergency Appointments], [Total Appointments])                                     // expect 33.0%
+
+Referred Appointments = CALCULATE([Total Appointments], fact_appointments[was_referred] = "Yes")             // expect 415
+Referral Rate = DIVIDE([Referred Appointments], [Total Appointments])                                        // expect 8.3%
+
+Total Doctors = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Doctor")                                 // expect 350
+Avg Appointments per Doctor = DIVIDE([Total Appointments], [Total Doctors])                                   // expect 14.3
+
+// Cancellation rate: the data has no appointment status, so a cancellation rate cannot be calculated (stated in the report).
+
+-----------------------------------------------------------------------------------------------------
+3. CLINICAL MEASURES
+-----------------------------------------------------------------------------------------------------
+Total Diagnoses = COUNTROWS(fact_diagnoses)                                                      // expect 60,000
+Severe Cases = CALCULATE([Total Diagnoses], fact_diagnoses[severity] = "Severe")                 // expect 19,983
+Severe Rate = DIVIDE([Severe Cases], [Total Diagnoses])                                          // expect 33.3%
+
+Lab Tests = COUNTROWS(fact_lab_tests)                                                            // expect 5,000
+Abnormal Lab Results = CALCULATE([Lab Tests], fact_lab_tests[result] = "Abnormal")
+Abnormal Lab Rate = DIVIDE([Abnormal Lab Results], [Lab Tests])                                  // expect about 50%
+
+Prescriptions = COUNTROWS(fact_prescriptions)                                                    // expect 5,000
+
+Admissions = COUNTROWS(fact_admissions)                                                          // expect 5,000
+Admitted Appointments = CALCULATE([Total Appointments], fact_appointments[was_admitted] = "Yes") // expect 586
+Admission Rate = DIVIDE([Admitted Appointments], [Total Appointments])                           // expect 11.7%
+Avg Length of Stay = AVERAGE(fact_admissions[length_of_stay_days])                               // expect 5.49 days
+
+Referrals = COUNTROWS(fact_referrals)                                                            // expect 4,708
+
+Admitted Patients =
+COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 0))        // expect 578
+Readmitted Patients =
+COUNTROWS(FILTER(VALUES(fact_appointments[patient_id]),
+    CALCULATE(COUNTROWS(fact_appointments), fact_appointments[was_admitted] = "Yes") > 1))        // expect 8
+Readmission Indicator = DIVIDE([Readmitted Patients], [Admitted Patients])                       // expect 1.4%
+
+-----------------------------------------------------------------------------------------------------
+4. STAFF AND OPERATIONAL MEASURES
+-----------------------------------------------------------------------------------------------------
+Total Staff = COUNTROWS(fact_staff)                                                              // expect 1,250
+Total Nurses = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Nurse")                      // expect 700
+Total Pharmacists = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Pharmacist")            // expect 50
+Total Lab Scientists = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Laboratory Scientist") // expect 40
+Total Radiographers = CALCULATE(COUNTROWS(fact_staff), fact_staff[role] = "Radiographer")        // expect 30
+Avg Years of Experience = AVERAGE(fact_staff[years_experience])                                  // expect 12.9
+Patients per Staff Member = DIVIDE([Total Patients], [Total Staff])                              // expect 16.0 (1 staff member for every 16 patients)
+Patients per Doctor = DIVIDE([Total Patients], [Total Doctors])                                  // expect 57.1
+Patients Seen per Doctor = DIVIDE([Patients Seen], [Total Doctors])
+
+Total Facilities = DISTINCTCOUNT(dim_facility[facility_id])                                      // expect 20
+Total Beds = COUNTROWS(fact_beds)                                                                // expect 2,000
+Available Beds = CALCULATE(COUNTROWS(fact_beds), fact_beds[bed_status] = "Available")            // expect 2,000
+Total Rooms = SUM(dim_facility[rooms])                                                           // expect 400
+Equipment Items = COUNTROWS(fact_equipment)                                                      // expect 200
+Bed Days Used = SUM(fact_admissions[length_of_stay_days])                                        // expect 27,438
+Bed Utilization Rate = DIVIDE([Bed Days Used], [Total Beds] * 365)                               // expect 3.8% (estimate, see README)
+Appointments per Bed = DIVIDE([Total Appointments], [Total Beds])
+
+-----------------------------------------------------------------------------------------------------
+5. FINANCIAL MEASURES
+-----------------------------------------------------------------------------------------------------
+Total Revenue = SUM(fact_billing[billed_amount])                                                 // expect 9,309,401,961
+Collected Amount = SUM(fact_billing[paid_amount])                                                // expect 8,389,454,556
+Outstanding Bills = SUM(fact_billing[outstanding_amount])                                        // expect 919,947,405
+Outstanding Share = DIVIDE([Outstanding Bills], [Total Revenue])                                 // expect 9.9%
+Collection Rate = DIVIDE([Collected Amount], [Total Revenue])                                    // expect 90.1%
+Average Billing Amount = AVERAGE(fact_billing[billed_amount])                                    // expect 155,157
+Total Bills = COUNTROWS(fact_billing)                                                            // expect 60,000
+Bills Not Fully Paid = CALCULATE(COUNTROWS(fact_billing), fact_billing[outstanding_amount] > 0)  // expect 11,887
+
+Claims = CALCULATE(COUNTROWS(fact_billing), NOT(ISBLANK(fact_billing[claim_status])))            // expect 42,036
+Approved Claims = CALCULATE(COUNTROWS(fact_billing), fact_billing[claim_status] = "Approved")    // expect 21,008
+Claim Approval Rate = DIVIDE([Approved Claims], [Claims])                                        // expect 50.0%
+Claimed Amount = SUM(fact_billing[claim_amount])                                                 // expect about 4.88 billion
+Payments Made = COUNTROWS(fact_billing)
+
+Monthly Revenue (Summary) = SUM(fact_revenue_summary[revenue])
+Revenue Last Month (Summary) = CALCULATE([Monthly Revenue (Summary)], DATEADD(dim_date[date], -1, MONTH))
+Revenue Growth % = DIVIDE([Monthly Revenue (Summary)] - [Revenue Last Month (Summary)], [Revenue Last Month (Summary)])
+Revenue YTD (Summary) = TOTALYTD([Monthly Revenue (Summary)], dim_date[date])
+// The Revenue Summary file totals 1.13 billion, which does NOT match Billing (9.31 billion). Use the Summary only for the month trend.
+
+-- Hospital / department / province revenue: use the (Linked) versions --
+Revenue (Linked) = CALCULATE([Total Revenue], fact_billing[link_status] = "Linked")              // expect 771,133,439
+Collected (Linked) = CALCULATE([Collected Amount], fact_billing[link_status] = "Linked")
+Collection Rate (Linked) = DIVIDE([Collected (Linked)], [Revenue (Linked)])
+Outstanding (Linked) = CALCULATE([Outstanding Bills], fact_billing[link_status] = "Linked")
+Revenue Linked Share = DIVIDE([Revenue (Linked)], [Total Revenue])                               // expect 8.3%
+
+-----------------------------------------------------------------------------------------------------
+6. PATIENT EXPERIENCE MEASURES
+-----------------------------------------------------------------------------------------------------
+Feedback Count = COUNTROWS(fact_feedback)                                                        // expect 21,064
+Avg Satisfaction = AVERAGE(fact_feedback[rating])                                                // expect 2.99
+Avg Rating (Linked) = CALCULATE(AVERAGE(fact_feedback[rating]), fact_feedback[link_status] = "Linked") // expect 2.93
+Poor Ratings (1-2) = CALCULATE([Feedback Count], fact_feedback[rating] <= 2)
+Excellent Ratings (4-5) = CALCULATE([Feedback Count], fact_feedback[rating] >= 4)
+Poor Rating Rate = DIVIDE([Poor Ratings (1-2)], [Feedback Count])                               // expect 40.5%
+Excellent Rating Rate = DIVIDE([Excellent Ratings (4-5)], [Feedback Count])                      // expect 39.6%
+Feedback Linked = CALCULATE([Feedback Count], fact_feedback[link_status] = "Linked")             // expect 1,756
+Poor Ratings (Linked) = CALCULATE([Poor Ratings (1-2)], fact_feedback[link_status] = "Linked")
+Excellent Ratings (Linked) = CALCULATE([Excellent Ratings (4-5)], fact_feedback[link_status] = "Linked")
+
+-----------------------------------------------------------------------------------------------------
+7. HOSPITAL RANKING (uses linked data)
+-----------------------------------------------------------------------------------------------------
+Rank - Volume = RANKX(ALL(dim_facility[facility_id]), [Total Appointments], , DESC, DENSE)
+Rank - Collection = RANKX(ALL(dim_facility[facility_id]), [Collection Rate (Linked)], , DESC, DENSE)
+Rank - Satisfaction = RANKX(ALL(dim_facility[facility_id]), [Avg Rating (Linked)], , DESC, DENSE)
+Hospital Score = DIVIDE([Rank - Volume] + [Rank - Collection] + [Rank - Satisfaction], 3)       // lower is better
+Hospital Overall Rank = RANKX(ALL(dim_facility[facility_id]), [Hospital Score], , ASC, DENSE)
+
+-----------------------------------------------------------------------------------------------------
+8. DYNAMIC TITLES AND CONDITIONAL-FORMATTING HELPERS
+-----------------------------------------------------------------------------------------------------
+Selected Month = SELECTEDVALUE(dim_date[year_month], "All months")
+Selected Hospital = SELECTEDVALUE(dim_facility[facility_id], "All hospitals")
+Selected Province = SELECTEDVALUE(dim_province[province_name], "All provinces")
+
+Title - Executive =
+"HealthConnect Rwanda | " & [Selected Hospital] & " | " & [Selected Province] & " | " & [Selected Month]
+
+Title - Revenue =
+"Revenue by hospital (RWF) - " & [Selected Province] & " - " & [Selected Month]
+
+Title - Satisfaction =
+"Average rating " & FORMAT([Avg Satisfaction], "0.00") & " out of 5 - " & [Selected Hospital]
+
+Rating Colour =
+SWITCH(TRUE(),
+    ISBLANK([Avg Rating (Linked)]), "#BDBDBD",
+    [Avg Rating (Linked)] >= 3.0, "#2E7D32",
+    [Avg Rating (Linked)] >= 2.85, "#F9A825",
+    "#C62828")
+// Use: Format > Data labels / Bars > Colour > fx > Format style = Field value > Based on field = Rating Colour
+
+Collection Colour =
+SWITCH(TRUE(),
+    ISBLANK([Collection Rate (Linked)]), "#BDBDBD",
+    [Collection Rate (Linked)] >= 0.91, "#2E7D32",
+    [Collection Rate (Linked)] >= 0.89, "#F9A825",
+    "#C62828")
+
+-----------------------------------------------------------------------------------------------------
+9. HIERARCHIES TO CREATE (right-click a field in the Data pane > New hierarchy / Add to hierarchy)
+-----------------------------------------------------------------------------------------------------
+Date hierarchy (in dim_date):       year > quarter > month_name > date
+Geography hierarchy (in dim_patient): province_name > district_name > sector_name > village_name
+Hospital hierarchy (in dim_facility): facility_id  (use with department_name from dim_department in matrices)

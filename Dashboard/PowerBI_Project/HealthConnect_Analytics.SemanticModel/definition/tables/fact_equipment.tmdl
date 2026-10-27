@@ -1,0 +1,33 @@
+table fact_equipment
+
+	column equipment_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: equipment_id
+
+	column equipment_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: equipment_name
+
+	column facility_id
+		dataType: string
+		summarizeBy: none
+		sourceColumn: facility_id
+
+	column department_name
+		dataType: string
+		summarizeBy: none
+		sourceColumn: department_name
+
+	partition fact_equipment = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_equipment.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"equipment_id", type text}, {"equipment_name", type text}, {"facility_id", type text}, {"department_name", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

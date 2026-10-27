@@ -1,0 +1,201 @@
+﻿SpecialtyID,Specialty,DepartmentID
+SP001,Emergency Physician,DEP001
+SP002,Internist,DEP002
+SP003,General Surgeon,DEP003
+SP004,Pediatrician,DEP004
+SP005,Obstetrician,DEP005
+SP006,Radiologist,DEP006
+SP007,Pathologist,DEP007
+SP008,Pharmacist,DEP008
+SP009,Intensivist,DEP009
+SP010,Cardiologist,DEP010
+SP011,Emergency Physician,DEP011
+SP012,Internist,DEP012
+SP013,General Surgeon,DEP013
+SP014,Pediatrician,DEP014
+SP015,Obstetrician,DEP015
+SP016,Radiologist,DEP016
+SP017,Pathologist,DEP017
+SP018,Pharmacist,DEP018
+SP019,Intensivist,DEP019
+SP020,Cardiologist,DEP020
+SP021,Emergency Physician,DEP021
+SP022,Internist,DEP022
+SP023,General Surgeon,DEP023
+SP024,Pediatrician,DEP024
+SP025,Obstetrician,DEP025
+SP026,Radiologist,DEP026
+SP027,Pathologist,DEP027
+SP028,Pharmacist,DEP028
+SP029,Intensivist,DEP029
+SP030,Cardiologist,DEP030
+SP031,Emergency Physician,DEP031
+SP032,Internist,DEP032
+SP033,General Surgeon,DEP033
+SP034,Pediatrician,DEP034
+SP035,Obstetrician,DEP035
+SP036,Radiologist,DEP036
+SP037,Pathologist,DEP037
+SP038,Pharmacist,DEP038
+SP039,Intensivist,DEP039
+SP040,Cardiologist,DEP040
+SP041,Emergency Physician,DEP041
+SP042,Internist,DEP042
+SP043,General Surgeon,DEP043
+SP044,Pediatrician,DEP044
+SP045,Obstetrician,DEP045
+SP046,Radiologist,DEP046
+SP047,Pathologist,DEP047
+SP048,Pharmacist,DEP048
+SP049,Intensivist,DEP049
+SP050,Cardiologist,DEP050
+SP051,Emergency Physician,DEP051
+SP052,Internist,DEP052
+SP053,General Surgeon,DEP053
+SP054,Pediatrician,DEP054
+SP055,Obstetrician,DEP055
+SP056,Radiologist,DEP056
+SP057,Pathologist,DEP057
+SP058,Pharmacist,DEP058
+SP059,Intensivist,DEP059
+SP060,Cardiologist,DEP060
+SP061,Emergency Physician,DEP061
+SP062,Internist,DEP062
+SP063,General Surgeon,DEP063
+SP064,Pediatrician,DEP064
+SP065,Obstetrician,DEP065
+SP066,Radiologist,DEP066
+SP067,Pathologist,DEP067
+SP068,Pharmacist,DEP068
+SP069,Intensivist,DEP069
+SP070,Cardiologist,DEP070
+SP071,Emergency Physician,DEP071
+SP072,Internist,DEP072
+SP073,General Surgeon,DEP073
+SP074,Pediatrician,DEP074
+SP075,Obstetrician,DEP075
+SP076,Radiologist,DEP076
+SP077,Pathologist,DEP077
+SP078,Pharmacist,DEP078
+SP079,Intensivist,DEP079
+SP080,Cardiologist,DEP080
+SP081,Emergency Physician,DEP081
+SP082,Internist,DEP082
+SP083,General Surgeon,DEP083
+SP084,Pediatrician,DEP084
+SP085,Obstetrician,DEP085
+SP086,Radiologist,DEP086
+SP087,Pathologist,DEP087
+SP088,Pharmacist,DEP088
+SP089,Intensivist,DEP089
+SP090,Cardiologist,DEP090
+SP091,Emergency Physician,DEP091
+SP092,Internist,DEP092
+SP093,General Surgeon,DEP093
+SP094,Pediatrician,DEP094
+SP095,Obstetrician,DEP095
+SP096,Radiologist,DEP096
+SP097,Pathologist,DEP097
+SP098,Pharmacist,DEP098
+SP099,Intensivist,DEP099
+SP100,Cardiologist,DEP100
+SP101,Emergency Physician,DEP101
+SP102,Internist,DEP102
+SP103,General Surgeon,DEP103
+SP104,Pediatrician,DEP104
+SP105,Obstetrician,DEP105
+SP106,Radiologist,DEP106
+SP107,Pathologist,DEP107
+SP108,Pharmacist,DEP108
+SP109,Intensivist,DEP109
+SP110,Cardiologist,DEP110
+SP111,Emergency Physician,DEP111
+SP112,Internist,DEP112
+SP113,General Surgeon,DEP113
+SP114,Pediatrician,DEP114
+SP115,Obstetrician,DEP115
+SP116,Radiologist,DEP116
+SP117,Pathologist,DEP117
+SP118,Pharmacist,DEP118
+SP119,Intensivist,DEP119
+SP120,Cardiologist,DEP120
+SP121,Emergency Physician,DEP121
+SP122,Internist,DEP122
+SP123,General Surgeon,DEP123
+SP124,Pediatrician,DEP124
+SP125,Obstetrician,DEP125
+SP126,Radiologist,DEP126
+SP127,Pathologist,DEP127
+SP128,Pharmacist,DEP128
+SP129,Intensivist,DEP129
+SP130,Cardiologist,DEP130
+SP131,Emergency Physician,DEP131
+SP132,Internist,DEP132
+SP133,General Surgeon,DEP133
+SP134,Pediatrician,DEP134
+SP135,Obstetrician,DEP135
+SP136,Radiologist,DEP136
+SP137,Pathologist,DEP137
+SP138,Pharmacist,DEP138
+SP139,Intensivist,DEP139
+SP140,Cardiologist,DEP140
+SP141,Emergency Physician,DEP141
+SP142,Internist,DEP142
+SP143,General Surgeon,DEP143
+SP144,Pediatrician,DEP144
+SP145,Obstetrician,DEP145
+SP146,Radiologist,DEP146
+SP147,Pathologist,DEP147
+SP148,Pharmacist,DEP148
+SP149,Intensivist,DEP149
+SP150,Cardiologist,DEP150
+SP151,Emergency Physician,DEP151
+SP152,Internist,DEP152
+SP153,General Surgeon,DEP153
+SP154,Pediatrician,DEP154
+SP155,Obstetrician,DEP155
+SP156,Radiologist,DEP156
+SP157,Pathologist,DEP157
+SP158,Pharmacist,DEP158
+SP159,Intensivist,DEP159
+SP160,Cardiologist,DEP160
+SP161,Emergency Physician,DEP161
+SP162,Internist,DEP162
+SP163,General Surgeon,DEP163
+SP164,Pediatrician,DEP164
+SP165,Obstetrician,DEP165
+SP166,Radiologist,DEP166
+SP167,Pathologist,DEP167
+SP168,Pharmacist,DEP168
+SP169,Intensivist,DEP169
+SP170,Cardiologist,DEP170
+SP171,Emergency Physician,DEP171
+SP172,Internist,DEP172
+SP173,General Surgeon,DEP173
+SP174,Pediatrician,DEP174
+SP175,Obstetrician,DEP175
+SP176,Radiologist,DEP176
+SP177,Pathologist,DEP177
+SP178,Pharmacist,DEP178
+SP179,Intensivist,DEP179
+SP180,Cardiologist,DEP180
+SP181,Emergency Physician,DEP181
+SP182,Internist,DEP182
+SP183,General Surgeon,DEP183
+SP184,Pediatrician,DEP184
+SP185,Obstetrician,DEP185
+SP186,Radiologist,DEP186
+SP187,Pathologist,DEP187
+SP188,Pharmacist,DEP188
+SP189,Intensivist,DEP189
+SP190,Cardiologist,DEP190
+SP191,Emergency Physician,DEP191
+SP192,Internist,DEP192
+SP193,General Surgeon,DEP193
+SP194,Pediatrician,DEP194
+SP195,Obstetrician,DEP195
+SP196,Radiologist,DEP196
+SP197,Pathologist,DEP197
+SP198,Pharmacist,DEP198
+SP199,Intensivist,DEP199
+SP200,Cardiologist,DEP200
