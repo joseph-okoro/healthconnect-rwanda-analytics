@@ -1,0 +1,12 @@
+KPI,Week7_confirmed,Week8_recalculated,Match
+Registered patients,20000.0,20000.0,Yes
+Appointments with full details,5000.0,5000.0,Yes
+Patients seen,4443.0,4443.0,Yes
+Total billed (RWF),9309401961.0,9309401961.0,Yes
+Collected (RWF),8389454556.0,8389454556.0,Yes
+Unpaid (RWF),919947405.0,919947405.0,Yes
+Insurance claims,42036.0,42036.0,Yes
+Diagnoses,60000.0,60000.0,Yes
+Feedback records,21064.0,21064.0,Yes
+Poor ratings (%),40.4,40.4,Yes
+Average rating,2.99,2.99,Yes

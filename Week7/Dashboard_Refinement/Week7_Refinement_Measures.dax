@@ -1,0 +1,41 @@
+// HealthConnect | Week 7 refinement measures (paste in DAX query view, then "Update model with changes"; or add one by one with New measure)
+// They need the Week 6 measures already in the _Measures table ([Avg Rating (Linked)], [Total Appointments], [Revenue (Linked)]).
+// Purpose: stop the dashboard from colouring hospitals red or green on differences that are within normal random variation (Week 7 tests F03, F12, F13, F14).
+
+DEFINE
+    MEASURE _Measures[Rating Count (Linked)] = CALCULATE(COUNTROWS(fact_feedback), fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Rating StDev (Linked)] = CALCULATE(STDEV.S(fact_feedback[rating]), fact_feedback[link_status] = "Linked")
+
+    MEASURE _Measures[Rating SE (Linked)] = DIVIDE([Rating StDev (Linked)], SQRT([Rating Count (Linked)]))
+
+    MEASURE _Measures[Rating CI Low] = [Avg Rating (Linked)] - 1.96 * [Rating SE (Linked)]
+
+    MEASURE _Measures[Rating CI High] = [Avg Rating (Linked)] + 1.96 * [Rating SE (Linked)]
+
+    MEASURE _Measures[Network Avg Rating] =
+        CALCULATE(AVERAGE(fact_feedback[rating]), ALL(dim_facility), ALL(dim_department), ALL(dim_province), ALL(dim_date))
+
+    MEASURE _Measures[Rating Flag] =
+        SWITCH(TRUE(),
+            ISBLANK([Avg Rating (Linked)]), "No data",
+            [Rating Count (Linked)] < 30, "Too few ratings",
+            [Rating CI High] < [Network Avg Rating], "Below network",
+            [Rating CI Low] > [Network Avg Rating], "Above network",
+            "Within normal range")
+
+    MEASURE _Measures[Rating Colour (Refined)] =
+        SWITCH([Rating Flag], "Below network", "#C62828", "Above network", "#2E7D32", "#BDBDBD")
+
+    MEASURE _Measures[Revenue (Linked, 30+ bills)] =
+        IF(CALCULATE(COUNTROWS(fact_billing), fact_billing[link_status] = "Linked") < 30, BLANK(), [Revenue (Linked)])
+
+    MEASURE _Measures[Appointments to Analysis Date] =
+        CALCULATE([Total Appointments], dim_date[period_flag] = "Up to analysis date")
+
+    MEASURE _Measures[Future-dated Appointments] =
+        CALCULATE([Total Appointments], dim_date[period_flag] = "After analysis date")
+
+    MEASURE _Measures[Rating Data Note] = "Ratings as recorded. About 30% of ratings contradict the written comment, so reliability is not confirmed."
+
+EVALUATE ROW("ok", 1)

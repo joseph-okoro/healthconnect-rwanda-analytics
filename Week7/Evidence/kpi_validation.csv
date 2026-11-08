@@ -1,0 +1,35 @@
+kpi,recomputed_from_raw_csv,week6_expected_value,difference,result
+Total patients,20000.0,20000.0,0.0,PASS
+Total appointments,5000.0,5000.0,0.0,PASS
+Patients seen (distinct),4443.0,4443.0,0.0,PASS
+Repeat patients (2+ visits),510.0,510.0,0.0,PASS
+Patients over 65,5487.0,5487.0,0.0,PASS
+Average patient age,45.0,45.0,0.0,PASS
+Chronic patients,14929.0,14929.0,0.0,PASS
+Total billed (RWF),9309401961.0,9309401961.0,0.0,PASS
+Collected (RWF),8389454556.0,8389454556.0,0.0,PASS
+Outstanding (RWF),919947405.0,919947405.0,0.0,PASS
+Collection rate %,90.1,90.1,0.0,PASS
+Average bill (RWF),155157.0,155157.0,0.0,PASS
+Bills not fully paid,11887.0,11887.0,0.0,PASS
+Claims,42036.0,42036.0,0.0,PASS
+Claims approved,21008.0,21008.0,0.0,PASS
+Claim approval rate %,50.0,50.0,0.0,PASS
+Total diagnoses,60000.0,60000.0,0.0,PASS
+Severe rate %,33.3,33.3,0.0,PASS
+Admissions rows,5000.0,5000.0,0.0,PASS
+Appointments with an admission,586.0,586.0,0.0,PASS
+Admission rate %,11.7,11.7,0.0,PASS
+Average length of stay (days),5.49,5.49,0.0,PASS
+Abnormal lab rate %,50.3,50.3,0.0,PASS
+Referrals,4708.0,4708.0,0.0,PASS
+Feedback rows,21064.0,21064.0,0.0,PASS
+Average rating (all),2.99,2.99,0.0,PASS
+Poor ratings (1-2) %,40.4,40.5,-0.1,FAIL
+Total staff,1250.0,1250.0,0.0,PASS
+Doctors,350.0,350.0,0.0,PASS
+Nurses,700.0,700.0,0.0,PASS
+Beds,2000.0,2000.0,0.0,PASS
+Patients per staff member,16.0,16.0,0.0,PASS
+Appointments per doctor,14.29,14.29,0.0,PASS
+Bed utilisation % (estimate),3.8,3.8,0.0,PASS

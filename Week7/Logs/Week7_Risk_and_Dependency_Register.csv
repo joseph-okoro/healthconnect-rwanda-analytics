@@ -1,0 +1,7 @@
+Risk_ID,Type,Description,Likelihood_or_Level,Impact,Mitigation,Owner
+RK-01,Dependency,"Attendance data missing, so no-show analysis is impossible",High,Project cannot answer its main question,Obtain attendance dataset or confirm scope with programme lead,Project Management
+RK-02,Data,"Only 8.3% of bills, diagnoses and ratings link to hospital detail",High,Hospital-level conclusions unreliable,Report totals separately from linked results; request the full appointment list,Data owner
+RK-03,Analytical,"Differences between hospitals, departments, provinces are small and not statistically reliable",Medium,Recommendations on re-allocating staff could be wrong,Use confidence ranges; present rankings as descriptive,Data Analytics
+RK-04,Technical,Power BI project (.pbip) was generated from file-format rules and not opened in Power BI by the assistant; four visuals needed manual repair,Medium,Dashboard may break after edits,Keep a saved .pbix; screenshots of every page after fixes,Joseph
+RK-05,Data,Satisfaction ratings are inconsistent with comments,Medium,Patient-experience KPIs misleading,Label KPIs; ask data owner,Data owner
+RK-06,Schedule,"Week 8 final integration needs the dashboard, test record and cross-track evidence complete",Medium,Incomplete final presentation,Complete refinement checklist items R1 to R10 and cross-track record,Joseph

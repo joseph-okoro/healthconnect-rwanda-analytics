@@ -1,0 +1,21 @@
+Hospital,Ratings,Avg,CI_low,CI_high,Week6_colour,Week7_flag
+HF007,79,2.76,2.48,3.04,red,within normal range
+HF020,82,2.76,2.46,3.05,red,within normal range
+HF013,96,2.77,2.52,3.03,red,within normal range
+HF014,102,2.77,2.51,3.04,red,within normal range
+HF015,83,2.82,2.52,3.12,grey,within normal range
+HF005,74,2.82,2.51,3.13,grey,within normal range
+HF010,97,2.85,2.54,3.16,grey,within normal range
+HF003,100,2.86,2.59,3.13,grey,within normal range
+HF017,88,2.88,2.62,3.13,grey,within normal range
+HF016,90,2.92,2.62,3.23,grey,within normal range
+HF009,91,2.93,2.66,3.21,grey,within normal range
+HF006,96,2.97,2.69,3.25,grey,within normal range
+HF019,76,2.97,2.64,3.31,grey,within normal range
+HF004,83,2.99,2.68,3.29,grey,within normal range
+HF008,72,3.0,2.69,3.31,green,within normal range
+HF002,84,3.02,2.74,3.31,green,within normal range
+HF018,82,3.02,2.72,3.33,green,within normal range
+HF012,97,3.08,2.79,3.37,green,within normal range
+HF001,93,3.12,2.84,3.4,green,within normal range
+HF011,91,3.19,2.91,3.47,green,within normal range

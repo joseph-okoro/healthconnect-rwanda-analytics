@@ -1,0 +1,10 @@
+Decision_ID,Decision,Reason,Decided_By
+DL-01,Continue Week 7 on the HealthConnect Rwanda Week 6 work (not the Appointment CSV named in the brief),The Week 6 submission was the Rwanda dataset; the brief says continue from Week 6. The attendance question stays open (I-12),Joseph (confirmed with assistant)
+DL-02,"Recalculate KPIs from raw files with separate code, not by re-running Week 6 queries",An independent check can find errors that re-running the same code cannot,Data Analytics
+DL-03,Correct poor-rating rate from 40.5% to 40.4% in Week 6 documents and keep the originals,Test B29 found the rounding error; originals kept for version control,Data Analytics
+DL-04,"Withdraw the Week 6 claims ""busiest hospitals are least liked"", ""ICU lowest"", ""Kigali City uses hospitals least"" and ""hypertension rising"" as findings",Significance tests F01 to F07 show differences are within normal variation,Data Analytics
+DL-05,Keep future-dated appointments in the data but flag them,Removing them changes the admission rate by only 0.4 points (F14); dropping data would hide a data-quality issue,Data Analytics
+DL-06,"Treat satisfaction ratings as ""as recorded"" until the rating/comment mismatch is explained",Rating and comment are unrelated (F09),Data Analytics
+DL-07,Do not state cross-track results that have not happened; record the handover and leave partner fields to be completed,Brief requires evidence; communication alone is not enough,Joseph
+DL-08,"Keep the ""monitor monthly"" recommendation on doctors: workload per doctor differs by more than chance (p = 0.010) but hospital volume alone is borderline (p = 0.052) and every hospital has the same 35 nurses","Two tests point in slightly different directions, so the evidence supports watching the numbers, not moving staff yet",Data Analytics
+DL-09,"Accept the Project Manager's request as the cross-track test, send two results from the Week 6 data, and record the reply when it arrives (nothing assumed)","Brief: communication alone is not enough; the record must show test, finding, action, retest",Joseph
